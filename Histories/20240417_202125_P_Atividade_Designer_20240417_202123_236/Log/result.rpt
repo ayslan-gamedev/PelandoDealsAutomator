@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Result id="05688af9-4021-4715-968f-8735111f8ff4" name="P_Atividade" result="Stop" detail="Process: P_Atividade&#xA;Task: T_ReadData&#xA;Step: ChromeClick (2/12)&#xA;&#xA;Stopped by User" start="2024-04-17T23:21:27.985" end="2024-04-17T23:21:41.352" jobId="Designer_20240417_202123_236">
+  <Step id="S81a0ebfb5a2c4a8b9a71dee37d7e0b78" taskName="P_Atividade" type="Flow" name="ExecuteScript" displayName="ExecuteScript" callDepth="1" depth="1" num="1" result="Pass" start="2024-04-17T23:21:28.063" end="2024-04-17T23:21:28.172" displayTime="0.1s">
+    <Variables>
+      <Variable name="product" scope="Normal" owner="P_Atividade" declareType="Any" isChanged="false" isChangable="true" runtimeType="Undefined" value="&lt;undefined&gt;" />
+    </Variables>
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Options_OnError" displayKey="On Error" visible="true" required="false" />
+      <Property value="Declarate the product objet to use in collect data aplication" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="declareate_variables" runtimeType="String" key="Conditions_Title" displayKey="Title" visible="true" required="true" />
+      <Property value="&lt;Too Long&gt; this.product = {&#xD;&#xA;    name: &quot;&quot;,&#xD;&#xA;    price: 0,&#xD;&#xA;    ticket: &quot;&quot;,&#xD;&#xA;    pro_link: &quot;&quot;,&#xD;&#xA;    date: &quot;&quot;,&#xD;&#xA;  ... 19 more" runtimeType="String" key="Key_Script" displayKey="Script" visible="true" required="false" />
+    </Properties>
+  </Step>
+  <Step id="S2f262c6eb2384f8789f53ce6aa08aa75" taskName="P_Atividade" type="Excel" name="GetActiveExcel" displayName="GetActiveExcel" callDepth="1" depth="1" num="2" result="Pass" start="2024-04-17T23:21:28.204" end="2024-04-17T23:21:28.469" displayTime="0.3s">
+    <Variables>
+      <Variable name="actived_excel" scope="Normal" owner="P_Atividade" declareType="Any" isChanged="false" isChangable="true" runtimeType="Undefined" value="&lt;undefined&gt;" />
+    </Variables>
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Options_OnError" displayKey="On Error" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="this.actived_excel : Workbook" runtimeType="Any" key="Output_OutputExcel" displayKey="Excel" visible="true" required="true" />
+      <Property value="true" runtimeType="Boolean" key="File_Maximize" displayKey="Maximize" visible="true" required="false" />
+      <Property value="10" runtimeType="Integer" key="File_Timeout" displayKey="Timeout" visible="true" required="false" />
+    </Properties>
+  </Step>
+  <Step id="Sa2ffea335c68462984398f8647d25471" taskName="P_Atividade" type="Excel" name="GetRowCount" displayName="GetRowCount" callDepth="1" depth="1" num="3" result="Pass" start="2024-04-17T23:21:28.501" end="2024-04-17T23:21:28.734" displayTime="0.2s">
+    <Variables>
+      <Variable name="row_count" scope="Normal" owner="P_Atividade" declareType="Any" isChanged="false" isChangable="true" runtimeType="Undefined" value="&lt;undefined&gt;" />
+    </Variables>
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Options_OnError" displayKey="On Error" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="&lt;ActiveExcel&gt;" runtimeType="Any" key="Input_InputExcel" displayKey="Excel" visible="true" required="true" />
+      <Property value="this.row_count : 13" runtimeType="Integer" key="Output_OutputCount" displayKey="RowCount" visible="true" required="true" />
+      <Property value="&lt;ActiveSheet&gt;" runtimeType="Any" key="Sheet_SheetName" displayKey="SheetName" visible="true" required="true" />
+    </Properties>
+  </Step>
+  <Step id="Sda3e6b23bb1a4d39affe5280218ea58b" taskName="P_Atividade" type="Flow" name="Loop" displayName="For" callDepth="1" depth="1" num="4" result="Pass" start="2024-04-17T23:21:28.750" end="2024-04-17T23:21:28.750" displayTime="0s">
+    <Variables>
+      <Variable name="i" scope="Normal" owner="P_Atividade" declareType="Any" isChanged="false" isChangable="true" runtimeType="Integer" value="3" />
+      <Variable name="row_count" scope="Normal" owner="P_Atividade" declareType="Any" isChanged="false" isChangable="true" runtimeType="Integer" value="13" />
+    </Variables>
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="2" runtimeType="Integer" key="Conditions_InitializeIndex" displayKey="Initialize" visible="true" required="true" />
+      <Property value="true" runtimeType="Boolean" key="Conditions_LoopCondition" displayKey="Condition" visible="true" required="true" />
+      <Property value="2" runtimeType="Integer" key="Conditions_UpdateIndex" displayKey="Update" visible="true" required="true" />
+    </Properties>
+  </Step>
+  <Step id="Sdea2da61b925487181471142e9aaa813" taskName="P_Atividade" type="Chrome" name="ChromeClose" displayName="ChromeClose" callDepth="1" depth="2" num="5" result="Pass" start="2024-04-17T23:21:28.766" end="2024-04-17T23:21:30.331" displayTime="1.6s">
+    <Variables />
+    <Properties setIndex="0">
+      <Property value="--Ignore--" runtimeType="String" key="Options_OnError" displayKey="On Error" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="&lt;LatestBrowser&gt;" runtimeType="Any" key="CHROME_Browser" displayKey="Browser" visible="true" required="true" />
+    </Properties>
+  </Step>
+  <Step id="S09d63d9d3fda427bb7475440858c030e" taskName="P_Atividade" type="Excel" name="ReadString" displayName="ReadString" callDepth="1" depth="2" num="6" result="Pass" start="2024-04-17T23:21:30.347" end="2024-04-17T23:21:30.534" displayTime="0.2s">
+    <Variables>
+      <Variable name="product" scope="Normal" owner="P_Atividade" declareType="Any" isChanged="false" isChangable="false" runtimeType="Any" value="{&quot;name&quot;:&quot;&quot;,&quot;price&quot;:0,&quot;ticket&quot;:&quot;&quot;,&quot;pro_link&quot;:&quot;&quot;,&quot;date&quot;:&quot;&quot;,&quot;site_price&quot;:0}" />
+      <Variable name="i" scope="Normal" owner="P_Atividade" declareType="Any" isChanged="false" isChangable="true" runtimeType="Integer" value="2" />
+      <Variable name="product_name" scope="Normal" owner="P_Atividade" declareType="Any" isChanged="false" isChangable="true" runtimeType="Undefined" value="&lt;undefined&gt;" />
+    </Variables>
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Options_OnError" displayKey="On Error" visible="true" required="false" />
+      <Property value="Sets the product value on name&#xD;&#xA;" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="this.product_name : 'tenis'" runtimeType="String" key="Output_ReadData" displayKey="ReadData" visible="true" required="true" />
+      <Property value="&lt;ActiveExcel&gt;" runtimeType="Any" key="Input_InputExcel" displayKey="Excel" visible="true" required="true" />
+      <Property value="&lt;ActiveSheet&gt;" runtimeType="Any" key="Sheet_SheetName" displayKey="SheetName" visible="true" required="true" />
+      <Property value="'A2'" runtimeType="String" key="Sheet_Cell" displayKey="Cell" visible="true" required="true" />
+    </Properties>
+  </Step>
+  <Step id="S7e95aa17246a433abdcada2f20679a68" taskName="P_Atividade" type="Flow" name="ExecuteScript" displayName="ExecuteScript" callDepth="1" depth="2" num="7" result="Pass" start="2024-04-17T23:21:30.565" end="2024-04-17T23:21:30.565" displayTime="0s">
+    <Variables>
+      <Variable name="name_isempety" scope="Normal" owner="P_Atividade" declareType="Any" isChanged="false" isChangable="true" runtimeType="Undefined" value="&lt;undefined&gt;" />
+      <Variable name="product" scope="Normal" owner="P_Atividade" declareType="Any" isChanged="false" isChangable="false" runtimeType="Any" value="{&quot;name&quot;:&quot;&quot;,&quot;price&quot;:0,&quot;ticket&quot;:&quot;&quot;,&quot;pro_link&quot;:&quot;&quot;,&quot;date&quot;:&quot;&quot;,&quot;site_price&quot;:0}" />
+      <Variable name="product_name" scope="Normal" owner="P_Atividade" declareType="Any" isChanged="false" isChangable="true" runtimeType="String" value="'tenis'" />
+    </Variables>
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Options_OnError" displayKey="On Error" visible="true" required="false" />
+      <Property value="replace the &quot; &quot; character by &quot;-&quot; character" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="'tenis'" runtimeType="String" key="Conditions_Title" displayKey="Title" visible="true" required="true" />
+      <Property value="&lt;Too Long&gt; this.name_isempety = true;&#xD;&#xA;&#xD;&#xA;// case null or empty&#xD;&#xA;if(!this.product_name){&#xD;&#xA;    this.name_isempety ... 90 more" runtimeType="String" key="Key_Script" displayKey="Script" visible="true" required="false" />
+    </Properties>
+  </Step>
+  <Step id="Sb01899dd9dcc43c9adaaaab1ed7a6f0c" taskName="P_Atividade" type="Flow" name="Decision" displayName="IfElse" callDepth="1" depth="2" num="8" result="Pass" start="2024-04-17T23:21:30.581" end="2024-04-17T23:21:30.581" displayTime="0s">
+    <Variables>
+      <Variable name="name_isempety" scope="Normal" owner="P_Atividade" declareType="Any" isChanged="false" isChangable="false" runtimeType="Boolean" value="true" />
+    </Variables>
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="this.name_isempety === true" runtimeType="String" key="Conditions_Expression" displayKey="If Condition" visible="false" required="true" />
+      <Property value="true" runtimeType="Boolean" key="Conditions_CombineCondition" displayKey="Combine Condition" visible="false" required="false" />
+      <Property value="true" runtimeType="Boolean" key="Conditions_Expression1" displayKey="Condition" visible="true" required="true" />
+      <Property value="" runtimeType="String" key="Conditions_AddCondition" displayKey="Add Condition" visible="true" required="false" />
+    </Properties>
+  </Step>
+  <Step id="Sa9456650272b4b5e83a3073cf8af312a" taskName="P_Atividade" type="Flow" name="RunTask" displayName="RunTask ('T_ReadData')" callDepth="1" depth="3" num="9" result="Pass" start="2024-04-17T23:21:30.597" end="2024-04-17T23:21:30.628" displayTime="0s">
+    <Variables>
+      <Variable name="product" scope="Normal" owner="P_Atividade" declareType="Any" isChanged="false" isChangable="false" runtimeType="Any" value="{&quot;name&quot;:&quot;&quot;,&quot;price&quot;:0,&quot;ticket&quot;:&quot;&quot;,&quot;pro_link&quot;:&quot;&quot;,&quot;date&quot;:&quot;&quot;,&quot;site_price&quot;:0}" />
+      <Variable name="i" scope="Normal" owner="P_Atividade" declareType="Any" isChanged="false" isChangable="false" runtimeType="Integer" value="2" />
+      <Variable name="product_name" scope="Normal" owner="P_Atividade" declareType="Any" isChanged="false" isChangable="false" runtimeType="String" value="'tenis'" />
+    </Variables>
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Options_OnError" displayKey="On Error" visible="true" required="false" />
+      <Property value="Open google Chrome and print data on Excel" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="T_ReadData" runtimeType="String" key="Conditions_TaskName" displayKey="Task Name" visible="true" required="false" />
+      <Property value="'tenis'" runtimeType="String" key="Input_product_name" displayKey="product_name" visible="true" required="false" />
+      <Property value="2" runtimeType="Integer" key="Input_current_line" displayKey="current_line" visible="true" required="false" />
+    </Properties>
+  </Step>
+  <Step id="S7b5451ab03f24e968aa01b02443d0230" taskName="T_ReadData" type="Chrome" name="ChromeOpen" displayName="ChromeOpen" callDepth="2" depth="1" num="1" result="Pass" start="2024-04-17T23:21:30.644" end="2024-04-17T23:21:39.309" displayTime="8.7s">
+    <Variables>
+      <Variable name="RESULT" scope="System" declareType="Any" isChanged="false" isChangable="true" runtimeType="Any" value="&lt;null&gt;" />
+    </Variables>
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Options_OnError" displayKey="On Error" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="RESULT : &lt;object:ChromeBrowserObject&gt;" runtimeType="Any" key="CHROME_Browser" displayKey="Browser" visible="true" required="true" />
+      <Property value="Chrome" runtimeType="String" key="CHROME_TypeOfBrowser" displayKey="Browser Type" visible="true" required="false" />
+      <Property value="false" runtimeType="Boolean" key="CHROME_BrowserType" displayKey="Headless Mode" visible="true" required="false" />
+      <Property value="'pelando.com.br/busca/carrinho-de-brinquedo/promocoes'" runtimeType="String" key="CHROME_URL" displayKey="URL" visible="true" required="true" />
+      <Property value="" runtimeType="String" key="CHROME_ChromePath" displayKey="Browser Path" visible="true" required="false" />
+      <Property value="true" runtimeType="Boolean" key="CHROME_Maximize" displayKey="Maximize" visible="true" required="false" />
+      <Property value="60" runtimeType="Integer" key="CHROME_WaitTimeSec" displayKey="Page Load Timeout" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="CHROME_ExtensionList" displayKey="Included Extensions" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="CHROME_DownloadPath" displayKey="Download Path" visible="true" required="false" />
+      <Property value="false" runtimeType="Boolean" key="CHROME_WindowsAccountPermissions" displayKey="Windows Account Permissions" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="CHROME_UserAgent" displayKey="User Agent" visible="true" required="false" />
+      <Property value="false" runtimeType="Boolean" key="CHROME_DisableAutomationControl" displayKey="Disable AutomationControl" visible="true" required="false" />
+    </Properties>
+  </Step>
+  <Step id="See956307f79448ce844eef8e27180a04" taskName="T_ReadData" type="Chrome" name="ChromeClick" displayName="ChromeClick" callDepth="2" depth="1" num="2" result="None" start="2024-04-17T23:21:39.322" end="2024-04-17T23:21:41.352" displayTime="2s">
+    <Variables />
+    <Properties setIndex="0">
+      <Property value="--Ignore--" runtimeType="String" key="Options_OnError" displayKey="On Error" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="&lt;LatestBrowser&gt;" runtimeType="Any" key="CHROME_Browser" displayKey="Browser" visible="true" required="true" />
+      <Property value="10" runtimeType="Integer" key="CHROME_WaitTimeSec" displayKey="Page Load Timeout" visible="true" required="true" />
+      <Property value="" runtimeType="String" key="CHROME_PageUrl" displayKey="Page Url" visible="true" required="false" />
+      <Property value="false" runtimeType="Boolean" key="CHROME_UsePageUrl" displayKey="UsePageUrl" visible="false" required="false" />
+      <Property value="" runtimeType="String" key="CHROME_FullPageUrl" displayKey="FullPageUrl" visible="false" required="false" />
+      <Property value="" runtimeType="String" key="CHROME_IframeSrc" displayKey="Iframe Source" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="CHROME_IframeIndexes" displayKey="Iframe Index" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="CHROME_ElementPath" displayKey="Element Path" visible="true" required="false" />
+      <Property value="'/html/body/div/div/main/div[2]/div[2]/div[3]/div[1]/div/ul/li[1]'" runtimeType="String" key="CHROME_ExecuteQuery" displayKey="ExecuteQuery" visible="true" required="true" />
+      <Property value="true" runtimeType="Boolean" key="CHROME_QueryType" displayKey="Query Type" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="CHROME_FullHTML" displayKey="FullHTML" visible="false" required="false" />
+      <Property value="" runtimeType="String" key="CHROME_Element" displayKey="Element" visible="false" required="false" />
+    </Properties>
+  </Step>
+  <JobInfo>
+    <Info name="Bot Version" value="3.1.000.01101" />
+    <Info name="Resolution" value="1366 x 768" />
+    <Info name="Language" value="Português (Brasil)" />
+    <Info name="BotID" value="DESIGNER-00147" />
+  </JobInfo>
+</Result>

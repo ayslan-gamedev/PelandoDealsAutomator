@@ -1,0 +1,34 @@
+<Project id="03759a6b-3f66-440c-8505-00ac443627d4" namespace="" name="Atividade" desc="Uma automatização simples para buscar produtos em um determinado site" category="project" workType="foreground" version="1.00" lastPublishedDate="" lastPublishedBy="" createdDate="2024-04-17 14:24:14" createdBy="" latestProcess="T_ReadData" designerVersion="3.1.000.01101" DesignedBy="">
+  <SharedTask isExpended="false" />
+  <NormalTask isExpended="true">
+    <LinkItem id="050167e3-7605-4076-89ac-55f49898cab0" category="NormalTask" isChanged="Y" desc="" stepCount="15" name="T_ReadData">
+      <Properties />
+    </LinkItem>
+  </NormalTask>
+  <Event isExpended="false" />
+  <Process isExpended="true">
+    <LinkItem id="05688af9-4021-4715-968f-8735111f8ff4" category="Process" isChanged="Y" desc="default process" stepCount="13" name="P_Atividade">
+      <Properties />
+    </LinkItem>
+  </Process>
+  <CustomLibraries isExpended="false" />
+  <LibraryTemplate isExpended="false" />
+  <Resources isExpended="false" />
+  <RemoteProcess isExpended="false" />
+  <RecorderData isExpended="false" />
+  <Asset />
+  <Library />
+  <Variables />
+  <Properties>
+    <Property key="PlayOption_StepInterval" controlType="Int32" valueType="System.Int32" formatType="Integer" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="1" />
+    <Property key="PlayOption_DisableDrawBounds" controlType="Boolean" valueType="System.Boolean" formatType="Boolean" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="False" />
+    <Property key="PlayOption_InvokeFirst" controlType="Boolean" valueType="System.Boolean" formatType="Boolean" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="False" />
+    <Property key="PlayOption_AllowUploadDumpScreenResult" controlType="Boolean" valueType="System.Boolean" formatType="Boolean" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="False" />
+  </Properties>
+  <DisplayLibraries>
+    <string>Flow</string>
+    <string>Excel</string>
+    <string>Chrome</string>
+    <string>Win</string>
+  </DisplayLibraries>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>7m4bby1fbaGSE3eKqZzCMObufQI=</DigestValue></Reference></SignedInfo><SignatureValue>iaMQrhfwE/P7fBB1OtR80up0AevGna4OzzFwA1/U34Vhlj3hemmcdGPy+ConNYPMlR1InNVh0tR4KcVuxkdikgG0/FhnMZqZmSfebOzvHCQuDYnC6y+C6/UrrAQdf8uL5iHR/gSvJlICQo4/2RUFSiKojpbA7rG4WSmkVpd3h0XwfcMJ/HOvVY/blfI2WtIiw/YMZ+zXzsXNHtX/qEsE5Y4hsfHkP42jXQBvwZmADSRvkF28oqQSpgbFHLXXyNiCup1OH8K0lJIMs2QyYZvcTpNHfhdk2HmlOKVtBoRzj9YhNPDkmbc22wblRFF7/kgzeIHQ9dVR5kbznK8q5Uqrpw==</SignatureValue><KeyInfo><X509Data><X509SubjectName>CN=DESIGNER-00149, O=orch.sdsbrity.com, OU=IPA_DESIGNER, L="", S="", C=""</X509SubjectName></X509Data></KeyInfo></Signature></Project>

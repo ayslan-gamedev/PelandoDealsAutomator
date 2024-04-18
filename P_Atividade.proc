@@ -1,0 +1,305 @@
+<Process id="05688af9-4021-4715-968f-8735111f8ff4" type="process" workType="foreground" name="P_Atividade" version="" designerVersion="3.1.000.01101" lastPublishedServer="" readonly="false" isValid="true" DesignedBy="Designer" Template="" StepCount="13" Orientation="horizontal">
+  <Properties>
+    <Property key="Description" controlType="PropertyItemTextEditorView" valueType="System.String" formatType="String" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="default process" enabled="True" />
+    <Property key="onBefore" controlType="PropertyItemEventHandlerView" valueType="System.String" formatType="String" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="" enabled="True" />
+    <Property key="onAfter" controlType="PropertyItemEventHandlerView" valueType="System.String" formatType="String" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="" enabled="True" />
+    <Property key="onError" controlType="PropertyItemEventHandlerView" valueType="System.String" formatType="String" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="" enabled="True" />
+    <Property key="Timeout" controlType="Int32" valueType="System.Int32" formatType="Integer" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="0" />
+    <Property key="RunningTime" controlType="Int32" valueType="System.Int32" formatType="Integer" required="False" visible="True" readonly="True" encrypted="False" isChanged="N" value="250" />
+    <Property key="Os" controlType="String" valueType="System.String" formatType="String" required="False" visible="True" readonly="True" encrypted="False" isChanged="N" value="Microsoft Windows 10 Home Single Language64 bits" />
+    <Property key="Resolution" controlType="String" valueType="System.String" formatType="String_Size" required="False" visible="True" readonly="True" encrypted="False" isChanged="N" value="1920x1848" />
+    <Property key="CreatedDate" controlType="String" valueType="System.String" formatType="String_DateTime" required="False" visible="True" readonly="True" encrypted="False" isChanged="N" value="2024-04-17 14:24:14" />
+    <Property key="CreatedBy" controlType="String" valueType="System.String" formatType="String" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="" />
+    <Property key="LastModifiedDate" controlType="String" valueType="System.String" formatType="String_DateTime" required="False" visible="True" readonly="True" encrypted="False" isChanged="N" value="2024-04-17 20:47:05" />
+    <Property key="LastModifiedBy" controlType="String" valueType="System.String" formatType="String" required="False" visible="True" readonly="True" encrypted="False" isChanged="N" value="" />
+    <Property key="LastPublishedDate" controlType="String" valueType="System.String" formatType="String_DateTime" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="" />
+    <Property key="LastPublishedBy" controlType="String" valueType="System.String" formatType="String" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="" />
+  </Properties>
+  <LinkItems />
+  <Variables>
+    <Variable name="name_isempety" scope="Normal" valueType="Any" formatType="Any" initValue="" desc="uses to trow exeptions when the cell procut name is empty" colorValue="#FFF7DB6A" showMarker="False" />
+    <Variable name="product" scope="Normal" valueType="Any" formatType="Any" initValue="" desc="a generic object references product" colorValue="#FF19A7CE" showMarker="False" />
+    <Variable name="i" scope="Normal" valueType="Any" formatType="Any" initValue="" desc="current line process on for loop" colorValue="#FF97DEFF" showMarker="False" />
+    <Variable name="product_name" scope="Normal" valueType="Any" formatType="Any" initValue="" desc="current name of product" colorValue="#FF0E8388" showMarker="False" />
+    <Variable name="row_count" scope="Normal" valueType="Any" formatType="Any" initValue="" desc="size of sheet" colorValue="#FFF7C04A" showMarker="False" />
+    <Variable name="actived_excel" scope="Normal" valueType="Any" formatType="Any" initValue="" desc="current excel to acess and print data" colorValue="#FFD27685" showMarker="False" />
+  </Variables>
+  <Steps>
+    <Step id="S81a0ebfb5a2c4a8b9a71dee37d7e0b78" ver="310230724" createVer="310230724" type="Flow" name="ExecuteScript" dpName="ExecuteScript" dpValue="" dpValue2="" dpImage="" tag="" depth="1" stmttype="Normal" enabled="True" mainSet="0">
+      <Properties id="ce1ff1cb-5c68-48b5-be95-2a07cb0115c0" type="Flow">
+        <Property type="Flow" key="Options_OnError" controlType="PropertyItemEventHandlerView" valueType="System.String" formatType="String" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="" />
+        <Property type="Flow" key="Key_Description" controlType="PropertyItemTextEditorView" valueType="System.String" formatType="String" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="Declarate the product objet to use in collect data aplication" />
+        <Property type="Flow" key="Conditions_Title" controlType="String" valueType="System.String" formatType="String" required="True" visible="True" readonly="False" encrypted="False" isChanged="N" value="declareate_variables" />
+        <Property type="Flow" key="Key_Script" controlType="PropertyItemTextEditorView" valueType="System.String" formatType="String" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="this.product = {&#xD;&#xA;    name: &quot;&quot;,&#xD;&#xA;    price: 0,&#xD;&#xA;    ticket: &quot;&quot;,&#xD;&#xA;    pro_link: &quot;&quot;,&#xD;&#xA;    date: &quot;&quot;,&#xD;&#xA;    site_price: 0&#xD;&#xA;}" />
+      </Properties>
+      <RelatedSteps />
+      <Script><![CDATA[this.product = {
+    name: "",
+    price: 0,
+    ticket: "",
+    pro_link: "",
+    date: "",
+    site_price: 0
+}]]></Script>
+    </Step>
+    <Step id="S2f262c6eb2384f8789f53ce6aa08aa75" ver="310230724" createVer="310230724" type="Excel" name="GetActiveExcel" dpName="GetActiveExcel" dpValue="this.actived_excel" dpValue2="" dpImage="" tag="" depth="1" stmttype="Normal" enabled="True" mainSet="0">
+      <Properties id="1c7ba72e-9a3d-4f7c-a23e-36bbfe20877b" type="Excel">
+        <Property type="Excel" key="Options_OnError" controlType="PropertyItemEventHandlerView" valueType="System.String" formatType="String" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="" />
+        <Property type="Excel" key="Key_Description" controlType="PropertyItemTextEditorView" valueType="System.String" formatType="String" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="" />
+        <Property type="Excel" key="Output_OutputExcel" controlType="OutputControlType" valueType="System.Object" formatType="Variable" required="True" visible="True" readonly="False" encrypted="False" isChanged="N" value="this.actived_excel" />
+        <Property type="Excel" key="File_Maximize" controlType="Boolean" valueType="System.Boolean" formatType="Boolean" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="True" />
+        <Property type="Excel" key="File_Timeout" controlType="Int32" valueType="System.Int32" formatType="Integer" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="10" />
+      </Properties>
+      <RelatedSteps />
+      <Script><![CDATA[this.actived_excel = StepPlayer.Run('Excel.GetActiveExcel', this.getactiveexcel_info_2);]]></Script>
+    </Step>
+    <Step id="Sa2ffea335c68462984398f8647d25471" ver="310230724" createVer="310230724" type="Excel" name="GetRowCount" dpName="GetRowCount" dpValue="ACTIVE_SHEET" dpValue2="" dpImage="" tag="" depth="1" stmttype="Normal" enabled="True" mainSet="0">
+      <Properties id="a6141405-259b-415a-99e3-8a5b6aa506ff" type="Excel">
+        <Property type="Excel" key="Options_OnError" controlType="PropertyItemEventHandlerView" valueType="System.String" formatType="String" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="" />
+        <Property type="Excel" key="Key_Description" controlType="PropertyItemTextEditorView" valueType="System.String" formatType="String" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="" />
+        <Property type="Excel" key="Input_InputExcel" controlType="InputControlType" valueType="System.Object" formatType="Variable" required="True" visible="True" readonly="False" encrypted="False" isChanged="N" value="ACTIVE_EXCEL" />
+        <Property type="Excel" key="Output_OutputCount" controlType="OutputControlType" valueType="System.Int32" formatType="Variable" required="True" visible="True" readonly="False" encrypted="False" isChanged="N" value="this.row_count" />
+        <Property type="Excel" key="Sheet_SheetName" controlType="String" valueType="System.String" formatType="String" required="True" visible="True" readonly="False" encrypted="False" isChanged="N" value="ACTIVE_SHEET" />
+      </Properties>
+      <RelatedSteps />
+      <Script><![CDATA[this.row_count = StepPlayer.Run('Excel.GetRowCount', this.getrowcount_info_3);]]></Script>
+    </Step>
+    <Step id="Sda3e6b23bb1a4d39affe5280218ea58b" ver="310230724" createVer="310230724" type="Flow" name="Loop" dpName="For" dpValue="this.i &lt; this.row_count" dpValue2="" dpImage="" tag="" depth="1" stmttype="OpenBlock" enabled="True" mainSet="0">
+      <Properties id="cda7fc72-556e-449e-b5b6-0c4d1dbc234b" type="Flow">
+        <Property type="Flow" key="Key_Description" controlType="PropertyItemTextEditorView" valueType="System.String" formatType="String" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="" />
+        <Property type="Flow" key="Conditions_InitializeIndex" controlType="Object" valueType="System.Object" formatType="Expression" required="True" visible="True" readonly="False" encrypted="False" isChanged="N" value="this.i = 2" />
+        <Property type="Flow" key="Conditions_LoopCondition" controlType="Object" valueType="System.Object" formatType="Expression" required="True" visible="True" readonly="False" encrypted="False" isChanged="N" value="this.i &lt; this.row_count" />
+        <Property type="Flow" key="Conditions_UpdateIndex" controlType="Object" valueType="System.Object" formatType="Expression" required="True" visible="True" readonly="False" encrypted="False" isChanged="N" value="this.i++" />
+      </Properties>
+      <RelatedSteps>
+        <RelatedStep id="S329ba705bb8e4889a83a73e51cec2494" type="Flow" name="EndLoop" />
+      </RelatedSteps>
+      <Script><![CDATA[for (this.i = 2; this.i < this.row_count; this.i++) {]]></Script>
+    </Step>
+    <Step id="Sdea2da61b925487181471142e9aaa813" ver="310230724" createVer="310230724" type="Chrome" name="ChromeClose" dpName="ChromeClose" dpValue="LATEST_BROWSER" dpValue2="" dpImage="" tag="" depth="2" stmttype="Normal" enabled="True" mainSet="0">
+      <Properties id="84f62b38-7bbd-49ac-af20-58df4a30baa0" type="Chrome">
+        <Property type="Chrome" key="Options_OnError" controlType="PropertyItemEventHandlerView" valueType="System.String" formatType="String" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="--Ignore--" />
+        <Property type="Chrome" key="Key_Description" controlType="PropertyItemTextEditorView" valueType="System.String" formatType="String" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="" />
+        <Property type="Chrome" key="CHROME_Browser" controlType="InputControlType" valueType="System.Object" formatType="Variable" required="True" visible="True" readonly="False" encrypted="False" isChanged="N" value="LATEST_BROWSER" />
+      </Properties>
+      <RelatedSteps />
+      <Script><![CDATA[try{
+    StepPlayer.Run('Chrome.ChromeClose', this.chromeclose_info_5);
+}catch(e){
+    Warn('CatchException: ' + e.message);
+}
+]]></Script>
+    </Step>
+    <Step id="S09d63d9d3fda427bb7475440858c030e" ver="310230724" createVer="310230724" type="Excel" name="ReadString" dpName="ReadString" dpValue="'A' + this.i" dpValue2="" dpImage="" tag="" depth="2" stmttype="Normal" enabled="True" mainSet="0">
+      <Properties id="5599db34-313a-486b-ba2f-4b8ead1450be" type="Excel">
+        <Property type="Excel" key="Options_OnError" controlType="PropertyItemEventHandlerView" valueType="System.String" formatType="String" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="" />
+        <Property type="Excel" key="Key_Description" controlType="PropertyItemTextEditorView" valueType="System.String" formatType="String" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="Sets the product value on name&#xD;&#xA;" />
+        <Property type="Excel" key="Output_ReadData" controlType="OutputControlType" valueType="System.String" formatType="Variable" required="True" visible="True" readonly="False" encrypted="False" isChanged="N" value="this.product_name" />
+        <Property type="Excel" key="Input_InputExcel" controlType="InputControlType" valueType="System.Object" formatType="Variable" required="True" visible="True" readonly="False" encrypted="False" isChanged="N" value="ACTIVE_EXCEL" />
+        <Property type="Excel" key="Sheet_SheetName" controlType="String" valueType="System.String" formatType="String" required="True" visible="True" readonly="False" encrypted="False" isChanged="N" value="ACTIVE_SHEET" />
+        <Property type="Excel" key="Sheet_Cell" controlType="String" valueType="System.String" formatType="String" required="True" visible="True" readonly="False" encrypted="False" isChanged="N" value="'A' + this.i" />
+      </Properties>
+      <RelatedSteps />
+      <Script><![CDATA[this.product_name = StepPlayer.Run('Excel.ReadString', this.readstring_info_6);]]></Script>
+    </Step>
+    <Step id="S7e95aa17246a433abdcada2f20679a68" ver="310230724" createVer="310230724" type="Flow" name="ExecuteScript" dpName="ExecuteScript" dpValue="" dpValue2="" dpImage="" tag="" depth="2" stmttype="Normal" enabled="True" mainSet="0">
+      <Properties id="bae0fd05-4384-41b7-801d-070d87ce9deb" type="Flow">
+        <Property type="Flow" key="Options_OnError" controlType="PropertyItemEventHandlerView" valueType="System.String" formatType="String" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="" />
+        <Property type="Flow" key="Key_Description" controlType="PropertyItemTextEditorView" valueType="System.String" formatType="String" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="replace the &quot; &quot; character by &quot;-&quot; character" />
+        <Property type="Flow" key="Conditions_Title" controlType="String" valueType="System.String" formatType="String" required="True" visible="True" readonly="False" encrypted="False" isChanged="N" value="this.product_name" />
+        <Property type="Flow" key="Key_Script" controlType="PropertyItemTextEditorView" valueType="System.String" formatType="String" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="this.name_isempety = true;&#xD;&#xA;&#xD;&#xA;// case null or empty&#xD;&#xA;if(!this.product_name){&#xD;&#xA;    this.name_isempety = false;&#xD;&#xA;    return;&#xD;&#xA;}&#xD;&#xA;&#xD;&#xA;this.product_name = this.product_name.replace(/\s+/g, &quot;-&quot;);&#xD;&#xA;" />
+      </Properties>
+      <RelatedSteps />
+      <Script><![CDATA[this.name_isempety = true;
+
+// case null or empty
+if(!this.product_name){
+    this.name_isempety = false;
+    return;
+}
+
+this.product_name = this.product_name.replace(/\s+/g, "-");
+]]></Script>
+    </Step>
+    <Step id="Sb01899dd9dcc43c9adaaaab1ed7a6f0c" ver="310230724" createVer="310230724" type="Flow" name="Decision" dpName="IfElse" dpValue="this.name_isempety === true" dpValue2="" dpImage="" tag="" depth="2" stmttype="OpenBlock" enabled="True" mainSet="0">
+      <Properties id="5c274006-07fe-40aa-8aa5-08718ddc5609" type="Flow">
+        <Property type="Flow" key="Key_Description" controlType="PropertyItemTextEditorView" valueType="System.String" formatType="String" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="" />
+        <Property type="Flow" key="Conditions_Expression" controlType="PropertyItemTextEditorView" valueType="System.Object" formatType="Condition" required="True" visible="False" readonly="True" encrypted="False" isChanged="N" value="this.name_isempety === true" order="1" />
+        <Property type="Flow" key="Conditions_CombineCondition" controlType="PropertyItemCombineConditionView" valueType="System.Boolean" formatType="Boolean" required="False" visible="False" readonly="False" encrypted="False" isChanged="N" value="True" order="2" />
+        <Property type="Flow" key="Conditions_Expression1" controlType="PropertyItemExpressionView" valueType="System.Object" formatType="Condition" required="True" visible="True" readonly="False" encrypted="False" isChanged="N" value="this.name_isempety === true" order="3" />
+        <Property type="Flow" key="Conditions_AddCondition" controlType="PropertyItemAddConditionView" valueType="System.String" formatType="String" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="" />
+      </Properties>
+      <RelatedSteps>
+        <RelatedStep id="S1294e846cb7e45fa87588af8fbb093d8" type="Flow" name="Else" />
+        <RelatedStep id="S1da9a24927094a558b63654f8830a226" type="Flow" name="EndDecision" />
+      </RelatedSteps>
+      <Script><![CDATA[if (this.name_isempety === true) {]]></Script>
+    </Step>
+    <Step id="Sa9456650272b4b5e83a3073cf8af312a" ver="310230724" createVer="310230724" type="Flow" name="RunTask" dpName="RunTask" dpValue="this.product_name, this.i" dpValue2="" dpImage="" tag="" depth="3" stmttype="Normal" enabled="True" mainSet="0">
+      <Properties id="4beee775-4875-4374-956a-b74131b668c7" type="Flow">
+        <Property type="Flow" key="Options_OnError" controlType="PropertyItemEventHandlerView" valueType="System.String" formatType="String" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="" />
+        <Property type="Flow" key="Key_Description" controlType="PropertyItemTextEditorView" valueType="System.String" formatType="String" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="Open google Chrome and print data on Excel" />
+        <Property type="Flow" key="Conditions_TaskName" controlType="String" valueType="System.String" formatType="String" required="False" visible="True" readonly="True" encrypted="False" isChanged="N" value="T_ReadData" />
+        <Property type="Flow" key="Input_product_name" controlType="InputControlType" valueType="System.Object" formatType="Variable" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="this.product_name" order="1" />
+        <Property type="Flow" key="Input_current_line" controlType="InputControlType" valueType="System.Object" formatType="Variable" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="this.i" />
+      </Properties>
+      <RelatedSteps />
+      <Script><![CDATA[RunTask(this, 'T_ReadData', {'product_name':this.product_name, 'current_line':this.i});]]></Script>
+    </Step>
+    <Step id="S1294e846cb7e45fa87588af8fbb093d8" ver="310230724" createVer="310230724" type="Flow" name="Else" dpName="Else" dpValue="" dpValue2="" dpImage="" tag="" depth="3" stmttype="CloseOpenBlock" enabled="True" mainSet="0">
+      <Properties id="4c96ab88-4e13-49d6-adfe-28f64885e0ad" type="Flow">
+        <Property type="Flow" key="Key_Description" controlType="PropertyItemTextEditorView" valueType="System.String" formatType="String" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="" />
+      </Properties>
+      <RelatedSteps>
+        <RelatedStep id="Sb01899dd9dcc43c9adaaaab1ed7a6f0c" type="Flow" name="Decision" />
+      </RelatedSteps>
+      <Script><![CDATA[}else{]]></Script>
+    </Step>
+    <Step id="S1da9a24927094a558b63654f8830a226" ver="310230724" createVer="310230724" type="Flow" name="EndDecision" dpName="End-IfElse" dpValue="" dpValue2="" dpImage="" tag="" depth="3" stmttype="CloseBlock" enabled="True" mainSet="0">
+      <Properties id="8862b87d-7999-4562-ba6d-3fabcb4e041d" type="Flow">
+        <Property type="Flow" key="Key_Description" controlType="PropertyItemTextEditorView" valueType="System.String" formatType="String" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="" />
+      </Properties>
+      <RelatedSteps>
+        <RelatedStep id="Sb01899dd9dcc43c9adaaaab1ed7a6f0c" type="Flow" name="Decision" />
+      </RelatedSteps>
+      <Script><![CDATA[}]]></Script>
+    </Step>
+    <Step id="S329ba705bb8e4889a83a73e51cec2494" ver="310230724" createVer="310230724" type="Flow" name="EndLoop" dpName="End-For" dpValue="" dpValue2="" dpImage="" tag="" depth="2" stmttype="CloseBlock" enabled="True" mainSet="0">
+      <Properties id="7afbf4c5-f717-4db6-a0df-5b7c70a866e9" type="Flow">
+        <Property type="Flow" key="Key_Description" controlType="PropertyItemTextEditorView" valueType="System.String" formatType="String" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="" />
+      </Properties>
+      <RelatedSteps>
+        <RelatedStep id="Sda3e6b23bb1a4d39affe5280218ea58b" type="Flow" name="Loop" />
+      </RelatedSteps>
+      <Script><![CDATA[}]]></Script>
+    </Step>
+    <Step id="Se49b4ed6a8314fad838c2392959d384f" ver="310230724" createVer="310230724" type="Flow" name="Debugger" dpName="Debugger" dpValue="RESULT" dpValue2="" dpImage="" tag="" depth="1" stmttype="Normal" enabled="True" mainSet="0">
+      <Properties id="0fb53232-320f-428d-af15-5107fdb9e5ee" type="Flow">
+        <Property type="Flow" key="Options_OnError" controlType="PropertyItemEventHandlerView" valueType="System.String" formatType="String" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="" />
+        <Property type="Flow" key="Key_Description" controlType="PropertyItemTextEditorView" valueType="System.String" formatType="String" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="" />
+        <Property type="Flow" key="Conditions_Message" controlType="String" valueType="System.String" formatType="String" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="RESULT" />
+      </Properties>
+      <RelatedSteps />
+      <Script><![CDATA[OpenDebugger(RESULT);]]></Script>
+    </Step>
+  </Steps>
+  <JScript><![CDATA[function P_Atividade() {
+
+    this.name_isempety;
+    this.product;
+    this.i;
+    this.product_name;
+    this.row_count;
+    this.actived_excel;
+
+    this.RPAGOTOENABLE = false;
+    this.GotoStepRetryCntMap = {};
+    this.GotoBlockMap = {4:[12],8:[10,11]};
+    this.GotoReverseBlockMap = {12:4,10:8,11:8};
+    this.GotoStepBlockTypeMap = {4:'Loop',12:'EndLoop',8:'Decision',10:'Else',11:'EndDecision'};
+
+
+    this.run = function() {
+
+        //------------------------------------------------
+        STEP('S81a0ebfb5a2c4a8b9a71dee37d7e0b78', '[1] ExecuteScript');
+        this.product = {
+            name: "",
+            price: 0,
+            ticket: "",
+            pro_link: "",
+            date: "",
+            site_price: 0
+        }
+
+        //------------------------------------------------
+        STEP('S2f262c6eb2384f8789f53ce6aa08aa75', '[2] GetActiveExcel');
+        this.actived_excel = StepPlayer.Run('Excel.GetActiveExcel', this.getactiveexcel_info_2);
+
+        //------------------------------------------------
+        STEP('Sa2ffea335c68462984398f8647d25471', '[3] GetRowCount');
+        this.row_count = StepPlayer.Run('Excel.GetRowCount', this.getrowcount_info_3);
+
+        //------------------------------------------------
+        STEP('Sda3e6b23bb1a4d39affe5280218ea58b', '[4] For');
+        for (this.i = 2; this.i < this.row_count; this.i++) {
+
+            //------------------------------------------------
+            STEP('Sdea2da61b925487181471142e9aaa813', '[5] ChromeClose');
+            try{
+                StepPlayer.Run('Chrome.ChromeClose', this.chromeclose_info_5);
+            }catch(e){
+                Warn('CatchException: ' + e.message);
+            }
+
+
+            //------------------------------------------------
+            STEP('S09d63d9d3fda427bb7475440858c030e', '[6] ReadString');
+            this.product_name = StepPlayer.Run('Excel.ReadString', this.readstring_info_6);
+
+            //------------------------------------------------
+            STEP('S7e95aa17246a433abdcada2f20679a68', '[7] ExecuteScript');
+            this.name_isempety = true;
+
+            // case null or empty
+            if(!this.product_name){
+                this.name_isempety = false;
+                return;
+            }
+
+            this.product_name = this.product_name.replace(/\s+/g, "-");
+
+
+            //------------------------------------------------
+            STEP('Sb01899dd9dcc43c9adaaaab1ed7a6f0c', '[8] IfElse');
+            if (this.name_isempety === true) {
+
+                //------------------------------------------------
+                STEP('Sa9456650272b4b5e83a3073cf8af312a', '[9] RunTask');
+                RunTask(this, 'T_ReadData', {'product_name':this.product_name, 'current_line':this.i});
+
+            //------------------------------------------------
+            }else{
+                STEP('S1294e846cb7e45fa87588af8fbb093d8', '[10] Else');
+
+            //------------------------------------------------
+            }
+            STEP('S1da9a24927094a558b63654f8830a226', '[11] End-IfElse');
+
+        //------------------------------------------------
+        }
+        STEP('S329ba705bb8e4889a83a73e51cec2494', '[12] End-For');
+
+        //------------------------------------------------
+        STEP('Se49b4ed6a8314fad838c2392959d384f', '[13] Debugger');
+        OpenDebugger(RESULT);
+
+
+    }
+
+    this.execute = function() {
+        var result = null;
+        result = this.run()
+        if (result != null)
+            return result;
+    }
+}
+]]></JScript>
+  <Diagram version="1.300" nodesize="Normal">
+    <StepNodes>
+      <StepNode step_id="S81a0ebfb5a2c4a8b9a71dee37d7e0b78" group_name="39a74dad-fe8c-419c-8379-4a1ab6a80869_Declareate Variables" folded="False" />
+      <StepNode step_id="S2f262c6eb2384f8789f53ce6aa08aa75" group_name="ecc66e2a-194f-4835-a838-e15504abc656_Open Excel" folded="False" />
+      <StepNode step_id="Sa2ffea335c68462984398f8647d25471" group_name="ecc66e2a-194f-4835-a838-e15504abc656_Open Excel" folded="False" />
+      <StepNode step_id="Sda3e6b23bb1a4d39affe5280218ea58b" group_name="" folded="False" />
+      <StepNode step_id="Sdea2da61b925487181471142e9aaa813" group_name="1600b473-4bc2-4905-a1f4-467f298d1416_Get Product Name" folded="False" />
+      <StepNode step_id="S09d63d9d3fda427bb7475440858c030e" group_name="1600b473-4bc2-4905-a1f4-467f298d1416_Get Product Name" folded="False" />
+      <StepNode step_id="S7e95aa17246a433abdcada2f20679a68" group_name="1600b473-4bc2-4905-a1f4-467f298d1416_Get Product Name" folded="False" />
+      <StepNode step_id="Sb01899dd9dcc43c9adaaaab1ed7a6f0c" group_name="" folded="False" />
+      <StepNode step_id="Sa9456650272b4b5e83a3073cf8af312a" group_name="" folded="False" />
+      <StepNode step_id="S1294e846cb7e45fa87588af8fbb093d8" group_name="" folded="False" />
+      <StepNode step_id="S1da9a24927094a558b63654f8830a226" group_name="" folded="False" />
+      <StepNode step_id="S329ba705bb8e4889a83a73e51cec2494" group_name="" folded="False" />
+      <StepNode step_id="Se49b4ed6a8314fad838c2392959d384f" group_name="abaa203d-7993-4587-8188-2b22eacecc63_Untitled" folded="False" />
+    </StepNodes>
+  </Diagram>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>8UT4CjorXi5TsucZm2z70JkiM6w=</DigestValue></Reference></SignedInfo><SignatureValue>RRuO8Z9K+aFGtBLrVnaBqDs9KCruXfTx/b18Hgc1gMlC55TLBMX+FqSEeZaf7XNrNZfPSY6UBcpw4tMV4xUmjcIHux5JXwyPSxdXOZbzmKpLzaWdMAp0JVYnvRsLNmHC6OWXtrpSLPMx3H6RwOPwTQwPGvjIwQ45trFE6ogy7KtvzOaonp11li3ygctQRJUhDAD2+p0OyGTzjzMM4Rvjvb4gvZJ5TaWJSdjBtp44vkwt58VvgoOy24lBzsvLPdJHRMy/Et+rDGb1ETwH1S3zbhCxeLPrV7JSIwITOGeITReyJPMjQv8GYmKkK1ffUtRSeHpWA3cHy8nqPKkNggocaw==</SignatureValue><KeyInfo><X509Data><X509SubjectName>CN=DESIGNER-00147, O=orch.sdsbrity.com, OU=IPA_DESIGNER, L="", S="", C=""</X509SubjectName></X509Data></KeyInfo></Signature></Process>
