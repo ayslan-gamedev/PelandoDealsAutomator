@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Result id="050167e3-7605-4076-89ac-55f49898cab0" name="T_ReadData" result="Stop" detail="The object was not found.&#xA;Please re-specify the object.&#xA;&#xA;Process: T_ReadData&#xA;&#xA;Process: T_ReadData&#xA;Step: ChromeGetData (4/12)&#xA;The object was not found.&#xA;Please re-specify the object.&#xA;&#xA;-- Recent Warning Messages --&#xA;Process: T_ReadData&#xA;Step: ChromeGetData (4/12)&#xA;&#xA;Error: The object was not found.&#xA;Please re-specify the object." start="2024-04-20T19:01:56.256" end="2024-04-20T19:02:35.802" jobId="Designer_20240420_160143_417">
+  <Step id="S7b5451ab03f24e968aa01b02443d0230" taskName="T_ReadData" type="Chrome" name="ChromeOpen" displayName="ChromeOpen" callDepth="1" depth="1" num="1" result="Pass" start="2024-04-20T19:01:56.322" end="2024-04-20T19:02:02.630" displayTime="6.3s">
+    <Variables>
+      <Variable name="RESULT" scope="System" declareType="Any" isChanged="false" isChangable="true" runtimeType="Any" value="&lt;null&gt;" />
+      <Variable name="product_name" scope="Input" owner="T_ReadData" declareType="Any" isChanged="false" isChangable="true" runtimeType="Any" value="&lt;null&gt;" />
+    </Variables>
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Options_OnError" displayKey="On Error" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="RESULT : &lt;object:ChromeBrowserObject&gt;" runtimeType="Any" key="CHROME_Browser" displayKey="Browser" visible="true" required="true" />
+      <Property value="Chrome" runtimeType="String" key="CHROME_TypeOfBrowser" displayKey="Browser Type" visible="true" required="false" />
+      <Property value="false" runtimeType="Boolean" key="CHROME_BrowserType" displayKey="Headless Mode" visible="true" required="false" />
+      <Property value="'pelando.com.br/busca/null/promocoes'" runtimeType="String" key="CHROME_URL" displayKey="URL" visible="true" required="true" />
+      <Property value="" runtimeType="String" key="CHROME_ChromePath" displayKey="Browser Path" visible="true" required="false" />
+      <Property value="true" runtimeType="Boolean" key="CHROME_Maximize" displayKey="Maximize" visible="true" required="false" />
+      <Property value="60" runtimeType="Integer" key="CHROME_WaitTimeSec" displayKey="Page Load Timeout" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="CHROME_ExtensionList" displayKey="Included Extensions" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="CHROME_DownloadPath" displayKey="Download Path" visible="true" required="false" />
+      <Property value="false" runtimeType="Boolean" key="CHROME_WindowsAccountPermissions" displayKey="Windows Account Permissions" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="CHROME_UserAgent" displayKey="User Agent" visible="true" required="false" />
+      <Property value="false" runtimeType="Boolean" key="CHROME_DisableAutomationControl" displayKey="Disable AutomationControl" visible="true" required="false" />
+    </Properties>
+  </Step>
+  <Step id="See956307f79448ce844eef8e27180a04" taskName="T_ReadData" type="Chrome" name="ChromeClick" displayName="ChromeClick" callDepth="1" depth="1" num="2" result="Pass" start="2024-04-20T19:02:02.665" end="2024-04-20T19:02:18.577" displayTime="15.9s">
+    <Variables />
+    <Properties setIndex="0">
+      <Property value="--Ignore--" runtimeType="String" key="Options_OnError" displayKey="On Error" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="&lt;LatestBrowser&gt;" runtimeType="Any" key="CHROME_Browser" displayKey="Browser" visible="true" required="true" />
+      <Property value="10" runtimeType="Integer" key="CHROME_WaitTimeSec" displayKey="Page Load Timeout" visible="true" required="true" />
+      <Property value="'https://www.pelando.com.br/busca/alexa/promocoes'" runtimeType="String" key="CHROME_PageUrl" displayKey="Page Url" visible="true" required="false" />
+      <Property value="false" runtimeType="Boolean" key="CHROME_UsePageUrl" displayKey="UsePageUrl" visible="false" required="false" />
+      <Property value="https://www.pelando.com.br/busca/alexa/promocoes" runtimeType="String" key="CHROME_FullPageUrl" displayKey="FullPageUrl" visible="false" required="false" />
+      <Property value="" runtimeType="String" key="CHROME_IframeSrc" displayKey="Iframe Source" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="CHROME_IframeIndexes" displayKey="Iframe Index" visible="true" required="false" />
+      <Property value="'/html/body/div[1]/div/main/div[2]/div[1]/div[2]/div/ul/li[3]/button'" runtimeType="String" key="CHROME_ElementPath" displayKey="Element Path" visible="true" required="false" />
+      <Property value="'//div[@id=\'__next\']/div/main/div[2]/div[1]/div[2]/div/ul/li[3]/button'" runtimeType="String" key="CHROME_ExecuteQuery" displayKey="ExecuteQuery" visible="true" required="true" />
+      <Property value="true" runtimeType="Boolean" key="CHROME_QueryType" displayKey="Query Type" visible="true" required="false" />
+      <Property value="&lt;Too Long&gt; H4sIAAAAAAAEAOy92XIbR7cu+CrZ3N0n9h/HRVdlZk3etk5IECVKAiVZlCBLN45CoUCALAxCAZzivEA/xo5zcaI74lz2TV+2X6zX ... 99100 more" runtimeType="String" key="CHROME_FullHTML" displayKey="FullHTML" visible="false" required="false" />
+      <Property value="" runtimeType="String" key="CHROME_Element" displayKey="Element" visible="false" required="false" />
+      <Property value="&lt;Too Long&gt; [{&quot;Index&quot;:0,&quot;Tag&quot;:&quot;BUTTON&quot;,&quot;Data&quot;:[{&quot;Name&quot;:&quot;index&quot;,&quot;Value&quot;:&quot;&quot;,&quot;IsUse&quot;:false},{&quot;Name&quot;:&quot;class&quot;,&quot;Value&quot; ... 1465 more" runtimeType="String" key="CHROME_ChromeElements" displayKey="ChromeElements" visible="false" required="false" />
+      <Property value="''" runtimeType="String" key="CHROME_SingleQueryForMultiple" displayKey="SingleQueryForMultiple" visible="false" required="false" />
+      <Property value="https://www.pelando.com.br/busca/alexa/promocoes" runtimeType="String" key="CHROME_PagesearchUrl" displayKey="PagesearchUrl" visible="false" required="false" />
+      <Property value="" runtimeType="String" key="CHROME_IframeFullSrc" displayKey="IframeFullSrc" visible="false" required="false" />
+      <Property value="" runtimeType="String" key="CHROME_IframeSearchSrc" displayKey="IframeSearchSrc" visible="false" required="false" />
+      <Property value="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" runtimeType="Bitmap" key="Target_Capture" displayKey="Image" visible="true" required="false" />
+      <Property value="false" runtimeType="Boolean" key="CHROME_IsTextEdit" displayKey="IsTextEdit" visible="false" required="false" />
+      <Property value="BUTTON" runtimeType="String" key="CHROME_HTMLTagName" displayKey="HTMLTagName" visible="false" required="false" />
+      <Property value="Designer" runtimeType="String" key="Target_CapturedBy" displayKey="CapturedBy" visible="false" required="false" />
+      <Property value="3692" runtimeType="Integer" key="Application_PID" displayKey="PID" visible="false" required="false" />
+      <Property value="chrome" runtimeType="String" key="Application_ProcessName" displayKey="ProcessName" visible="true" required="true" />
+      <Property value="'alexa: Promoções e Cupons | Pelando - Google Chrome'" runtimeType="String" key="Application_Title" displayKey="Title" visible="true" required="true" />
+      <Property value="Pane" runtimeType="String" key="Application_ClassType" displayKey="ClassType" visible="false" required="false" />
+      <Property value="-8;-8;1382;754" runtimeType="Rect" key="Application_Bounds" displayKey="Bounds" visible="false" required="false" />
+      <Property value="Chrome_WidgetWin_1" runtimeType="String" key="Application_ClassName" displayKey="ClassName" visible="false" required="false" />
+      <Property value="&lt;Too Long&gt; 'Pane|Chrome_WidgetWin_1||Win32/Document|Chrome_RenderWidgetHostHWND|43598688|Chrome/Group||__next|C ... 69 more" runtimeType="String" key="Target_ObjectPath" displayKey="ObjectPath" visible="true" required="true" />
+      <Property value="Button" runtimeType="String" key="Target_ClassType" displayKey="ClassType" visible="true" required="true" />
+      <Property value="65;571;157;40" runtimeType="Rect" key="Target_Bounds" displayKey="Bounds" visible="true" required="false" />
+      <Property value="'Mais quentes'" runtimeType="String" key="Target_Name" displayKey="Name" visible="true" required="true" />
+      <Property value="''" runtimeType="String" key="Target_Value" displayKey="Value" visible="true" required="true" />
+      <Property value="'Mais quentes'" runtimeType="String" key="Target_LegacyName" displayKey="LegacyName" visible="true" required="false" />
+      <Property value="''" runtimeType="String" key="Target_LegacyValue" displayKey="LegacyValue" visible="true" required="false" />
+      <Property value="''" runtimeType="String" key="Target_LegacyDesc" displayKey="LegacyDesc" visible="true" required="false" />
+      <Property value="''" runtimeType="String" key="Target_LegacyHelp" displayKey="LegacyHelp" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Target_ClassName" displayKey="ClassName" visible="false" required="false" />
+      <Property value="" runtimeType="String" key="Target_AutomationID" displayKey="AutomationID" visible="false" required="false" />
+      <Property value="Chrome" runtimeType="String" key="Target_FrameworkID" displayKey="FrameworkID" visible="false" required="false" />
+      <Property value="42.262894.4.-945" runtimeType="String" key="Target_RuntimeID" displayKey="RuntimeID" visible="false" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Target_UseSearchAround" displayKey="UseSearchAround" visible="false" required="false" />
+      <Property value="NotUse" runtimeType="String" key="Target_UseImageMatch" displayKey="UseImageMatch" visible="true" required="false" />
+      <Property value="JustBest" runtimeType="String" key="Target_ImageIndexMethod" displayKey="ImageIndexMethod" visible="true" required="false" />
+      <Property value="0" runtimeType="Integer" key="Target_SelectImageIndex" displayKey="SelectImageIndex" visible="true" required="false" />
+      <Property value="47;15" runtimeType="Size" key="Target_SizeTolerance" displayKey="SizeTolerance" visible="false" required="false" />
+      <Property value="Invoke;Toggle;ScrollItem;LegacyIAccessible" runtimeType="String" key="Target_SupportedPatterns" displayKey="SupportedPatterns" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Target_RemoteAppName" displayKey="RemoteAppName" visible="false" required="false" />
+      <Property value="136;575" runtimeType="Point" key="Mouse_WinPoint" displayKey="WinPoint" visible="false" required="false" />
+      <Property value="144;583" runtimeType="Point" key="Mouse_AppPoint" displayKey="AppPoint" visible="false" required="false" />
+      <Property value="'79, 12'" runtimeType="String" key="Mouse_Point" displayKey="Click Point" visible="false" required="false" />
+    </Properties>
+  </Step>
+  <Step id="S610d1412f89148bdb40dfe3e73744148" taskName="T_ReadData" type="Chrome" name="ChromeClick" displayName="ChromeClick" callDepth="1" depth="1" num="3" result="Pass" start="2024-04-20T19:02:18.585" end="2024-04-20T19:02:19.496" displayTime="0.9s">
+    <Variables />
+    <Properties setIndex="0">
+      <Property value="--Ignore--" runtimeType="String" key="Options_OnError" displayKey="On Error" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="&lt;LatestBrowser&gt;" runtimeType="Any" key="CHROME_Browser" displayKey="Browser" visible="true" required="true" />
+      <Property value="10" runtimeType="Integer" key="CHROME_WaitTimeSec" displayKey="Page Load Timeout" visible="true" required="true" />
+      <Property value="" runtimeType="String" key="CHROME_PageUrl" displayKey="Page Url" visible="true" required="false" />
+      <Property value="false" runtimeType="Boolean" key="CHROME_UsePageUrl" displayKey="UsePageUrl" visible="false" required="false" />
+      <Property value="" runtimeType="String" key="CHROME_FullPageUrl" displayKey="FullPageUrl" visible="false" required="false" />
+      <Property value="" runtimeType="String" key="CHROME_IframeSrc" displayKey="Iframe Source" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="CHROME_IframeIndexes" displayKey="Iframe Index" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="CHROME_ElementPath" displayKey="Element Path" visible="true" required="false" />
+      <Property value="'/html/body/div/div/main/div[2]/div[2]/div[3]/div[1]/div/ul/li[1]'" runtimeType="String" key="CHROME_ExecuteQuery" displayKey="ExecuteQuery" visible="true" required="true" />
+      <Property value="true" runtimeType="Boolean" key="CHROME_QueryType" displayKey="Query Type" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="CHROME_FullHTML" displayKey="FullHTML" visible="false" required="false" />
+      <Property value="" runtimeType="String" key="CHROME_Element" displayKey="Element" visible="false" required="false" />
+    </Properties>
+  </Step>
+  <Step id="Se42655ba1e1144508c70d4d4e6bc5645" taskName="T_ReadData" type="Chrome" name="ChromeGetData" displayName="ChromeGetData" callDepth="1" depth="1" num="4" result="Fail" start="2024-04-20T19:02:19.513" end="2024-04-20T19:02:35.696" displayTime="16.2s">
+    <Variables>
+      <Variable name="price" scope="Normal" owner="T_ReadData" declareType="Any" isChanged="false" isChangable="false" runtimeType="Undefined" value="&lt;undefined&gt;" />
+    </Variables>
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Options_OnError" displayKey="On Error" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="&lt;LatestBrowser&gt;" runtimeType="Any" key="CHROME_Browser" displayKey="Browser" visible="true" required="true" />
+      <Property value="10" runtimeType="Integer" key="CHROME_WaitTimeSec" displayKey="Page Load Timeout" visible="true" required="true" />
+      <Property value="" runtimeType="String" key="CHROME_PageUrl" displayKey="Page Url" visible="true" required="false" />
+      <Property value="false" runtimeType="Boolean" key="CHROME_UsePageUrl" displayKey="UsePageUrl" visible="false" required="false" />
+      <Property value="" runtimeType="String" key="CHROME_FullPageUrl" displayKey="FullPageUrl" visible="false" required="false" />
+      <Property value="" runtimeType="String" key="CHROME_IframeSrc" displayKey="Iframe Source" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="CHROME_IframeIndexes" displayKey="Iframe Index" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="CHROME_ElementPath" displayKey="Element Path" visible="true" required="false" />
+      <Property value="'/html/body/div/div/main/div/div[1]/div/div[4]/div/div[1]/span/span'" runtimeType="String" key="CHROME_ExecuteQuery" displayKey="ExecuteQuery" visible="true" required="true" />
+      <Property value="true" runtimeType="Boolean" key="CHROME_QueryType" displayKey="Query Type" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="CHROME_FullHTML" displayKey="FullHTML" visible="false" required="false" />
+      <Property value="this.price : &lt;undefined&gt;" runtimeType="Undefined" key="CHROME_Data" displayKey="Data" visible="true" required="true" />
+      <Property value="" runtimeType="String" key="CHROME_Element" displayKey="Element" visible="false" required="false" />
+      <Property value="Text" runtimeType="String" key="CHROME_DataType" displayKey="Data Type" visible="false" required="false" />
+      <Property value="" runtimeType="String" key="CHROME_ExpectedValue" displayKey="Expected Value" visible="false" required="false" />
+    </Properties>
+  </Step>
+  <JobInfo>
+    <Info name="Bot Version" value="3.1.000.01101" />
+    <Info name="Resolution" value="1366 x 768" />
+    <Info name="Language" value="Português (Brasil)" />
+    <Info name="BotID" value="DESIGNER-00153" />
+  </JobInfo>
+</Result>

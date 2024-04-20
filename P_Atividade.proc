@@ -10,7 +10,7 @@
     <Property key="Resolution" controlType="String" valueType="System.String" formatType="String_Size" required="False" visible="True" readonly="True" encrypted="False" isChanged="N" value="1920x1848" />
     <Property key="CreatedDate" controlType="String" valueType="System.String" formatType="String_DateTime" required="False" visible="True" readonly="True" encrypted="False" isChanged="N" value="2024-04-17 14:24:14" />
     <Property key="CreatedBy" controlType="String" valueType="System.String" formatType="String" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="" />
-    <Property key="LastModifiedDate" controlType="String" valueType="System.String" formatType="String_DateTime" required="False" visible="True" readonly="True" encrypted="False" isChanged="N" value="2024-04-17 20:47:05" />
+    <Property key="LastModifiedDate" controlType="String" valueType="System.String" formatType="String_DateTime" required="False" visible="True" readonly="True" encrypted="False" isChanged="N" value="2024-04-20 16:00:00" />
     <Property key="LastModifiedBy" controlType="String" valueType="System.String" formatType="String" required="False" visible="True" readonly="True" encrypted="False" isChanged="N" value="" />
     <Property key="LastPublishedDate" controlType="String" valueType="System.String" formatType="String_DateTime" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="" />
     <Property key="LastPublishedBy" controlType="String" valueType="System.String" formatType="String" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="" />
@@ -64,17 +64,17 @@
       <RelatedSteps />
       <Script><![CDATA[this.row_count = StepPlayer.Run('Excel.GetRowCount', this.getrowcount_info_3);]]></Script>
     </Step>
-    <Step id="Sda3e6b23bb1a4d39affe5280218ea58b" ver="310230724" createVer="310230724" type="Flow" name="Loop" dpName="For" dpValue="this.i &lt; this.row_count" dpValue2="" dpImage="" tag="" depth="1" stmttype="OpenBlock" enabled="True" mainSet="0">
+    <Step id="Sda3e6b23bb1a4d39affe5280218ea58b" ver="310230724" createVer="310230724" type="Flow" name="Loop" dpName="For" dpValue="this.i &lt;= this.row_count" dpValue2="" dpImage="" tag="" depth="1" stmttype="OpenBlock" enabled="True" mainSet="0">
       <Properties id="cda7fc72-556e-449e-b5b6-0c4d1dbc234b" type="Flow">
         <Property type="Flow" key="Key_Description" controlType="PropertyItemTextEditorView" valueType="System.String" formatType="String" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="" />
         <Property type="Flow" key="Conditions_InitializeIndex" controlType="Object" valueType="System.Object" formatType="Expression" required="True" visible="True" readonly="False" encrypted="False" isChanged="N" value="this.i = 2" />
-        <Property type="Flow" key="Conditions_LoopCondition" controlType="Object" valueType="System.Object" formatType="Expression" required="True" visible="True" readonly="False" encrypted="False" isChanged="N" value="this.i &lt; this.row_count" />
+        <Property type="Flow" key="Conditions_LoopCondition" controlType="Object" valueType="System.Object" formatType="Expression" required="True" visible="True" readonly="False" encrypted="False" isChanged="N" value="this.i &lt;= this.row_count" />
         <Property type="Flow" key="Conditions_UpdateIndex" controlType="Object" valueType="System.Object" formatType="Expression" required="True" visible="True" readonly="False" encrypted="False" isChanged="N" value="this.i++" />
       </Properties>
       <RelatedSteps>
         <RelatedStep id="S329ba705bb8e4889a83a73e51cec2494" type="Flow" name="EndLoop" />
       </RelatedSteps>
-      <Script><![CDATA[for (this.i = 2; this.i < this.row_count; this.i++) {]]></Script>
+      <Script><![CDATA[for (this.i = 2; this.i <= this.row_count; this.i++) {]]></Script>
     </Step>
     <Step id="Sdea2da61b925487181471142e9aaa813" ver="310230724" createVer="310230724" type="Chrome" name="ChromeClose" dpName="ChromeClose" dpValue="LATEST_BROWSER" dpValue2="" dpImage="" tag="" depth="2" stmttype="Normal" enabled="True" mainSet="0">
       <Properties id="84f62b38-7bbd-49ac-af20-58df4a30baa0" type="Chrome">
@@ -222,7 +222,7 @@ this.product_name = this.product_name.replace(/\s+/g, "-");
 
         //------------------------------------------------
         STEP('Sda3e6b23bb1a4d39affe5280218ea58b', '[4] For');
-        for (this.i = 2; this.i < this.row_count; this.i++) {
+        for (this.i = 2; this.i <= this.row_count; this.i++) {
 
             //------------------------------------------------
             STEP('Sdea2da61b925487181471142e9aaa813', '[5] ChromeClose');
@@ -302,4 +302,4 @@ this.product_name = this.product_name.replace(/\s+/g, "-");
       <StepNode step_id="Se49b4ed6a8314fad838c2392959d384f" group_name="abaa203d-7993-4587-8188-2b22eacecc63_Untitled" folded="False" />
     </StepNodes>
   </Diagram>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>8UT4CjorXi5TsucZm2z70JkiM6w=</DigestValue></Reference></SignedInfo><SignatureValue>RRuO8Z9K+aFGtBLrVnaBqDs9KCruXfTx/b18Hgc1gMlC55TLBMX+FqSEeZaf7XNrNZfPSY6UBcpw4tMV4xUmjcIHux5JXwyPSxdXOZbzmKpLzaWdMAp0JVYnvRsLNmHC6OWXtrpSLPMx3H6RwOPwTQwPGvjIwQ45trFE6ogy7KtvzOaonp11li3ygctQRJUhDAD2+p0OyGTzjzMM4Rvjvb4gvZJ5TaWJSdjBtp44vkwt58VvgoOy24lBzsvLPdJHRMy/Et+rDGb1ETwH1S3zbhCxeLPrV7JSIwITOGeITReyJPMjQv8GYmKkK1ffUtRSeHpWA3cHy8nqPKkNggocaw==</SignatureValue><KeyInfo><X509Data><X509SubjectName>CN=DESIGNER-00147, O=orch.sdsbrity.com, OU=IPA_DESIGNER, L="", S="", C=""</X509SubjectName></X509Data></KeyInfo></Signature></Process>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>0SNpnJiD+0JIwKTzZtZFx/lK5as=</DigestValue></Reference></SignedInfo><SignatureValue>D8HDS488mmRiA9jTnOYRBgV4vx33pem90Ya83WI0oav4rRxzp51MkOiCgX7dv9DIOHOyTbGlm8Xe0luUKi0ikwQcOE16Uy4/yt8TifStD32/hpK8WI+AItpnLjhDxfE0vqOUrtreHnzkFvLvuecSXVyhOvBJScXRAXr7VMwQMlCJcdgNaIVeWGO6KCV3VBnvGPqJReeFtdWK3IIUsAk3M7vhFTu/ja/HLhUlOQXDNyjRwP0mJCiaYFXUmjaCE1cwxOUTtTc18kLyzTg/HFgC3JScc58oeEBCEe8eAMtQxtZye26NL5U1nlletgI4m6V6dLaz1Reo+zA8IDejs/iXfQ==</SignatureValue><KeyInfo><X509Data><X509SubjectName>CN=DESIGNER-00153, O=orch.sdsbrity.com, OU=IPA_DESIGNER, L="", S="", C=""</X509SubjectName></X509Data></KeyInfo></Signature></Process>
