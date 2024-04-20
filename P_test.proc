@@ -1,0 +1,50 @@
+<Process id="d1a6c5e9-983a-4be6-acd0-56c4e179a4e6" type="process" workType="foreground" name="P_test" version="" designerVersion="3.1.000.01101" lastPublishedServer="" readonly="false" isValid="true" DesignedBy="Designer" Template="" StepCount="0" Orientation="horizontal">
+  <Properties>
+    <Property key="Description" controlType="PropertyItemTextEditorView" valueType="System.String" formatType="String" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="" enabled="True" />
+    <Property key="onBefore" controlType="PropertyItemEventHandlerView" valueType="System.String" formatType="String" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="" enabled="True" />
+    <Property key="onAfter" controlType="PropertyItemEventHandlerView" valueType="System.String" formatType="String" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="" enabled="True" />
+    <Property key="onError" controlType="PropertyItemEventHandlerView" valueType="System.String" formatType="String" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="" enabled="True" />
+    <Property key="Timeout" controlType="Int32" valueType="System.Int32" formatType="Integer" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="0" />
+    <Property key="RunningTime" controlType="Int32" valueType="System.Int32" formatType="Integer" required="False" visible="True" readonly="True" encrypted="False" isChanged="N" value="0" />
+    <Property key="Os" controlType="String" valueType="System.String" formatType="String" required="False" visible="True" readonly="True" encrypted="False" isChanged="N" value="Microsoft Windows 10 Home Single Language64 bits" />
+    <Property key="Resolution" controlType="String" valueType="System.String" formatType="String_Size" required="False" visible="True" readonly="True" encrypted="False" isChanged="N" value="1366x768" />
+    <Property key="CreatedDate" controlType="String" valueType="System.String" formatType="String_DateTime" required="False" visible="True" readonly="True" encrypted="False" isChanged="N" value="2024-04-20 19:25:46" />
+    <Property key="CreatedBy" controlType="String" valueType="System.String" formatType="String" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="" />
+    <Property key="LastModifiedDate" controlType="String" valueType="System.String" formatType="String_DateTime" required="False" visible="True" readonly="True" encrypted="False" isChanged="N" value="2024-04-20 19:34:43" />
+    <Property key="LastModifiedBy" controlType="String" valueType="System.String" formatType="String" required="False" visible="True" readonly="True" encrypted="False" isChanged="N" value="" />
+    <Property key="LastPublishedDate" controlType="String" valueType="System.String" formatType="String_DateTime" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="" />
+    <Property key="LastPublishedBy" controlType="String" valueType="System.String" formatType="String" required="False" visible="True" readonly="False" encrypted="False" isChanged="N" value="" />
+  </Properties>
+  <LinkItems />
+  <Variables>
+    <Variable name="row_count" scope="Normal" valueType="Any" formatType="Any" initValue="" desc="" colorValue="#FFF07DEA" showMarker="False" />
+    <Variable name="product" scope="Normal" valueType="Any" formatType="Any" initValue="" desc="" colorValue="#FF98DFD6" showMarker="False" />
+  </Variables>
+  <Steps />
+  <JScript><![CDATA[function P_test() {
+
+    this.row_count;
+    this.product;
+
+    this.RPAGOTOENABLE = false;
+    this.GotoStepRetryCntMap = {};
+    this.GotoBlockMap = {};
+    this.GotoReverseBlockMap = {};
+    this.GotoStepBlockTypeMap = {};
+
+
+    this.run = function() {
+    }
+
+    this.execute = function() {
+        var result = null;
+        result = this.run()
+        if (result != null)
+            return result;
+    }
+}
+]]></JScript>
+  <Diagram version="1.300" nodesize="Normal">
+    <StepNodes />
+  </Diagram>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>ocYyoWY6GZh1VbS5DoZDm+rZLq4=</DigestValue></Reference></SignedInfo><SignatureValue>HNnwEjdAWi+NEDbC+BH1Sad6uCUoDE9nC/oXrxN9KHAOPUj97D1wbetvyTgArz91F0ufyulDdJ9xvawCwJ+TouBeikOt0hUmVhFot6SNbTzKLwERmOFB+vcT6cf6sBQUqA7ZhkAbjTGYo7rDecY82Zf5fbj3C3iNtI8RhpRwHLhbw1GqB7riOQ9iJGCnSpaaVUSZwyjFBwarJWkRlYevLylhSm0++Tcs4Gd4w0Ov05boRpsMbl7T8yrFHsYXlp0iQ4wCLjlVYENzymfu8NzwCPgRqA4vUqHC/1+4+QT3gPByHhPpvJa5CmlW6FTZsDW8JJ+s0IS8BUFG/yYww2hgKA==</SignatureValue><KeyInfo><X509Data><X509SubjectName>CN=DESIGNER-00153, O=orch.sdsbrity.com, OU=IPA_DESIGNER, L="", S="", C=""</X509SubjectName></X509Data></KeyInfo></Signature></Process>

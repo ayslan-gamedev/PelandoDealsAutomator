@@ -1,0 +1,515 @@
+﻿2024-04-20 19:42:49,945 [T1] INFO  EngineStarter
+BOT Engine Start - v3.1.000.01101
+BOT ID: D_20240420_194248_726
+BOT PID: 13148
+BOT PPID: 9512
+BOT Working Directory: C:\Users\aysla\AppData\Roaming\Brity RPA Designer
+
+2024-04-20 19:42:49,962 [T1] INFO  EngineStarter
+System Language: pt-BR
+Resolution: 1920 x 1848
+
+2024-04-20 19:42:50,266 [T1] INFO  Config
+Initialize Config
+
+2024-04-20 19:42:50,313 [T1] DEBUG Config
+Config Loaded
+
+2024-04-20 19:42:50,313 [T1] DEBUG Config
+Backup config file.
+
+2024-04-20 19:42:50,339 [T1] INFO  Config
+Orchestrator Service => https://orch.sdsbrity.com:8777
+
+2024-04-20 19:42:50,346 [T1] INFO  Config
+Initialize Resource Config
+
+2024-04-20 19:42:50,389 [T1] DEBUG Config
+Refresh Language Information
+
+2024-04-20 19:42:50,488 [T1] INFO  Config
+All Config Initialized.
+
+2024-04-20 19:42:50,492 [T1] DEBUG KeyManager
+Initialize KeyManager
+
+2024-04-20 19:42:50,498 [T1] DEBUG KeyManager
+Device ID is initialized.
+
+2024-04-20 19:42:50,543 [T1] INFO  CertLicenseClient
+Initialize certificate.
+
+2024-04-20 19:42:50,548 [T1] DEBUG CertLicenseClient
+Set Security Protocol: Tls12
+
+2024-04-20 19:42:50,600 [T4] DEBUG JobService
+Connect to agent service
+
+2024-04-20 19:42:50,642 [T4] DEBUG JobService
+JobService URL : net.tcp://127.0.0.1:59001/rpa/agent
+
+2024-04-20 19:42:50,645 [T4] DEBUG JobService
+Open connection
+
+2024-04-20 19:42:50,656 [T1] DEBUG ApplicationInitializer
+InitMode: Thread
+
+2024-04-20 19:42:50,667 [T4] DEBUG JobService
+Register engine to agent
+
+2024-04-20 19:42:50,667 [T1] INFO  LibraryManager
+Load Libraries - Started
+
+2024-04-20 19:42:50,683 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.Chrome
+
+2024-04-20 19:42:50,683 [T4] DEBUG JobService
+Engine is connected to agent service.
+
+2024-04-20 19:42:50,683 [T4] DEBUG JobService
+Owner Process PID: 9512
+
+2024-04-20 19:42:50,688 [T4] INFO  JobService
+Start monitoring owner process is terminated.
+
+2024-04-20 19:42:50,962 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.Desktop
+
+2024-04-20 19:42:51,176 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.Excel
+
+2024-04-20 19:42:51,365 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.Flow
+
+2024-04-20 19:42:51,554 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.IE
+
+2024-04-20 19:42:51,685 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.ImageConverter
+
+2024-04-20 19:42:51,763 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.ImageRecognition
+
+2024-04-20 19:42:52,068 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.MicrosoftOCR
+
+2024-04-20 19:42:52,156 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.Net
+
+2024-04-20 19:42:52,295 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.Orchestra
+
+2024-04-20 19:42:52,440 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.ProcessFlow
+
+2024-04-20 19:42:52,602 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.SAP
+
+2024-04-20 19:42:52,739 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.Web
+
+2024-04-20 19:42:52,860 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.Win
+
+2024-04-20 19:42:53,051 [T1] INFO  ScreenCapture
+Default Screen Capture Bounds: -336;-1080;1920;1848
+
+2024-04-20 19:42:53,107 [T1] DEBUG AddInLoader
+Load Assembly : BrityRPA.AddIn.NativeApp
+
+2024-04-20 19:42:53,273 [T1] DEBUG AddInLoader
+Load Assembly : BrityWorks.AddIn.Outlook
+
+2024-04-20 19:42:53,351 [T1] DEBUG AddInLoader
+Load Assembly : BrityWorks.AddIn.Pdf
+
+2024-04-20 19:42:53,430 [T1] DEBUG LibraryManager
+Load Library - Chrome
+
+2024-04-20 19:42:53,433 [T1] DEBUG LibraryManager
+Load Library - Desktop
+
+2024-04-20 19:42:53,434 [T1] DEBUG LibraryManager
+Load Library - Excel
+
+2024-04-20 19:42:53,435 [T1] DEBUG LibraryManager
+Load Library - Flow
+
+2024-04-20 19:42:53,436 [T1] DEBUG LibraryManager
+Load Library - IE
+
+2024-04-20 19:42:53,436 [T1] DEBUG LibraryManager
+Load Library - ImageConverter
+
+2024-04-20 19:42:53,437 [T1] DEBUG LibraryManager
+Load Library - ImageRecognition
+
+2024-04-20 19:42:53,437 [T1] DEBUG LibraryManager
+Load Library - MicrosoftOCR
+
+2024-04-20 19:42:53,438 [T1] DEBUG LibraryManager
+Load Library - NativeApp
+
+2024-04-20 19:42:53,441 [T1] DEBUG LibraryManager
+Load Library - Net
+
+2024-04-20 19:42:53,442 [T1] DEBUG LibraryManager
+Load Library - Orchestra
+
+2024-04-20 19:42:53,443 [T1] DEBUG LibraryManager
+Load Library - Outlook
+
+2024-04-20 19:42:53,443 [T1] DEBUG LibraryManager
+Load Library - Pdf
+
+2024-04-20 19:42:53,443 [T1] DEBUG LibraryManager
+Load Library - SAP
+
+2024-04-20 19:42:53,444 [T1] DEBUG LibraryManager
+Load Library - Web
+
+2024-04-20 19:42:53,445 [T1] DEBUG LibraryManager
+Load Library - Win
+
+2024-04-20 19:42:53,446 [T1] DEBUG LibraryManager
+Load Library - WorkFlow
+
+2024-04-20 19:42:53,452 [T1] DEBUG LibraryManager
+Load built-in script libraries
+
+2024-04-20 19:42:53,592 [T1] INFO  LibraryManager
+Load Libraries - Completed.
+
+2024-04-20 19:42:53,613 [T1] INFO  App
+Launch Arguments: Total: 6 |  -eid D_20240420_194248_726 -runtype ProcRunner -ppid 9512
+
+2024-04-20 19:42:53,614 [T1] DEBUG Config
+Refresh Language Information
+
+2024-04-20 19:42:53,614 [T1] DEBUG LibraryManager
+LibraryManager Initialized.
+
+2024-04-20 19:44:48,458 [T9] INFO  JobService
+Start Job: T_ReadData (Foreground)
+{
+  "UsePIP": false,
+  "UserID": null,
+  "UserPWD": null,
+  "IsRunning": false,
+  "ResultMessage": null,
+  "JobWorkDir": "C:\\Users\\aysla\\OneDrive\\Documents\\Brity RPA Projects\\Atividade\\Histories\\20240420_194448_T_ReadData_Designer_20240420_194445_784",
+  "JobLogDir": "C:\\Users\\aysla\\OneDrive\\Documents\\Brity RPA Projects\\Atividade\\Histories\\20240420_194448_T_ReadData_Designer_20240420_194445_784\\Log",
+  "JobScreenshotDir": "C:\\Users\\aysla\\OneDrive\\Documents\\Brity RPA Projects\\Atividade\\Histories\\20240420_194448_T_ReadData_Designer_20240420_194445_784\\Log\\Screenshot",
+  "TotalProcessStepCount": 0,
+  "CurrentStepNo": 0,
+  "CurrentStepName": null,
+  "StartTime": "2024-04-20 19:44:48",
+  "EndTime": null,
+  "Data": null,
+  "EngineID": "D_20240420_194248_726",
+  "EnginePID": 0,
+  "EngineRecommededVersion": "",
+  "JobId": "Designer_20240420_194445_784",
+  "JobType": 1,
+  "UserAuthentication": null,
+  "ProcessPath": "C:\\Users\\aysla\\OneDrive\\Documents\\Brity RPA Projects\\Atividade\\T_ReadData.proc",
+  "ProcessId": "050167e3-7605-4076-89ac-55f49898cab0",
+  "ProcessVer": "",
+  "ProcessArgs": "Sc567a2717a14482baf6990d452159f80;;False",
+  "RequesterType": 3,
+  "RequesterId": "designer",
+  "RequesterPID": 9512,
+  "OptionsJsonString": null,
+  "TimeoutSec": 0,
+  "State": 0
+}
+
+2024-04-20 19:44:48,616 [T10] DEBUG JobService
+Waiting library loading...
+
+2024-04-20 19:44:48,619 [T10] DEBUG Config
+Reload User Settings
+
+2024-04-20 19:44:48,620 [T10] INFO  Config
+UserSettings Reloaded =>
+ - ShowAutoIndexingPopup : true -> false
+ - LastExecution : 1m4GkrxfyrwKDPz2Jp0EGNsT2AWYvjNnXRs4RRVWuKo= -> 7HQujmDGjLeyPBzxZW4bgwlFaxil9bfAUIjeXe+4L8c=
+
+2024-04-20 19:44:48,620 [T10] INFO  JobService
+Config Loading Completed.
+
+2024-04-20 19:44:48,621 [T10] DEBUG JobService
+Config Loading Time: 4 ms.
+
+2024-04-20 19:44:48,629 [T10] INFO  JobManager
+Create JobManager instance for job T_ReadData(Designer_20240420_194445_784)
+
+2024-04-20 19:44:48,636 [T10] INFO  JobRequest
+Job ID : Designer_20240420_194445_784
+Project Path  : C:\Users\aysla\OneDrive\Documents\Brity RPA Projects\Atividade\Atividade.proj
+Process Name  : T_ReadData
+Engine Mode   : Designer
+Requester Type: Designer
+Requester PID : 9512
+
+2024-04-20 19:44:48,639 [T12] INFO  JobRequest
+Start Callback Sender
+
+2024-04-20 19:44:48,639 [T12] DEBUG JobRequest
+Step Callback Interval: 500
+
+2024-04-20 19:44:48,696 [T10] DEBUG ProjectManager
+Set Project Information
+
+2024-04-20 19:44:48,722 [T10] INFO  PlayOptionManager
+PlayOption
+- Step Interval : 1
+- Disable DrawBounds : False
+- Invoke First : False
+- Allow Upload of DumpScreen results : False
+
+2024-04-20 19:44:48,723 [T10] INFO  JobRunner
+Initialize Script Engine
+
+2024-04-20 19:44:48,740 [TScriptEngine] INFO  JobRequest
+##############################################################
+### STATE: Initializing
+##############################################################
+
+
+2024-04-20 19:44:48,773 [T12] DEBUG JobRequest
+Callback - State: Initializing
+
+
+2024-04-20 19:44:49,690 [TScriptEngine] INFO  JobRequest
+##############################################################
+### STATE: Ready
+##############################################################
+
+
+2024-04-20 19:44:49,692 [T12] DEBUG JobRequest
+Callback - State: Ready
+
+
+2024-04-20 19:44:49,702 [T10] INFO  JobRunnerHook
+HotKey Hook Started
+
+2024-04-20 19:44:49,703 [T10] INFO  JobRequest
+##############################################################
+### STATE: Starting
+##############################################################
+
+
+2024-04-20 19:44:49,705 [TScriptEngine] INFO  JobRunner
+RunProcess start
+
+2024-04-20 19:44:49,707 [TScriptEngine] INFO  JobRequest
+##############################################################
+### STATE: Running
+##############################################################
+
+
+2024-04-20 19:44:49,707 [TScriptEngine] INFO  JobRequest
+Last job life cycle state: Running
+
+2024-04-20 19:44:49,708 [T12] DEBUG JobRequest
+Callback - State: Starting
+
+
+2024-04-20 19:44:49,724 [T12] DEBUG JobRequest
+Callback - State: Running
+
+
+2024-04-20 19:44:49,870 [TScriptEngine] WARN  ProcessDataValidator
+It can be occurred a malfunction to play T_ReadData,
+because this system is different from designed system environment.
+(OS, Resolution, etc)
+
+2024-04-20 19:44:50,749 [TScriptEngine] DEBUG ScreenCapture
+DirectX Screen Capture Initialized.
+
+2024-04-20 19:44:50,906 [TScriptEngine] DEBUG JobRunner
+DirectX ScreenCapture Checked.
+
+2024-04-20 19:44:50,945 [TScriptEngine] INFO  JobRequest
+##############################################################
+### STATE: StartProcess - T_ReadData
+##############################################################
+050167e3-7605-4076-89ac-55f49898cab0
+T_ReadData
+
+
+2024-04-20 19:44:51,013 [TScriptEngine] INFO  JobRequest
+**************************************************************
+*** TASK: T_ReadData
+**************************************************************
+ - STEP 1: Sc567a2717a14482baf6990d452159f80 (9/16) - (1/8)
+ - [9] Click
+
+
+2024-04-20 19:44:51,287 [T11] INFO  UIAEventHandler
+Start UIA event handler
+
+2024-04-20 19:44:52,299 [T11] DEBUG UIAEventHandler
+UI Structure Changed Count: 0
+
+2024-04-20 19:44:52,299 [T11] INFO  UIAEventHandler
+waiting for 963 msec during the screen structure is changing.
+
+2024-04-20 19:44:53,675 [TScriptEngine] INFO  JobRequest
+ - STEP 2: Sc1d75d0190034baca217e2378949610e (10/16) - (2/8)
+ - [10] Click
+
+
+2024-04-20 19:44:54,511 [TScriptEngine] INFO  JobRequest
+ - STEP 3: S5dcbe24ae3c04ed3ad3bfe00fefd64de (11/16) - (3/8)
+ - [11] GetText
+
+
+2024-04-20 19:44:56,432 [T11] DEBUG UIAEventHandler
+UI Structure Changed Count: 1
+
+2024-04-20 19:44:56,540 [T11] INFO  UIAEventHandler
+waiting for 1935 msec during the screen structure is changing.
+
+2024-04-20 19:44:56,789 [T11] DEBUG UIAEventHandler
+UI Structure Changed Count: 1
+
+2024-04-20 19:44:56,898 [T11] INFO  UIAEventHandler
+waiting for 220 msec during the screen structure is changing.
+
+2024-04-20 19:44:56,993 [TScriptEngine] DEBUG UIAElement
+Failed to get object text information: O método ou a operação não está implementada.
+
+2024-04-20 19:44:57,020 [TScriptEngine] INFO  JobRequest
+ - STEP 4: Sbde1623e24bc4214bb96f9bccafb285f (12/16) - (4/8)
+ - [12] GetActiveExcel
+
+
+2024-04-20 19:44:57,422 [TScriptEngine] INFO  JobRequest
+ - STEP 5: S9bd1d47825ec4548801937604e06103c (13/16) - (5/8)
+ - [13] WriteString
+
+
+2024-04-20 19:44:57,743 [TScriptEngine] ERROR WriteString
+Invalid range(position) value entered. => Bnull
+
+2024-04-20 19:44:59,418 [T9] INFO  JobService
+Stop Job
+
+2024-04-20 19:44:59,422 [T9] INFO  JobRunner
+Stop Job Runner - Cause: LocalUser / Message: stop by user
+
+2024-04-20 19:44:59,423 [T9] INFO  JobRequest
+##############################################################
+### STATE: Stopping
+##############################################################
+stop by user
+
+
+2024-04-20 19:44:59,449 [T12] DEBUG JobRequest
+Callback - State: Stopping
+stop by user
+
+2024-04-20 19:45:01,091 [TScriptEngine] INFO  JobRunner
+Stop Job Runner - Cause: LocalUser / Message: Catch Step Exception
+
+2024-04-20 19:45:01,091 [TScriptEngine] WARN  JobRunner
+Already Stop Requested. State: Stopping
+
+2024-04-20 19:45:01,091 [TScriptEngine] WARN  ScriptSupport
+[CATCH_STEP_EXCEPTION] Process: T_ReadData
+Step: WriteString (13/16)
+
+Error: Invalid range(position) value entered. => Bnull
+
+2024-04-20 19:45:01,096 [TScriptEngine] FINE  JobRunner
+RunTask ExceptionOccured. TASK: T_ReadData => Invalid range(position) value entered. => Bnull
+
+2024-04-20 19:45:01,149 [TScriptEngine] INFO  JobRequest
+##############################################################
+### STATE: EndProcess - T_ReadData
+##############################################################
+050167e3-7605-4076-89ac-55f49898cab0
+T_ReadData
+
+
+2024-04-20 19:45:01,182 [TScriptEngine] DEBUG JobManager
+Set Result State: Stopped
+
+2024-04-20 19:45:01,190 [TScriptEngine] INFO  JobRunner
+Make report.
+
+2024-04-20 19:45:01,265 [TScriptEngine] INFO  JobRunner
+Start to clean up resources.
+
+2024-04-20 19:45:01,267 [T18] DEBUG JobRunner
+Start timer for checking the job to be completed.
+
+2024-04-20 19:45:01,267 [TScriptEngine] DEBUG JobRunner
+OnProcessCompleted
+
+2024-04-20 19:45:01,275 [TScriptEngine] DEBUG ExcelBase
+DisposeExcel
+
+2024-04-20 19:45:01,310 [TScriptEngine] INFO  JobRunner
+Start to clean up resources.
+
+2024-04-20 19:45:01,313 [TScriptEngine] DEBUG JobRunner
+Remove all libraries
+
+2024-04-20 19:45:01,329 [TScriptEngine] DEBUG NetPlayer
+WebPlayer OnDispose
+
+2024-04-20 19:45:01,334 [TScriptEngine] DEBUG WebPlayer
+WebPlayer OnDispose : Do Nothing
+
+2024-04-20 19:45:01,336 [TScriptEngine] DEBUG UIAEventHandler
+Stop UIA event handler
+
+2024-04-20 19:45:01,350 [TScriptEngine] DEBUG UiaAppHelper
+WinHelper DisposeAppList Count: 0
+
+2024-04-20 19:45:01,350 [TScriptEngine] INFO  JobRunner
+All Resources Clear
+
+2024-04-20 19:45:01,352 [TScriptEngine] DEBUG JobRunner
+OnCompleted
+
+2024-04-20 19:45:01,353 [TScriptEngine] DEBUG JobRunner
+SendJobResult: Stopped
+
+2024-04-20 19:45:01,353 [TScriptEngine] INFO  JobRequest
+##############################################################
+### STATE: Stopped
+##############################################################
+Process: T_ReadData
+
+Process: T_ReadData
+Step: WriteString (13/16)
+Invalid range(position) value entered. => Bnull
+
+
+2024-04-20 19:45:01,353 [TScriptEngine] INFO  JobRequest
+Last job life cycle state: Stopped
+
+2024-04-20 19:45:01,366 [TScriptEngine] INFO  JobRequest
+##############################################################
+### JOB COMPLETED
+##############################################################
+
+
+2024-04-20 19:45:01,369 [T12] DEBUG JobRequest
+Callback - State: Stopped
+Process: T_ReadData
+
+Process: T_ReadData
+Step: WriteString (13/16)
+Invalid range(position) value entered. => Bnull
+
+2024-04-20 19:45:01,371 [T12] INFO  JobRequest
+Callback - EngineClosed
+
+2024-04-20 19:45:01,372 [T12] INFO  JobService
+Disconnect agent service
+
