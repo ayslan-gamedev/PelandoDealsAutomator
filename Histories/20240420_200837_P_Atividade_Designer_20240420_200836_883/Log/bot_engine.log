@@ -1,0 +1,1191 @@
+﻿2024-04-20 20:06:43,434 [T1] INFO  EngineStarter
+BOT Engine Start - v3.1.000.01101
+BOT ID: D_20240420_200642_534
+BOT PID: 12420
+BOT PPID: 9512
+BOT Working Directory: C:\Users\aysla\AppData\Roaming\Brity RPA Designer
+
+2024-04-20 20:06:43,448 [T1] INFO  EngineStarter
+System Language: pt-BR
+Resolution: 1920 x 1848
+
+2024-04-20 20:06:43,699 [T1] INFO  Config
+Initialize Config
+
+2024-04-20 20:06:43,738 [T1] DEBUG Config
+Config Loaded
+
+2024-04-20 20:06:43,738 [T1] DEBUG Config
+Backup config file.
+
+2024-04-20 20:06:43,748 [T1] INFO  Config
+Orchestrator Service => https://orch.sdsbrity.com:8777
+
+2024-04-20 20:06:43,753 [T1] INFO  Config
+Initialize Resource Config
+
+2024-04-20 20:06:43,783 [T1] DEBUG Config
+Refresh Language Information
+
+2024-04-20 20:06:43,869 [T1] INFO  Config
+All Config Initialized.
+
+2024-04-20 20:06:43,873 [T1] DEBUG KeyManager
+Initialize KeyManager
+
+2024-04-20 20:06:43,881 [T1] DEBUG KeyManager
+Device ID is initialized.
+
+2024-04-20 20:06:43,918 [T1] INFO  CertLicenseClient
+Initialize certificate.
+
+2024-04-20 20:06:43,922 [T1] DEBUG CertLicenseClient
+Set Security Protocol: Tls12
+
+2024-04-20 20:06:43,956 [T5] DEBUG JobService
+Connect to agent service
+
+2024-04-20 20:06:43,985 [T5] DEBUG JobService
+JobService URL : net.tcp://127.0.0.1:59001/rpa/agent
+
+2024-04-20 20:06:43,987 [T5] DEBUG JobService
+Open connection
+
+2024-04-20 20:06:43,995 [T1] DEBUG ApplicationInitializer
+InitMode: Thread
+
+2024-04-20 20:06:44,003 [T1] INFO  LibraryManager
+Load Libraries - Started
+
+2024-04-20 20:06:44,006 [T5] DEBUG JobService
+Register engine to agent
+
+2024-04-20 20:06:44,018 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.Chrome
+
+2024-04-20 20:06:44,018 [T5] DEBUG JobService
+Engine is connected to agent service.
+
+2024-04-20 20:06:44,018 [T5] DEBUG JobService
+Owner Process PID: 9512
+
+2024-04-20 20:06:44,023 [T5] INFO  JobService
+Start monitoring owner process is terminated.
+
+2024-04-20 20:06:44,256 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.Desktop
+
+2024-04-20 20:06:44,442 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.Excel
+
+2024-04-20 20:06:44,596 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.Flow
+
+2024-04-20 20:06:44,728 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.IE
+
+2024-04-20 20:06:44,828 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.ImageConverter
+
+2024-04-20 20:06:44,891 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.ImageRecognition
+
+2024-04-20 20:06:45,103 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.MicrosoftOCR
+
+2024-04-20 20:06:45,189 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.Net
+
+2024-04-20 20:06:45,288 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.Orchestra
+
+2024-04-20 20:06:45,382 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.ProcessFlow
+
+2024-04-20 20:06:45,502 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.SAP
+
+2024-04-20 20:06:45,601 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.Web
+
+2024-04-20 20:06:45,730 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.Win
+
+2024-04-20 20:06:45,864 [T1] INFO  ScreenCapture
+Default Screen Capture Bounds: -336;-1080;1920;1848
+
+2024-04-20 20:06:45,898 [T1] DEBUG AddInLoader
+Load Assembly : BrityRPA.AddIn.NativeApp
+
+2024-04-20 20:06:46,023 [T1] DEBUG AddInLoader
+Load Assembly : BrityWorks.AddIn.Outlook
+
+2024-04-20 20:06:46,096 [T1] DEBUG AddInLoader
+Load Assembly : BrityWorks.AddIn.Pdf
+
+2024-04-20 20:06:46,209 [T1] DEBUG LibraryManager
+Load Library - Chrome
+
+2024-04-20 20:06:46,214 [T1] DEBUG LibraryManager
+Load Library - Desktop
+
+2024-04-20 20:06:46,215 [T1] DEBUG LibraryManager
+Load Library - Excel
+
+2024-04-20 20:06:46,217 [T1] DEBUG LibraryManager
+Load Library - Flow
+
+2024-04-20 20:06:46,217 [T1] DEBUG LibraryManager
+Load Library - IE
+
+2024-04-20 20:06:46,218 [T1] DEBUG LibraryManager
+Load Library - ImageConverter
+
+2024-04-20 20:06:46,219 [T1] DEBUG LibraryManager
+Load Library - ImageRecognition
+
+2024-04-20 20:06:46,220 [T1] DEBUG LibraryManager
+Load Library - MicrosoftOCR
+
+2024-04-20 20:06:46,221 [T1] DEBUG LibraryManager
+Load Library - NativeApp
+
+2024-04-20 20:06:46,225 [T1] DEBUG LibraryManager
+Load Library - Net
+
+2024-04-20 20:06:46,226 [T1] DEBUG LibraryManager
+Load Library - Orchestra
+
+2024-04-20 20:06:46,227 [T1] DEBUG LibraryManager
+Load Library - Outlook
+
+2024-04-20 20:06:46,228 [T1] DEBUG LibraryManager
+Load Library - Pdf
+
+2024-04-20 20:06:46,228 [T1] DEBUG LibraryManager
+Load Library - SAP
+
+2024-04-20 20:06:46,229 [T1] DEBUG LibraryManager
+Load Library - Web
+
+2024-04-20 20:06:46,230 [T1] DEBUG LibraryManager
+Load Library - Win
+
+2024-04-20 20:06:46,231 [T1] DEBUG LibraryManager
+Load Library - WorkFlow
+
+2024-04-20 20:06:46,239 [T1] DEBUG LibraryManager
+Load built-in script libraries
+
+2024-04-20 20:06:46,378 [T1] INFO  LibraryManager
+Load Libraries - Completed.
+
+2024-04-20 20:06:46,391 [T1] INFO  App
+Launch Arguments: Total: 6 |  -eid D_20240420_200642_534 -runtype ProcRunner -ppid 9512
+
+2024-04-20 20:06:46,391 [T1] DEBUG Config
+Refresh Language Information
+
+2024-04-20 20:06:46,392 [T1] DEBUG LibraryManager
+LibraryManager Initialized.
+
+2024-04-20 20:08:37,281 [T9] INFO  JobService
+Start Job: P_Atividade (Foreground)
+{
+  "UsePIP": false,
+  "UserID": null,
+  "UserPWD": null,
+  "IsRunning": false,
+  "ResultMessage": null,
+  "JobWorkDir": "C:\\Users\\aysla\\OneDrive\\Documents\\Brity RPA Projects\\Atividade\\Histories\\20240420_200837_P_Atividade_Designer_20240420_200836_883",
+  "JobLogDir": "C:\\Users\\aysla\\OneDrive\\Documents\\Brity RPA Projects\\Atividade\\Histories\\20240420_200837_P_Atividade_Designer_20240420_200836_883\\Log",
+  "JobScreenshotDir": "C:\\Users\\aysla\\OneDrive\\Documents\\Brity RPA Projects\\Atividade\\Histories\\20240420_200837_P_Atividade_Designer_20240420_200836_883\\Log\\Screenshot",
+  "TotalProcessStepCount": 0,
+  "CurrentStepNo": 0,
+  "CurrentStepName": null,
+  "StartTime": "2024-04-20 20:08:37",
+  "EndTime": null,
+  "Data": null,
+  "EngineID": "D_20240420_200642_534",
+  "EnginePID": 0,
+  "EngineRecommededVersion": "",
+  "JobId": "Designer_20240420_200836_883",
+  "JobType": 1,
+  "UserAuthentication": null,
+  "ProcessPath": "C:\\Users\\aysla\\OneDrive\\Documents\\Brity RPA Projects\\Atividade\\P_Atividade.proc",
+  "ProcessId": "05688af9-4021-4715-968f-8735111f8ff4",
+  "ProcessVer": "",
+  "ProcessArgs": null,
+  "RequesterType": 3,
+  "RequesterId": "designer",
+  "RequesterPID": 9512,
+  "OptionsJsonString": null,
+  "TimeoutSec": 0,
+  "State": 0
+}
+
+2024-04-20 20:08:37,431 [T10] DEBUG JobService
+Waiting library loading...
+
+2024-04-20 20:08:37,434 [T10] DEBUG Config
+Reload User Settings
+
+2024-04-20 20:08:37,435 [T10] INFO  Config
+UserSettings Reloaded =>
+ - LastExecution : IqFlOyZTylBFAnHPq4DIJWUkt0chFPyWjjjoYIcUVyE= -> lKm3qcTIkAI5lPVBljc/DcFJY+Y3jPXwcKS/moM47ds=
+
+2024-04-20 20:08:37,435 [T10] INFO  JobService
+Config Loading Completed.
+
+2024-04-20 20:08:37,435 [T10] DEBUG JobService
+Config Loading Time: 3 ms.
+
+2024-04-20 20:08:37,443 [T10] INFO  JobManager
+Create JobManager instance for job P_Atividade(Designer_20240420_200836_883)
+
+2024-04-20 20:08:37,451 [T10] INFO  JobRequest
+Job ID : Designer_20240420_200836_883
+Project Path  : C:\Users\aysla\OneDrive\Documents\Brity RPA Projects\Atividade\Atividade.proj
+Process Name  : P_Atividade
+Engine Mode   : Designer
+Requester Type: Designer
+Requester PID : 9512
+
+2024-04-20 20:08:37,455 [T12] INFO  JobRequest
+Start Callback Sender
+
+2024-04-20 20:08:37,455 [T12] DEBUG JobRequest
+Step Callback Interval: 500
+
+2024-04-20 20:08:37,504 [T10] DEBUG ProjectManager
+Set Project Information
+
+2024-04-20 20:08:37,530 [T10] INFO  PlayOptionManager
+PlayOption
+- Step Interval : 1
+- Disable DrawBounds : False
+- Invoke First : False
+- Allow Upload of DumpScreen results : False
+
+2024-04-20 20:08:37,531 [T10] INFO  JobRunner
+Initialize Script Engine
+
+2024-04-20 20:08:37,547 [TScriptEngine] INFO  JobRequest
+##############################################################
+### STATE: Initializing
+##############################################################
+
+
+2024-04-20 20:08:37,573 [T12] DEBUG JobRequest
+Callback - State: Initializing
+
+
+2024-04-20 20:08:38,467 [TScriptEngine] INFO  JobRequest
+##############################################################
+### STATE: Ready
+##############################################################
+
+
+2024-04-20 20:08:38,471 [T12] DEBUG JobRequest
+Callback - State: Ready
+
+
+2024-04-20 20:08:38,479 [T10] INFO  JobRunnerHook
+HotKey Hook Started
+
+2024-04-20 20:08:38,480 [T10] INFO  JobRequest
+##############################################################
+### STATE: Starting
+##############################################################
+
+
+2024-04-20 20:08:38,482 [TScriptEngine] INFO  JobRunner
+RunProcess start
+
+2024-04-20 20:08:38,484 [TScriptEngine] INFO  JobRequest
+##############################################################
+### STATE: Running
+##############################################################
+
+
+2024-04-20 20:08:38,484 [TScriptEngine] INFO  JobRequest
+Last job life cycle state: Running
+
+2024-04-20 20:08:38,487 [T12] DEBUG JobRequest
+Callback - State: Starting
+
+
+2024-04-20 20:08:38,503 [T12] DEBUG JobRequest
+Callback - State: Running
+
+
+2024-04-20 20:08:38,810 [TScriptEngine] WARN  ProcessDataValidator
+It can be occurred a malfunction to play T_ReadData,
+because this system is different from designed system environment.
+(OS, Resolution, etc)
+
+2024-04-20 20:08:39,681 [TScriptEngine] DEBUG ScreenCapture
+DirectX Screen Capture Initialized.
+
+2024-04-20 20:08:39,764 [TScriptEngine] DEBUG JobRunner
+DirectX ScreenCapture Checked.
+
+2024-04-20 20:08:39,792 [TScriptEngine] INFO  JobRequest
+##############################################################
+### STATE: StartProcess - P_Atividade
+##############################################################
+05688af9-4021-4715-968f-8735111f8ff4
+P_Atividade
+
+
+2024-04-20 20:08:39,858 [TScriptEngine] INFO  JobRequest
+**************************************************************
+*** TASK: P_Atividade
+**************************************************************
+ - STEP 1: S81a0ebfb5a2c4a8b9a71dee37d7e0b78 (1/18) - (1/34)
+ - [1] ExecuteScript
+
+
+2024-04-20 20:08:39,957 [TScriptEngine] INFO  JobRequest
+ - STEP 2: S2fe14a09e8ec4fee96d82b281a338c15 (2/18) - (2/34)
+ - [2] OpenExcel
+
+
+2024-04-20 20:08:41,745 [TScriptEngine] INFO  JobRequest
+ - STEP 3: Sa2ffea335c68462984398f8647d25471 (3/18) - (3/34)
+ - [3] GetRowCount
+
+
+2024-04-20 20:08:41,916 [TScriptEngine] INFO  JobRequest
+ - STEP 4: Se4b2ea00830543c89117e6b63f8f7099 (4/18) - (4/34)
+ - [4] For
+
+
+2024-04-20 20:08:41,931 [TScriptEngine] INFO  JobRequest
+ - STEP 5: S09d63d9d3fda427bb7475440858c030e (5/18) - (5/34)
+ - [5] ReadString
+
+
+2024-04-20 20:08:42,010 [TScriptEngine] INFO  JobRequest
+ - STEP 6: S7e95aa17246a433abdcada2f20679a68 (6/18) - (6/34)
+ - [6] ExecuteScript
+
+
+2024-04-20 20:08:42,025 [TScriptEngine] INFO  JobRequest
+ - STEP 7: Sb01899dd9dcc43c9adaaaab1ed7a6f0c (7/18) - (7/34)
+ - [7] IfElse
+
+
+2024-04-20 20:08:42,041 [TScriptEngine] INFO  JobRequest
+ - STEP 8: S1294e846cb7e45fa87588af8fbb093d8 (8/18) - (8/34)
+ - [8] Else
+
+
+2024-04-20 20:08:42,056 [TScriptEngine] INFO  JobRequest
+ - STEP 9: S4520f5ba2c86491bb60615333cf09df3 (9/18) - (9/34)
+ - [9] GetActiveExcel
+
+
+2024-04-20 20:08:42,135 [TScriptEngine] INFO  JobRequest
+ - STEP 10: Sd2d8c5a614f84283bc4930fa6caf54a6 (10/18) - (10/34)
+ - [10] ReadRange
+
+
+2024-04-20 20:08:42,213 [TScriptEngine] INFO  JobRequest
+ - STEP 11: Sf179dc02da1e444b891e6dc9f1bd3850 (11/18) - (11/34)
+ - [11] IfThen
+
+
+2024-04-20 20:08:42,229 [TScriptEngine] INFO  JobRequest
+ - STEP 12: S66814069ae31455499a502c05b32a3eb (15/18) - (32/34)
+ - [15] End-IfThen
+
+
+2024-04-20 20:08:42,245 [TScriptEngine] INFO  JobRequest
+ - STEP 13: S1da9a24927094a558b63654f8830a226 (16/18) - (33/34)
+ - [16] End-IfElse
+
+
+2024-04-20 20:08:42,261 [TScriptEngine] INFO  JobRequest
+ - STEP 14: S09d63d9d3fda427bb7475440858c030e (5/18) - (33/34)
+ - [5] ReadString
+
+
+2024-04-20 20:08:42,339 [TScriptEngine] INFO  JobRequest
+ - STEP 15: S7e95aa17246a433abdcada2f20679a68 (6/18) - (33/34)
+ - [6] ExecuteScript
+
+
+2024-04-20 20:08:42,354 [TScriptEngine] INFO  JobRequest
+ - STEP 16: Sb01899dd9dcc43c9adaaaab1ed7a6f0c (7/18) - (33/34)
+ - [7] IfElse
+
+
+2024-04-20 20:08:42,370 [TScriptEngine] INFO  JobRequest
+ - STEP 17: S1294e846cb7e45fa87588af8fbb093d8 (8/18) - (33/34)
+ - [8] Else
+
+
+2024-04-20 20:08:42,386 [TScriptEngine] INFO  JobRequest
+ - STEP 18: S4520f5ba2c86491bb60615333cf09df3 (9/18) - (33/34)
+ - [9] GetActiveExcel
+
+
+2024-04-20 20:08:42,465 [TScriptEngine] INFO  JobRequest
+ - STEP 19: Sd2d8c5a614f84283bc4930fa6caf54a6 (10/18) - (33/34)
+ - [10] ReadRange
+
+
+2024-04-20 20:08:42,543 [TScriptEngine] INFO  JobRequest
+ - STEP 20: Sf179dc02da1e444b891e6dc9f1bd3850 (11/18) - (33/34)
+ - [11] IfThen
+
+
+2024-04-20 20:08:42,559 [TScriptEngine] INFO  JobRequest
+ - STEP 21: Sa9456650272b4b5e83a3073cf8af312a (12/18) - (33/34)
+ - [12] RunTask
+
+
+2024-04-20 20:08:42,582 [TScriptEngine] INFO  JobRequest
+##############################################################
+### STATE: StartTask - T_ReadData
+##############################################################
+050167e3-7605-4076-89ac-55f49898cab0
+T_ReadData
+
+
+2024-04-20 20:08:42,590 [TScriptEngine] INFO  JobRequest
+**************************************************************
+*** TASK: T_ReadData
+**************************************************************
+ - STEP 22: S7b5451ab03f24e968aa01b02443d0230 (1/17) - (33/34)
+ - [1] ChromeOpen
+
+
+2024-04-20 20:08:42,761 [T11] DEBUG ChromeCommonExtension
+extension default locale empty
+
+2024-04-20 20:08:42,762 [T11] DEBUG ChromeCommonExtension
+extension default locale empty
+
+2024-04-20 20:08:43,625 [T11] DEBUG ChromeCommonExtension
+extension default locale empty
+
+2024-04-20 20:08:43,642 [T11] DEBUG ChromeCommonExtension
+extension default locale empty
+
+2024-04-20 20:08:49,706 [TScriptEngine] INFO  JobRequest
+ - STEP 23: S28ce395c2bad42d2ad72147b0f13f61c (2/17) - (33/34)
+ - [2] Click
+
+
+2024-04-20 20:08:50,335 [T13] INFO  UIAEventHandler
+Start UIA event handler
+
+2024-04-20 20:08:51,344 [T13] DEBUG UIAEventHandler
+UI Structure Changed Count: 0
+
+2024-04-20 20:08:51,344 [T13] INFO  UIAEventHandler
+waiting for 668 msec during the screen structure is changing.
+
+2024-04-20 20:08:54,275 [TScriptEngine] INFO  JobRequest
+ - STEP 24: S74259ddc3cd649838accf6e4495a26c4 (3/17) - (33/34)
+ - [3] Click
+
+
+2024-04-20 20:08:55,861 [TScriptEngine] INFO  JobRequest
+ - STEP 25: Se7fca5c8ea684934b2707476821de1eb (4/17) - (33/34)
+ - [4] WaitAppear
+
+
+2024-04-20 20:08:57,476 [T19] WARN  WinElementTargetFinder
+Found element is destroyed.
+
+2024-04-20 20:08:59,050 [TScriptEngine] INFO  JobRequest
+ - STEP 26: Sbfebe55bbe8746b2822da9cbed34d88c (5/17) - (33/34)
+ - [5] Click
+
+
+2024-04-20 20:09:00,062 [T20] DEBUG UIAEventHandler
+UI Structure Changed Count: 0
+
+2024-04-20 20:09:00,062 [T20] INFO  UIAEventHandler
+waiting for 983 msec during the screen structure is changing.
+
+2024-04-20 20:09:00,876 [TScriptEngine] INFO  JobRequest
+ - STEP 27: S841084c431474584b63edfae191f9600 (6/17) - (33/34)
+ - [6] WaitAppear
+
+
+2024-04-20 20:09:03,530 [TScriptEngine] INFO  JobRequest
+ - STEP 28: S0b378dafa20342eabadd82ecdb4a54b2 (7/17) - (33/34)
+ - [7] WaitAppear
+
+
+2024-04-20 20:09:08,360 [TScriptEngine] INFO  JobRequest
+ - STEP 29: Se42655ba1e1144508c70d4d4e6bc5645 (8/17) - (33/34)
+ - [8] ChromeGetData
+
+
+2024-04-20 20:09:09,361 [TScriptEngine] INFO  JobRequest
+ - STEP 30: S07a6862599344a3cb4f9d8f92573b57c (9/17) - (33/34)
+ - [9] ChromeGetData
+
+
+2024-04-20 20:09:10,542 [TScriptEngine] DEBUG ChromeFind
+Chrome Find Wrapper : The object was not found.
+Please re-specify the object.
+
+2024-04-20 20:09:10,549 [TScriptEngine] WARN  ScriptSupport
+CatchException: The object was not found.
+Please re-specify the object.
+
+2024-04-20 20:09:10,551 [TScriptEngine] INFO  JobRequest
+ - STEP 31: Sc567a2717a14482baf6990d452159f80 (10/17) - (33/34)
+ - [10] Click
+
+
+2024-04-20 20:09:11,382 [TScriptEngine] INFO  JobRequest
+ - STEP 32: Sc1d75d0190034baca217e2378949610e (11/17) - (33/34)
+ - [11] Click
+
+
+2024-04-20 20:09:12,389 [T21] DEBUG UIAEventHandler
+UI Structure Changed Count: 0
+
+2024-04-20 20:09:12,389 [T21] INFO  UIAEventHandler
+waiting for 938 msec during the screen structure is changing.
+
+2024-04-20 20:09:13,968 [T21] DEBUG UIAEventHandler
+UI Structure Changed Count: 0
+
+2024-04-20 20:09:13,968 [T21] INFO  UIAEventHandler
+waiting for 763 msec during the screen structure is changing.
+
+2024-04-20 20:09:20,497 [TScriptEngine] INFO  JobRequest
+ - STEP 33: S5dcbe24ae3c04ed3ad3bfe00fefd64de (12/17) - (33/34)
+ - [12] GetText
+
+
+2024-04-20 20:09:20,876 [TScriptEngine] DEBUG UIAElement
+Failed to get object text information: O método ou a operação não está implementada.
+
+2024-04-20 20:09:20,890 [TScriptEngine] INFO  JobRequest
+ - STEP 34: Sbde1623e24bc4214bb96f9bccafb285f (13/17) - (33/34)
+ - [13] GetActiveExcel
+
+
+2024-04-20 20:09:21,855 [TScriptEngine] INFO  JobRequest
+ - STEP 35: S9bd1d47825ec4548801937604e06103c (14/17) - (33/34)
+ - [14] WriteString
+
+
+2024-04-20 20:09:22,233 [TScriptEngine] INFO  JobRequest
+ - STEP 36: Sffd9ac747bf54859ad6159140bb52f88 (15/17) - (33/34)
+ - [15] WriteString
+
+
+2024-04-20 20:09:22,386 [TScriptEngine] INFO  JobRequest
+ - STEP 37: Sfd17e47c3890492aa7522e4a155f23f6 (16/17) - (33/34)
+ - [16] WriteString
+
+
+2024-04-20 20:09:22,555 [TScriptEngine] INFO  JobRequest
+ - STEP 38: S838f13c11f9548efa33b84c5cfd07bdb (17/17) - (33/34)
+ - [17] WriteString
+
+
+2024-04-20 20:09:22,678 [TScriptEngine] INFO  JobRunner
+[PASS] TASK: T_ReadData
+
+2024-04-20 20:09:22,703 [TScriptEngine] INFO  JobRequest
+##############################################################
+### STATE: EndTask - T_ReadData
+##############################################################
+050167e3-7605-4076-89ac-55f49898cab0
+T_ReadData
+
+
+2024-04-20 20:09:22,727 [TScriptEngine] INFO  JobRequest
+**************************************************************
+*** TASK: P_Atividade
+**************************************************************
+ - STEP 39: Sfe63f6adeeb3440ba540b6dc3a8f15bb (13/18) - (33/34)
+ - [13] SaveExcel
+
+
+2024-04-20 20:09:22,917 [TScriptEngine] INFO  JobRequest
+ - STEP 40: Sdea2da61b925487181471142e9aaa813 (14/18) - (33/34)
+ - [14] ChromeClose
+
+
+2024-04-20 20:09:24,960 [TScriptEngine] INFO  JobRequest
+ - STEP 41: S66814069ae31455499a502c05b32a3eb (15/18) - (33/34)
+ - [15] End-IfThen
+
+
+2024-04-20 20:09:24,976 [TScriptEngine] INFO  JobRequest
+ - STEP 42: S1da9a24927094a558b63654f8830a226 (16/18) - (33/34)
+ - [16] End-IfElse
+
+
+2024-04-20 20:09:24,991 [TScriptEngine] INFO  JobRequest
+ - STEP 43: S09d63d9d3fda427bb7475440858c030e (5/18) - (33/34)
+ - [5] ReadString
+
+
+2024-04-20 20:09:25,086 [TScriptEngine] INFO  JobRequest
+ - STEP 44: S7e95aa17246a433abdcada2f20679a68 (6/18) - (33/34)
+ - [6] ExecuteScript
+
+
+2024-04-20 20:09:25,101 [TScriptEngine] INFO  JobRequest
+ - STEP 45: Sb01899dd9dcc43c9adaaaab1ed7a6f0c (7/18) - (33/34)
+ - [7] IfElse
+
+
+2024-04-20 20:09:25,117 [TScriptEngine] INFO  JobRequest
+ - STEP 46: S1294e846cb7e45fa87588af8fbb093d8 (8/18) - (33/34)
+ - [8] Else
+
+
+2024-04-20 20:09:25,132 [TScriptEngine] INFO  JobRequest
+ - STEP 47: S4520f5ba2c86491bb60615333cf09df3 (9/18) - (33/34)
+ - [9] GetActiveExcel
+
+
+2024-04-20 20:09:25,180 [TScriptEngine] INFO  JobRequest
+ - STEP 48: Sd2d8c5a614f84283bc4930fa6caf54a6 (10/18) - (33/34)
+ - [10] ReadRange
+
+
+2024-04-20 20:09:25,259 [TScriptEngine] INFO  JobRequest
+ - STEP 49: Sf179dc02da1e444b891e6dc9f1bd3850 (11/18) - (33/34)
+ - [11] IfThen
+
+
+2024-04-20 20:09:25,275 [TScriptEngine] INFO  JobRequest
+ - STEP 50: Sa9456650272b4b5e83a3073cf8af312a (12/18) - (33/34)
+ - [12] RunTask
+
+
+2024-04-20 20:09:25,290 [TScriptEngine] INFO  JobRequest
+##############################################################
+### STATE: StartTask - T_ReadData
+##############################################################
+050167e3-7605-4076-89ac-55f49898cab0
+T_ReadData
+
+
+2024-04-20 20:09:25,306 [TScriptEngine] INFO  JobRequest
+**************************************************************
+*** TASK: T_ReadData
+**************************************************************
+ - STEP 51: S7b5451ab03f24e968aa01b02443d0230 (1/17) - (33/34)
+ - [1] ChromeOpen
+
+
+2024-04-20 20:09:26,125 [T28] DEBUG ChromeCommonExtension
+extension default locale empty
+
+2024-04-20 20:09:26,127 [T28] DEBUG ChromeCommonExtension
+extension default locale empty
+
+2024-04-20 20:09:26,924 [T28] DEBUG ChromeCommonExtension
+extension default locale empty
+
+2024-04-20 20:09:26,926 [T28] DEBUG ChromeCommonExtension
+extension default locale empty
+
+2024-04-20 20:09:31,192 [TScriptEngine] INFO  JobRequest
+ - STEP 52: S28ce395c2bad42d2ad72147b0f13f61c (2/17) - (33/34)
+ - [2] Click
+
+
+2024-04-20 20:09:33,435 [TScriptEngine] INFO  JobRequest
+ - STEP 53: S74259ddc3cd649838accf6e4495a26c4 (3/17) - (33/34)
+ - [3] Click
+
+
+2024-04-20 20:09:35,027 [TScriptEngine] INFO  JobRequest
+ - STEP 54: Se7fca5c8ea684934b2707476821de1eb (4/17) - (33/34)
+ - [4] WaitAppear
+
+
+2024-04-20 20:09:36,470 [T24] DEBUG UIAEventHandler
+UI Structure Changed Count: 0
+
+2024-04-20 20:09:36,470 [T24] INFO  UIAEventHandler
+waiting for 25 msec during the screen structure is changing.
+
+2024-04-20 20:09:36,487 [TScriptEngine] INFO  JobRequest
+ - STEP 55: Sbfebe55bbe8746b2822da9cbed34d88c (5/17) - (33/34)
+ - [5] Click
+
+
+2024-04-20 20:09:37,384 [T22] DEBUG UIAEventHandler
+UI Structure Changed Count: 0
+
+2024-04-20 20:09:37,384 [T22] INFO  UIAEventHandler
+waiting for 822 msec during the screen structure is changing.
+
+2024-04-20 20:09:38,616 [TScriptEngine] INFO  JobRequest
+ - STEP 56: S841084c431474584b63edfae191f9600 (6/17) - (33/34)
+ - [6] WaitAppear
+
+
+2024-04-20 20:09:41,435 [TScriptEngine] INFO  JobRequest
+ - STEP 57: S0b378dafa20342eabadd82ecdb4a54b2 (7/17) - (33/34)
+ - [7] WaitAppear
+
+
+2024-04-20 20:09:42,437 [T20] DEBUG UIAEventHandler
+UI Structure Changed Count: 0
+
+2024-04-20 20:09:42,437 [T20] INFO  UIAEventHandler
+waiting for 462 msec during the screen structure is changing.
+
+2024-04-20 20:09:42,670 [T20] WARN  UIAHelper
+[1] Too many child elements are found. (Count 100)
+
+2024-04-20 20:09:42,984 [T20] WARN  UIAHelper
+[1] Too many child elements are found. (Count 100)
+
+2024-04-20 20:09:45,765 [T20] WARN  UIAHelper
+[1] Too many child elements are found. (Count 100)
+
+2024-04-20 20:09:46,096 [T20] WARN  UIAHelper
+[1] Too many child elements are found. (Count 100)
+
+2024-04-20 20:09:46,960 [TScriptEngine] INFO  JobRequest
+ - STEP 58: Se42655ba1e1144508c70d4d4e6bc5645 (8/17) - (33/34)
+ - [8] ChromeGetData
+
+
+2024-04-20 20:09:47,164 [TScriptEngine] INFO  JobRequest
+ - STEP 59: S07a6862599344a3cb4f9d8f92573b57c (9/17) - (33/34)
+ - [9] ChromeGetData
+
+
+2024-04-20 20:09:48,224 [TScriptEngine] DEBUG ChromeFind
+Chrome Find Wrapper : The object was not found.
+Please re-specify the object.
+
+2024-04-20 20:09:48,226 [TScriptEngine] WARN  ScriptSupport
+CatchException: The object was not found.
+Please re-specify the object.
+
+2024-04-20 20:09:48,237 [TScriptEngine] INFO  JobRequest
+ - STEP 60: Sc567a2717a14482baf6990d452159f80 (10/17) - (33/34)
+ - [10] Click
+
+
+2024-04-20 20:09:49,235 [TScriptEngine] INFO  JobRequest
+ - STEP 61: Sc1d75d0190034baca217e2378949610e (11/17) - (33/34)
+ - [11] Click
+
+
+2024-04-20 20:09:50,141 [T19] DEBUG UIAEventHandler
+UI Structure Changed Count: 0
+
+2024-04-20 20:09:50,142 [T19] INFO  UIAEventHandler
+waiting for 702 msec during the screen structure is changing.
+
+2024-04-20 20:09:52,167 [T19] DEBUG UIAEventHandler
+UI Structure Changed Count: 0
+
+2024-04-20 20:09:52,167 [T19] INFO  UIAEventHandler
+waiting for 219 msec during the screen structure is changing.
+
+2024-04-20 20:09:56,991 [TScriptEngine] INFO  JobRequest
+ - STEP 62: S5dcbe24ae3c04ed3ad3bfe00fefd64de (12/17) - (33/34)
+ - [12] GetText
+
+
+2024-04-20 20:09:57,183 [TScriptEngine] DEBUG UIAElement
+Failed to get object text information: O método ou a operação não está implementada.
+
+2024-04-20 20:09:57,192 [TScriptEngine] INFO  JobRequest
+ - STEP 63: Sbde1623e24bc4214bb96f9bccafb285f (13/17) - (33/34)
+ - [13] GetActiveExcel
+
+
+2024-04-20 20:09:57,285 [TScriptEngine] INFO  JobRequest
+ - STEP 64: S9bd1d47825ec4548801937604e06103c (14/17) - (33/34)
+ - [14] WriteString
+
+
+2024-04-20 20:09:57,477 [TScriptEngine] INFO  JobRequest
+ - STEP 65: Sffd9ac747bf54859ad6159140bb52f88 (15/17) - (33/34)
+ - [15] WriteString
+
+
+2024-04-20 20:09:57,612 [TScriptEngine] INFO  JobRequest
+ - STEP 66: Sfd17e47c3890492aa7522e4a155f23f6 (16/17) - (33/34)
+ - [16] WriteString
+
+
+2024-04-20 20:09:57,830 [TScriptEngine] INFO  JobRequest
+ - STEP 67: S838f13c11f9548efa33b84c5cfd07bdb (17/17) - (33/34)
+ - [17] WriteString
+
+
+2024-04-20 20:09:57,999 [TScriptEngine] INFO  JobRunner
+[PASS] TASK: T_ReadData
+
+2024-04-20 20:09:58,003 [TScriptEngine] INFO  JobRequest
+##############################################################
+### STATE: EndTask - T_ReadData
+##############################################################
+050167e3-7605-4076-89ac-55f49898cab0
+T_ReadData
+
+
+2024-04-20 20:09:58,019 [TScriptEngine] INFO  JobRequest
+**************************************************************
+*** TASK: P_Atividade
+**************************************************************
+ - STEP 68: Sfe63f6adeeb3440ba540b6dc3a8f15bb (13/18) - (33/34)
+ - [13] SaveExcel
+
+
+2024-04-20 20:09:58,223 [TScriptEngine] INFO  JobRequest
+ - STEP 69: Sdea2da61b925487181471142e9aaa813 (14/18) - (33/34)
+ - [14] ChromeClose
+
+
+2024-04-20 20:10:13,886 [TScriptEngine] INFO  JobRequest
+ - STEP 70: S66814069ae31455499a502c05b32a3eb (15/18) - (33/34)
+ - [15] End-IfThen
+
+
+2024-04-20 20:10:13,902 [TScriptEngine] INFO  JobRequest
+ - STEP 71: S1da9a24927094a558b63654f8830a226 (16/18) - (33/34)
+ - [16] End-IfElse
+
+
+2024-04-20 20:10:13,918 [TScriptEngine] INFO  JobRequest
+ - STEP 72: S09d63d9d3fda427bb7475440858c030e (5/18) - (33/34)
+ - [5] ReadString
+
+
+2024-04-20 20:10:14,025 [TScriptEngine] INFO  JobRequest
+ - STEP 73: S7e95aa17246a433abdcada2f20679a68 (6/18) - (33/34)
+ - [6] ExecuteScript
+
+
+2024-04-20 20:10:14,041 [TScriptEngine] INFO  JobRequest
+ - STEP 74: Sb01899dd9dcc43c9adaaaab1ed7a6f0c (7/18) - (33/34)
+ - [7] IfElse
+
+
+2024-04-20 20:10:14,057 [TScriptEngine] INFO  JobRequest
+ - STEP 75: S1294e846cb7e45fa87588af8fbb093d8 (8/18) - (33/34)
+ - [8] Else
+
+
+2024-04-20 20:10:14,073 [TScriptEngine] INFO  JobRequest
+ - STEP 76: S4520f5ba2c86491bb60615333cf09df3 (9/18) - (33/34)
+ - [9] GetActiveExcel
+
+
+2024-04-20 20:10:14,136 [TScriptEngine] INFO  JobRequest
+ - STEP 77: Sd2d8c5a614f84283bc4930fa6caf54a6 (10/18) - (33/34)
+ - [10] ReadRange
+
+
+2024-04-20 20:10:14,246 [TScriptEngine] INFO  JobRequest
+ - STEP 78: Sf179dc02da1e444b891e6dc9f1bd3850 (11/18) - (33/34)
+ - [11] IfThen
+
+
+2024-04-20 20:10:14,261 [TScriptEngine] INFO  JobRequest
+ - STEP 79: Sa9456650272b4b5e83a3073cf8af312a (12/18) - (33/34)
+ - [12] RunTask
+
+
+2024-04-20 20:10:14,283 [TScriptEngine] INFO  JobRequest
+##############################################################
+### STATE: StartTask - T_ReadData
+##############################################################
+050167e3-7605-4076-89ac-55f49898cab0
+T_ReadData
+
+
+2024-04-20 20:10:14,292 [TScriptEngine] INFO  JobRequest
+**************************************************************
+*** TASK: T_ReadData
+**************************************************************
+ - STEP 80: S7b5451ab03f24e968aa01b02443d0230 (1/17) - (33/34)
+ - [1] ChromeOpen
+
+
+2024-04-20 20:10:14,299 [T13] DEBUG ChromeCommonExtension
+extension default locale empty
+
+2024-04-20 20:10:14,300 [T13] DEBUG ChromeCommonExtension
+extension default locale empty
+
+2024-04-20 20:10:15,063 [T13] DEBUG ChromeCommonExtension
+extension default locale empty
+
+2024-04-20 20:10:15,066 [T13] DEBUG ChromeCommonExtension
+extension default locale empty
+
+2024-04-20 20:10:23,026 [TScriptEngine] INFO  JobRequest
+ - STEP 81: S28ce395c2bad42d2ad72147b0f13f61c (2/17) - (33/34)
+ - [2] Click
+
+
+2024-04-20 20:10:24,127 [T15] DEBUG UIAEventHandler
+UI Structure Changed Count: 0
+
+2024-04-20 20:10:24,128 [T15] INFO  UIAEventHandler
+waiting for 107 msec during the screen structure is changing.
+
+2024-04-20 20:10:25,291 [TScriptEngine] INFO  JobRequest
+ - STEP 82: S74259ddc3cd649838accf6e4495a26c4 (3/17) - (33/34)
+ - [3] Click
+
+
+2024-04-20 20:10:27,007 [TScriptEngine] INFO  JobRequest
+ - STEP 83: Se7fca5c8ea684934b2707476821de1eb (4/17) - (33/34)
+ - [4] WaitAppear
+
+
+2024-04-20 20:10:28,337 [T13] WARN  WinElementTargetFinder
+Found element is destroyed.
+
+2024-04-20 20:10:30,131 [TScriptEngine] INFO  JobRequest
+ - STEP 84: Sbfebe55bbe8746b2822da9cbed34d88c (5/17) - (33/34)
+ - [5] Click
+
+
+2024-04-20 20:10:31,181 [T22] DEBUG UIAEventHandler
+UI Structure Changed Count: 0
+
+2024-04-20 20:10:31,181 [T22] INFO  UIAEventHandler
+waiting for 999 msec during the screen structure is changing.
+
+2024-04-20 20:10:32,427 [TScriptEngine] INFO  JobRequest
+ - STEP 85: S841084c431474584b63edfae191f9600 (6/17) - (33/34)
+ - [6] WaitAppear
+
+
+2024-04-20 20:10:35,986 [TScriptEngine] INFO  JobRequest
+ - STEP 86: S0b378dafa20342eabadd82ecdb4a54b2 (7/17) - (33/34)
+ - [7] WaitAppear
+
+
+2024-04-20 20:10:36,851 [TScriptEngine] INFO  JobRequest
+ - STEP 87: Se42655ba1e1144508c70d4d4e6bc5645 (8/17) - (33/34)
+ - [8] ChromeGetData
+
+
+2024-04-20 20:10:37,139 [TScriptEngine] INFO  JobRequest
+ - STEP 88: S07a6862599344a3cb4f9d8f92573b57c (9/17) - (33/34)
+ - [9] ChromeGetData
+
+
+2024-04-20 20:10:37,324 [TScriptEngine] INFO  JobRequest
+ - STEP 89: Sc567a2717a14482baf6990d452159f80 (10/17) - (33/34)
+ - [10] Click
+
+
+2024-04-20 20:10:37,884 [T22] DEBUG UIAEventHandler
+UI Structure Changed Count: 0
+
+2024-04-20 20:10:37,884 [T22] INFO  UIAEventHandler
+waiting for 538 msec during the screen structure is changing.
+
+2024-04-20 20:10:40,098 [TScriptEngine] INFO  JobRequest
+ - STEP 90: Sc1d75d0190034baca217e2378949610e (11/17) - (33/34)
+ - [11] Click
+
+
+2024-04-20 20:10:40,974 [TScriptEngine] INFO  JobRequest
+ - STEP 91: S5dcbe24ae3c04ed3ad3bfe00fefd64de (12/17) - (33/34)
+ - [12] GetText
+
+
+2024-04-20 20:10:42,002 [T16] DEBUG UIAEventHandler
+UI Structure Changed Count: 0
+
+2024-04-20 20:10:42,002 [T16] INFO  UIAEventHandler
+waiting for 899 msec during the screen structure is changing.
+
+2024-04-20 20:10:42,390 [T16] DEBUG UIAEventHandler
+UI Structure Changed Count: 0
+
+2024-04-20 20:10:42,390 [T16] INFO  UIAEventHandler
+waiting for 101 msec during the screen structure is changing.
+
+2024-04-20 20:10:42,393 [TScriptEngine] DEBUG UIAElement
+Failed to get object text information: O método ou a operação não está implementada.
+
+2024-04-20 20:10:42,406 [TScriptEngine] INFO  JobRequest
+ - STEP 92: Sbde1623e24bc4214bb96f9bccafb285f (13/17) - (33/34)
+ - [13] GetActiveExcel
+
+
+2024-04-20 20:10:42,469 [TScriptEngine] INFO  JobRequest
+ - STEP 93: S9bd1d47825ec4548801937604e06103c (14/17) - (33/34)
+ - [14] WriteString
+
+
+2024-04-20 20:10:42,655 [TScriptEngine] INFO  JobRequest
+ - STEP 94: Sffd9ac747bf54859ad6159140bb52f88 (15/17) - (33/34)
+ - [15] WriteString
+
+
+2024-04-20 20:10:42,799 [TScriptEngine] INFO  JobRequest
+ - STEP 95: Sfd17e47c3890492aa7522e4a155f23f6 (16/17) - (33/34)
+ - [16] WriteString
+
+
+2024-04-20 20:10:42,922 [TScriptEngine] INFO  JobRequest
+ - STEP 96: S838f13c11f9548efa33b84c5cfd07bdb (17/17) - (33/34)
+ - [17] WriteString
+
+
+2024-04-20 20:10:43,026 [TScriptEngine] INFO  JobRunner
+[PASS] TASK: T_ReadData
+
+2024-04-20 20:10:43,027 [TScriptEngine] INFO  JobRequest
+##############################################################
+### STATE: EndTask - T_ReadData
+##############################################################
+050167e3-7605-4076-89ac-55f49898cab0
+T_ReadData
+
+
+2024-04-20 20:10:43,031 [TScriptEngine] INFO  JobRequest
+**************************************************************
+*** TASK: P_Atividade
+**************************************************************
+ - STEP 97: Sfe63f6adeeb3440ba540b6dc3a8f15bb (13/18) - (33/34)
+ - [13] SaveExcel
+
+
+2024-04-20 20:10:43,234 [TScriptEngine] INFO  JobRequest
+ - STEP 98: Sdea2da61b925487181471142e9aaa813 (14/18) - (33/34)
+ - [14] ChromeClose
+
+
+2024-04-20 20:10:45,175 [TScriptEngine] INFO  JobRequest
+ - STEP 99: S66814069ae31455499a502c05b32a3eb (15/18) - (33/34)
+ - [15] End-IfThen
+
+
+2024-04-20 20:10:45,191 [TScriptEngine] INFO  JobRequest
+ - STEP 100: S1da9a24927094a558b63654f8830a226 (16/18) - (33/34)
+ - [16] End-IfElse
+
+
+2024-04-20 20:10:45,206 [TScriptEngine] INFO  JobRequest
+ - STEP 101: S09d63d9d3fda427bb7475440858c030e (5/18) - (33/34)
+ - [5] ReadString
+
+
+2024-04-20 20:10:45,332 [TScriptEngine] INFO  JobRequest
+ - STEP 102: S7e95aa17246a433abdcada2f20679a68 (6/18) - (33/34)
+ - [6] ExecuteScript
+
+
+2024-04-20 20:10:45,333 [TScriptEngine] INFO  JobRunner
+[PASS] TASK: P_Atividade
+
+2024-04-20 20:10:45,334 [TScriptEngine] INFO  JobRequest
+##############################################################
+### STATE: EndProcess - P_Atividade
+##############################################################
+05688af9-4021-4715-968f-8735111f8ff4
+P_Atividade
+
+
+2024-04-20 20:10:45,351 [TScriptEngine] INFO  JobRunner
+RunProcess - Job Result: {}
+
+2024-04-20 20:10:45,351 [TScriptEngine] DEBUG JobManager
+Set Result State: Completed
+
+2024-04-20 20:10:45,356 [TScriptEngine] INFO  JobRunner
+Make report.
+
+2024-04-20 20:10:45,409 [TScriptEngine] INFO  JobRunner
+Start to clean up resources.
+
+2024-04-20 20:10:45,410 [TScriptEngine] DEBUG JobRunner
+OnProcessCompleted
+
+2024-04-20 20:10:45,410 [T15] DEBUG JobRunner
+Start timer for checking the job to be completed.
+
+2024-04-20 20:10:45,414 [TScriptEngine] DEBUG ExcelBase
+DisposeExcel
+
+2024-04-20 20:10:45,433 [TScriptEngine] INFO  JobRunner
+Start to clean up resources.
+
+2024-04-20 20:10:45,435 [TScriptEngine] DEBUG JobRunner
+Remove all libraries
+
+2024-04-20 20:10:45,436 [TScriptEngine] DEBUG NetPlayer
+WebPlayer OnDispose
+
+2024-04-20 20:10:45,439 [TScriptEngine] DEBUG WebPlayer
+WebPlayer OnDispose : Do Nothing
+
+2024-04-20 20:10:45,440 [TScriptEngine] DEBUG UIAEventHandler
+Stop UIA event handler
+
+2024-04-20 20:10:45,449 [TScriptEngine] DEBUG UiaAppHelper
+WinHelper DisposeAppList Count: 0
+
+2024-04-20 20:10:45,449 [TScriptEngine] INFO  JobRunner
+All Resources Clear
+
+2024-04-20 20:10:45,450 [TScriptEngine] DEBUG JobRunner
+OnCompleted
+
+2024-04-20 20:10:45,451 [TScriptEngine] DEBUG JobRunner
+SendJobResult: Completed
+
+2024-04-20 20:10:45,451 [TScriptEngine] INFO  JobRequest
+##############################################################
+### STATE: Completed
+##############################################################
+{}
+
+
+2024-04-20 20:10:45,451 [TScriptEngine] INFO  JobRequest
+Last job life cycle state: Completed
+
+2024-04-20 20:10:45,451 [TScriptEngine] INFO  JobRequest
+Update skipped current step informations.
+
+2024-04-20 20:10:45,464 [TScriptEngine] INFO  JobRequest
+##############################################################
+### JOB COMPLETED
+##############################################################
+
+
+2024-04-20 20:10:45,473 [T12] DEBUG JobRequest
+Callback - State: Completed
+{}
+
+2024-04-20 20:10:45,474 [T12] INFO  JobRequest
+Callback - EngineClosed
+
+2024-04-20 20:10:45,475 [T12] INFO  JobService
+Disconnect agent service
+
+2024-04-20 20:10:45,477 [T12] DEBUG JobRequest
+End of Callback Sender
+
+2024-04-20 20:10:45,489 [TScriptEngine] INFO  JobRunner
+RunProcess end
+
+2024-04-20 20:10:45,489 [T1] INFO  JobService
+Exit - Shutdown Engine BOT
+

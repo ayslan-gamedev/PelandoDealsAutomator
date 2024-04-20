@@ -1,16 +1,13 @@
-<Project id="03759a6b-3f66-440c-8505-00ac443627d4" namespace="" name="Atividade" desc="Uma automatização simples para buscar produtos em um determinado site" category="project" workType="foreground" version="1.00" lastPublishedDate="" lastPublishedBy="" createdDate="2024-04-17 14:24:14" createdBy="" latestProcess="T_ReadData" designerVersion="3.1.000.01101" DesignedBy="">
+<Project id="03759a6b-3f66-440c-8505-00ac443627d4" namespace="" name="Atividade" desc="Uma automatização simples para buscar produtos em um determinado site" category="project" workType="foreground" version="1.00" lastPublishedDate="" lastPublishedBy="" createdDate="2024-04-17 14:24:14" createdBy="" latestProcess="P_Atividade" designerVersion="3.1.000.01101" DesignedBy="">
   <SharedTask isExpended="false" />
   <NormalTask isExpended="true">
-    <LinkItem id="050167e3-7605-4076-89ac-55f49898cab0" category="NormalTask" isChanged="Y" desc="" stepCount="16" name="T_ReadData">
+    <LinkItem id="050167e3-7605-4076-89ac-55f49898cab0" category="NormalTask" isChanged="Y" desc="" stepCount="17" name="T_ReadData">
       <Properties />
     </LinkItem>
   </NormalTask>
   <Event isExpended="false" />
   <Process isExpended="true">
-    <LinkItem id="05688af9-4021-4715-968f-8735111f8ff4" category="Process" isChanged="Y" desc="default process" stepCount="17" name="P_Atividade">
-      <Properties />
-    </LinkItem>
-    <LinkItem id="d1a6c5e9-983a-4be6-acd0-56c4e179a4e6" category="Process" isChanged="Y" desc="" stepCount="0" name="P_test">
+    <LinkItem id="05688af9-4021-4715-968f-8735111f8ff4" category="Process" isChanged="Y" desc="default process" stepCount="18" name="P_Atividade">
       <Properties />
     </LinkItem>
   </Process>
@@ -34,4 +31,4 @@
     <string>Chrome</string>
     <string>Win</string>
   </DisplayLibraries>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>/Dj3lexnNLDVVlQuJ8xQWGdsSAg=</DigestValue></Reference></SignedInfo><SignatureValue>srbixEjtbZW2Y9E9GA3zpP+WPyxC833qbmy+gLMlv08RcDJTwejnx0dhDhn/QcCXOKou7OCBxKEedR3TQePLETbtiZSt45cj/HJJy6qnqW4xykgAoOBjAaRIh/45QzkbblZkGMzyHtV7RPqDPn1dhrnrAbNqwchuO1HbcET7pIKvtFMMRJIUbQUczaoCYji9r5M+p3ieu4aZBUe3+CJBOz3gHgzv9s5FEnVuBLowN4bxBZjRJNxx3q2veu7VIWFYHfXwZDLu0MkJu5pwyf8Y8EG633X4fr9fTfXPwx+iI4jW+3uZ1PSJHS7Rfg04aKJ29Sg32vdeAcCaH+5CX7EZ/A==</SignatureValue><KeyInfo><X509Data><X509SubjectName>CN=DESIGNER-00153, O=orch.sdsbrity.com, OU=IPA_DESIGNER, L="", S="", C=""</X509SubjectName></X509Data></KeyInfo></Signature></Project>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>1lx1vn+BObxivhhosZvB9dX/ZzQ=</DigestValue></Reference></SignedInfo><SignatureValue>gq3fzJZPr5Fn8zV8MS5LvOfhYmMEVKbsyOB2dnQS4JdiAxeBRmk120YCExCaQz9HC0Pni2787Bq8LBj9HzU5ocJQ7hI/oYP4FQfniAi2uwtHQfbPf+YxGpFwoVzCNmcs6aRUSDubj8lM0Qpe0sOoLwhbSVJZn4l7WSNF/Pwc1CzF0St8AAm98hnWnEbBkHfXytACcxM0Q+a7DCX7DRs15N4LkssvPc2OsOFRX8wCmgKZ/mMYwbikT5fdMc968HLCE6hhHxkqPpo7d0m0rc5ROQjCVpL2SPsLZ0R0NRpIXt4ewQSQ9eI8kEgshKqx7B7BKrqBN4Dlm/OG7c4iAyljZA==</SignatureValue><KeyInfo><X509Data><X509SubjectName>CN=DESIGNER-00153, O=orch.sdsbrity.com, OU=IPA_DESIGNER, L="", S="", C=""</X509SubjectName></X509Data></KeyInfo></Signature></Project>

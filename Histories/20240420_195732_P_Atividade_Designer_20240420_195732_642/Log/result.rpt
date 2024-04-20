@@ -1,0 +1,441 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Result id="05688af9-4021-4715-968f-8735111f8ff4" name="P_Atividade" result="Pass" detail="{}" start="2024-04-20T22:57:35.579" end="2024-04-20T22:57:40.604" jobId="Designer_20240420_195732_642">
+  <Step id="S81a0ebfb5a2c4a8b9a71dee37d7e0b78" taskName="P_Atividade" type="Flow" name="ExecuteScript" displayName="ExecuteScript" callDepth="1" depth="1" num="1" result="Pass" start="2024-04-20T22:57:35.648" end="2024-04-20T22:57:35.738" displayTime="0.1s">
+    <Variables />
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Options_OnError" displayKey="On Error" visible="true" required="false" />
+      <Property value="Declarate the product objet to use in collect data aplication" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="declareate_variables" runtimeType="String" key="Conditions_Title" displayKey="Title" visible="true" required="true" />
+      <Property value="&lt;Too Long&gt; // voce pode mudar a localização do excel de destino aqui. &#xD;&#xA;// certifique-se de seguir mesma format ... 359 more" runtimeType="String" key="Key_Script" displayKey="Script" visible="true" required="false" />
+    </Properties>
+  </Step>
+  <Step id="S2fe14a09e8ec4fee96d82b281a338c15" taskName="P_Atividade" type="Excel" name="OpenExcel" displayName="OpenExcel" callDepth="1" depth="1" num="2" result="Pass" start="2024-04-20T22:57:35.760" end="2024-04-20T22:57:37.378" displayTime="1.6s">
+    <Variables>
+      <Variable name="RESULT" scope="System" declareType="Any" isChanged="false" isChangable="true" runtimeType="Any" value="&lt;null&gt;" />
+    </Variables>
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Options_OnError" displayKey="On Error" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="RESULT : Workbook" runtimeType="Any" key="Output_OutputExcel" displayKey="Excel" visible="true" required="true" />
+      <Property value="'C:\\Data\\teste.xlsx'" runtimeType="String" key="File_Path" displayKey="Path" visible="true" required="true" />
+      <Property value="false" runtimeType="Boolean" key="File_Invisible" displayKey="Invisible" visible="true" required="false" />
+      <Property value="false" runtimeType="Boolean" key="File_ReadOnly" displayKey="ReadOnly" visible="true" required="false" />
+      <Property value="true" runtimeType="Boolean" key="File_Maximize" displayKey="Maximize" visible="true" required="false" />
+      <Property value="false" runtimeType="Boolean" key="File_ExecuteShell" displayKey="Execute Shell" visible="true" required="false" />
+      <Property value="60" runtimeType="Integer" key="File_Timeout" displayKey="Timeout" visible="false" required="true" />
+      <Property value="false" runtimeType="Boolean" key="File_UsePassword" displayKey="UsePassword" visible="true" required="false" />
+      <Property value="&lt;Secure Data&gt;" runtimeType="String" key="File_OpenPassword" displayKey="OpenPassword" visible="false" required="false" />
+      <Property value="&lt;Secure Data&gt;" runtimeType="String" key="File_WritePassword" displayKey="WritePassword" visible="false" required="false" />
+      <Property value="Comma(,)" runtimeType="String" key="File_TextDelimiter" displayKey="Text Delimiter" visible="true" required="false" />
+    </Properties>
+  </Step>
+  <Step id="Sa2ffea335c68462984398f8647d25471" taskName="P_Atividade" type="Excel" name="GetRowCount" displayName="GetRowCount" callDepth="1" depth="1" num="3" result="Pass" start="2024-04-20T22:57:37.392" end="2024-04-20T22:57:37.547" displayTime="0.2s">
+    <Variables />
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Options_OnError" displayKey="On Error" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="&lt;ActiveExcel&gt;" runtimeType="Any" key="Input_InputExcel" displayKey="Excel" visible="true" required="true" />
+      <Property value="this.row_count : 6" runtimeType="Integer" key="Output_OutputCount" displayKey="RowCount" visible="true" required="true" />
+      <Property value="&lt;ActiveSheet&gt;" runtimeType="Any" key="Sheet_SheetName" displayKey="SheetName" visible="true" required="true" />
+    </Properties>
+  </Step>
+  <Step id="Se4b2ea00830543c89117e6b63f8f7099" taskName="P_Atividade" type="Flow" name="Loop" displayName="For" callDepth="1" depth="1" num="4" result="Pass" start="2024-04-20T22:57:37.565" end="2024-04-20T22:57:37.567" displayTime="0s">
+    <Variables />
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="2" runtimeType="Integer" key="Conditions_InitializeIndex" displayKey="Initialize" visible="true" required="true" />
+      <Property value="true" runtimeType="Boolean" key="Conditions_LoopCondition" displayKey="Condition" visible="true" required="true" />
+      <Property value="2" runtimeType="Integer" key="Conditions_UpdateIndex" displayKey="Update" visible="true" required="true" />
+    </Properties>
+  </Step>
+  <Step id="Sdea2da61b925487181471142e9aaa813" taskName="P_Atividade" type="Chrome" name="ChromeClose" displayName="ChromeClose" callDepth="1" depth="2" num="5" result="Pass" start="2024-04-20T22:57:37.581" end="2024-04-20T22:57:39.089" displayTime="1.5s">
+    <Variables />
+    <Properties setIndex="0">
+      <Property value="--Ignore--" runtimeType="String" key="Options_OnError" displayKey="On Error" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="&lt;LatestBrowser&gt;" runtimeType="Any" key="CHROME_Browser" displayKey="Browser" visible="true" required="true" />
+    </Properties>
+  </Step>
+  <Step id="S09d63d9d3fda427bb7475440858c030e" taskName="P_Atividade" type="Excel" name="ReadString" displayName="ReadString" callDepth="1" depth="2" num="6" result="Pass" start="2024-04-20T22:57:39.105" end="2024-04-20T22:57:39.197" displayTime="0.1s">
+    <Variables />
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Options_OnError" displayKey="On Error" visible="true" required="false" />
+      <Property value="Sets the product value on name&#xD;&#xA;" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="this.product_name : 'Paçoca'" runtimeType="String" key="Output_ReadData" displayKey="ReadData" visible="true" required="true" />
+      <Property value="&lt;ActiveExcel&gt;" runtimeType="Any" key="Input_InputExcel" displayKey="Excel" visible="true" required="true" />
+      <Property value="&lt;ActiveSheet&gt;" runtimeType="Any" key="Sheet_SheetName" displayKey="SheetName" visible="true" required="true" />
+      <Property value="'A2'" runtimeType="String" key="Sheet_Cell" displayKey="Cell" visible="true" required="true" />
+    </Properties>
+  </Step>
+  <Step id="S7e95aa17246a433abdcada2f20679a68" taskName="P_Atividade" type="Flow" name="ExecuteScript" displayName="ExecuteScript" callDepth="1" depth="2" num="7" result="Pass" start="2024-04-20T22:57:39.200" end="2024-04-20T22:57:39.201" displayTime="0s">
+    <Variables />
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Options_OnError" displayKey="On Error" visible="true" required="false" />
+      <Property value="replace the &quot; &quot; character by &quot;-&quot; character" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="Clear Name" runtimeType="String" key="Conditions_Title" displayKey="Title" visible="true" required="true" />
+      <Property value="&lt;Too Long&gt; this.name_isempety = false;&#xD;&#xA;&#xD;&#xA;// case null or empty&#xD;&#xA;if(!this.product_name){&#xD;&#xA;    this.name_isempet ... 90 more" runtimeType="String" key="Key_Script" displayKey="Script" visible="true" required="false" />
+    </Properties>
+  </Step>
+  <Step id="Sb01899dd9dcc43c9adaaaab1ed7a6f0c" taskName="P_Atividade" type="Flow" name="Decision" displayName="IfElse" callDepth="1" depth="2" num="8" result="Pass" start="2024-04-20T22:57:39.215" end="2024-04-20T22:57:39.216" displayTime="0s">
+    <Variables />
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="this.name_isempety === true" runtimeType="String" key="Conditions_Expression" displayKey="If Condition" visible="false" required="true" />
+      <Property value="true" runtimeType="Boolean" key="Conditions_CombineCondition" displayKey="Combine Condition" visible="false" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Conditions_Expression1" displayKey="Condition" visible="true" required="true" />
+      <Property value="" runtimeType="String" key="Conditions_AddCondition" displayKey="Add Condition" visible="true" required="false" />
+    </Properties>
+  </Step>
+  <Step id="S1294e846cb7e45fa87588af8fbb093d8" taskName="P_Atividade" type="Flow" name="Else" displayName="Else" callDepth="1" depth="3" num="9" result="Pass" start="2024-04-20T22:57:39.231" end="2024-04-20T22:57:39.231" displayTime="0s">
+    <Variables />
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+    </Properties>
+  </Step>
+  <Step id="S4520f5ba2c86491bb60615333cf09df3" taskName="P_Atividade" type="Excel" name="GetActiveExcel" displayName="GetActiveExcel" callDepth="1" depth="3" num="10" result="Pass" start="2024-04-20T22:57:39.247" end="2024-04-20T22:57:39.305" displayTime="0.1s">
+    <Variables />
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Options_OnError" displayKey="On Error" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="this.actived_excel : Workbook" runtimeType="Any" key="Output_OutputExcel" displayKey="Excel" visible="true" required="true" />
+      <Property value="true" runtimeType="Boolean" key="File_Maximize" displayKey="Maximize" visible="true" required="false" />
+      <Property value="10" runtimeType="Integer" key="File_Timeout" displayKey="Timeout" visible="true" required="false" />
+    </Properties>
+  </Step>
+  <Step id="Sd2d8c5a614f84283bc4930fa6caf54a6" taskName="P_Atividade" type="Excel" name="ReadRange" displayName="ReadRange" callDepth="1" depth="3" num="11" result="Pass" start="2024-04-20T22:57:39.311" end="2024-04-20T22:57:39.449" displayTime="0.1s">
+    <Variables />
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Options_OnError" displayKey="On Error" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="&lt;ActiveExcel&gt;" runtimeType="Any" key="Input_InputExcel" displayKey="Excel" visible="true" required="true" />
+      <Property value="this.old_time : 'Sat Apr 20 2024'" runtimeType="String" key="Output_DataArray" displayKey="DataArray" visible="true" required="true" />
+      <Property value="&lt;ActiveSheet&gt;" runtimeType="Any" key="Sheet_SheetName" displayKey="SheetName" visible="true" required="true" />
+      <Property value="'E2'" runtimeType="String" key="Sheet_Range" displayKey="Range" visible="true" required="true" />
+      <Property value="Value" runtimeType="String" key="Input_ReadCellType" displayKey="ReadCellType" visible="true" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Input_Read2DAlways" displayKey="Read2DAlways" visible="true" required="false" />
+    </Properties>
+  </Step>
+  <Step id="Sf179dc02da1e444b891e6dc9f1bd3850" taskName="P_Atividade" type="Flow" name="DecisionThen" displayName="IfThen" callDepth="1" depth="3" num="12" result="Pass" start="2024-04-20T22:57:39.454" end="2024-04-20T22:57:39.457" displayTime="0s">
+    <Variables />
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="this.old_time !== this.current_time" runtimeType="String" key="Conditions_Expression" displayKey="IfThen Condition" visible="false" required="true" />
+      <Property value="true" runtimeType="Boolean" key="Conditions_CombineCondition" displayKey="Combine Condition" visible="false" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Conditions_Expression1" displayKey="Condition" visible="true" required="true" />
+      <Property value="" runtimeType="String" key="Conditions_AddCondition" displayKey="Add Condition" visible="true" required="false" />
+    </Properties>
+  </Step>
+  <Step id="S66814069ae31455499a502c05b32a3eb" taskName="P_Atividade" type="Flow" name="EndDecisionThen" displayName="End-IfThen" callDepth="1" depth="4" num="14" result="Pass" start="2024-04-20T22:57:39.470" end="2024-04-20T22:57:39.471" displayTime="0s">
+    <Variables />
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+    </Properties>
+  </Step>
+  <Step id="S1da9a24927094a558b63654f8830a226" taskName="P_Atividade" type="Flow" name="EndDecision" displayName="End-IfElse" callDepth="1" depth="3" num="15" result="Pass" start="2024-04-20T22:57:39.485" end="2024-04-20T22:57:39.486" displayTime="0s">
+    <Variables />
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+    </Properties>
+  </Step>
+  <Step id="Sdea2da61b925487181471142e9aaa813" taskName="P_Atividade" type="Chrome" name="ChromeClose" displayName="ChromeClose" callDepth="1" depth="2" num="5" result="Pass" start="2024-04-20T22:57:39.501" end="2024-04-20T22:57:39.510" displayTime="0s">
+    <Variables />
+    <Properties setIndex="0">
+      <Property value="--Ignore--" runtimeType="String" key="Options_OnError" displayKey="On Error" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="&lt;LatestBrowser&gt;" runtimeType="Any" key="CHROME_Browser" displayKey="Browser" visible="true" required="true" />
+    </Properties>
+  </Step>
+  <Step id="S09d63d9d3fda427bb7475440858c030e" taskName="P_Atividade" type="Excel" name="ReadString" displayName="ReadString" callDepth="1" depth="2" num="6" result="Pass" start="2024-04-20T22:57:39.517" end="2024-04-20T22:57:39.572" displayTime="0.1s">
+    <Variables />
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Options_OnError" displayKey="On Error" visible="true" required="false" />
+      <Property value="Sets the product value on name&#xD;&#xA;" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="this.product_name : 'Sorvete'" runtimeType="String" key="Output_ReadData" displayKey="ReadData" visible="true" required="true" />
+      <Property value="&lt;ActiveExcel&gt;" runtimeType="Any" key="Input_InputExcel" displayKey="Excel" visible="true" required="true" />
+      <Property value="&lt;ActiveSheet&gt;" runtimeType="Any" key="Sheet_SheetName" displayKey="SheetName" visible="true" required="true" />
+      <Property value="'A3'" runtimeType="String" key="Sheet_Cell" displayKey="Cell" visible="true" required="true" />
+    </Properties>
+  </Step>
+  <Step id="S7e95aa17246a433abdcada2f20679a68" taskName="P_Atividade" type="Flow" name="ExecuteScript" displayName="ExecuteScript" callDepth="1" depth="2" num="7" result="Pass" start="2024-04-20T22:57:39.581" end="2024-04-20T22:57:39.581" displayTime="0s">
+    <Variables />
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Options_OnError" displayKey="On Error" visible="true" required="false" />
+      <Property value="replace the &quot; &quot; character by &quot;-&quot; character" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="Clear Name" runtimeType="String" key="Conditions_Title" displayKey="Title" visible="true" required="true" />
+      <Property value="&lt;Too Long&gt; this.name_isempety = false;&#xD;&#xA;&#xD;&#xA;// case null or empty&#xD;&#xA;if(!this.product_name){&#xD;&#xA;    this.name_isempet ... 90 more" runtimeType="String" key="Key_Script" displayKey="Script" visible="true" required="false" />
+    </Properties>
+  </Step>
+  <Step id="Sb01899dd9dcc43c9adaaaab1ed7a6f0c" taskName="P_Atividade" type="Flow" name="Decision" displayName="IfElse" callDepth="1" depth="2" num="8" result="Pass" start="2024-04-20T22:57:39.597" end="2024-04-20T22:57:39.597" displayTime="0s">
+    <Variables />
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="this.name_isempety === true" runtimeType="String" key="Conditions_Expression" displayKey="If Condition" visible="false" required="true" />
+      <Property value="true" runtimeType="Boolean" key="Conditions_CombineCondition" displayKey="Combine Condition" visible="false" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Conditions_Expression1" displayKey="Condition" visible="true" required="true" />
+      <Property value="" runtimeType="String" key="Conditions_AddCondition" displayKey="Add Condition" visible="true" required="false" />
+    </Properties>
+  </Step>
+  <Step id="S1294e846cb7e45fa87588af8fbb093d8" taskName="P_Atividade" type="Flow" name="Else" displayName="Else" callDepth="1" depth="3" num="9" result="Pass" start="2024-04-20T22:57:39.612" end="2024-04-20T22:57:39.612" displayTime="0s">
+    <Variables />
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+    </Properties>
+  </Step>
+  <Step id="S4520f5ba2c86491bb60615333cf09df3" taskName="P_Atividade" type="Excel" name="GetActiveExcel" displayName="GetActiveExcel" callDepth="1" depth="3" num="10" result="Pass" start="2024-04-20T22:57:39.627" end="2024-04-20T22:57:39.673" displayTime="0s">
+    <Variables />
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Options_OnError" displayKey="On Error" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="this.actived_excel : Workbook" runtimeType="Any" key="Output_OutputExcel" displayKey="Excel" visible="true" required="true" />
+      <Property value="true" runtimeType="Boolean" key="File_Maximize" displayKey="Maximize" visible="true" required="false" />
+      <Property value="10" runtimeType="Integer" key="File_Timeout" displayKey="Timeout" visible="true" required="false" />
+    </Properties>
+  </Step>
+  <Step id="Sd2d8c5a614f84283bc4930fa6caf54a6" taskName="P_Atividade" type="Excel" name="ReadRange" displayName="ReadRange" callDepth="1" depth="3" num="11" result="Pass" start="2024-04-20T22:57:39.690" end="2024-04-20T22:57:39.755" displayTime="0.1s">
+    <Variables />
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Options_OnError" displayKey="On Error" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="&lt;ActiveExcel&gt;" runtimeType="Any" key="Input_InputExcel" displayKey="Excel" visible="true" required="true" />
+      <Property value="this.old_time : 'Sat Apr 20 2024'" runtimeType="String" key="Output_DataArray" displayKey="DataArray" visible="true" required="true" />
+      <Property value="&lt;ActiveSheet&gt;" runtimeType="Any" key="Sheet_SheetName" displayKey="SheetName" visible="true" required="true" />
+      <Property value="'E3'" runtimeType="String" key="Sheet_Range" displayKey="Range" visible="true" required="true" />
+      <Property value="Value" runtimeType="String" key="Input_ReadCellType" displayKey="ReadCellType" visible="true" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Input_Read2DAlways" displayKey="Read2DAlways" visible="true" required="false" />
+    </Properties>
+  </Step>
+  <Step id="Sf179dc02da1e444b891e6dc9f1bd3850" taskName="P_Atividade" type="Flow" name="DecisionThen" displayName="IfThen" callDepth="1" depth="3" num="12" result="Pass" start="2024-04-20T22:57:39.769" end="2024-04-20T22:57:39.770" displayTime="0s">
+    <Variables />
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="this.old_time !== this.current_time" runtimeType="String" key="Conditions_Expression" displayKey="IfThen Condition" visible="false" required="true" />
+      <Property value="true" runtimeType="Boolean" key="Conditions_CombineCondition" displayKey="Combine Condition" visible="false" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Conditions_Expression1" displayKey="Condition" visible="true" required="true" />
+      <Property value="" runtimeType="String" key="Conditions_AddCondition" displayKey="Add Condition" visible="true" required="false" />
+    </Properties>
+  </Step>
+  <Step id="S66814069ae31455499a502c05b32a3eb" taskName="P_Atividade" type="Flow" name="EndDecisionThen" displayName="End-IfThen" callDepth="1" depth="4" num="14" result="Pass" start="2024-04-20T22:57:39.785" end="2024-04-20T22:57:39.786" displayTime="0s">
+    <Variables />
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+    </Properties>
+  </Step>
+  <Step id="S1da9a24927094a558b63654f8830a226" taskName="P_Atividade" type="Flow" name="EndDecision" displayName="End-IfElse" callDepth="1" depth="3" num="15" result="Pass" start="2024-04-20T22:57:39.800" end="2024-04-20T22:57:39.801" displayTime="0s">
+    <Variables />
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+    </Properties>
+  </Step>
+  <Step id="Sdea2da61b925487181471142e9aaa813" taskName="P_Atividade" type="Chrome" name="ChromeClose" displayName="ChromeClose" callDepth="1" depth="2" num="5" result="Pass" start="2024-04-20T22:57:39.816" end="2024-04-20T22:57:39.819" displayTime="0s">
+    <Variables />
+    <Properties setIndex="0">
+      <Property value="--Ignore--" runtimeType="String" key="Options_OnError" displayKey="On Error" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="&lt;LatestBrowser&gt;" runtimeType="Any" key="CHROME_Browser" displayKey="Browser" visible="true" required="true" />
+    </Properties>
+  </Step>
+  <Step id="S09d63d9d3fda427bb7475440858c030e" taskName="P_Atividade" type="Excel" name="ReadString" displayName="ReadString" callDepth="1" depth="2" num="6" result="Pass" start="2024-04-20T22:57:39.832" end="2024-04-20T22:57:39.911" displayTime="0.1s">
+    <Variables />
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Options_OnError" displayKey="On Error" visible="true" required="false" />
+      <Property value="Sets the product value on name&#xD;&#xA;" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="this.product_name : 'Carrinho'" runtimeType="String" key="Output_ReadData" displayKey="ReadData" visible="true" required="true" />
+      <Property value="&lt;ActiveExcel&gt;" runtimeType="Any" key="Input_InputExcel" displayKey="Excel" visible="true" required="true" />
+      <Property value="&lt;ActiveSheet&gt;" runtimeType="Any" key="Sheet_SheetName" displayKey="SheetName" visible="true" required="true" />
+      <Property value="'A4'" runtimeType="String" key="Sheet_Cell" displayKey="Cell" visible="true" required="true" />
+    </Properties>
+  </Step>
+  <Step id="S7e95aa17246a433abdcada2f20679a68" taskName="P_Atividade" type="Flow" name="ExecuteScript" displayName="ExecuteScript" callDepth="1" depth="2" num="7" result="Pass" start="2024-04-20T22:57:39.926" end="2024-04-20T22:57:39.927" displayTime="0s">
+    <Variables />
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Options_OnError" displayKey="On Error" visible="true" required="false" />
+      <Property value="replace the &quot; &quot; character by &quot;-&quot; character" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="Clear Name" runtimeType="String" key="Conditions_Title" displayKey="Title" visible="true" required="true" />
+      <Property value="&lt;Too Long&gt; this.name_isempety = false;&#xD;&#xA;&#xD;&#xA;// case null or empty&#xD;&#xA;if(!this.product_name){&#xD;&#xA;    this.name_isempet ... 90 more" runtimeType="String" key="Key_Script" displayKey="Script" visible="true" required="false" />
+    </Properties>
+  </Step>
+  <Step id="Sb01899dd9dcc43c9adaaaab1ed7a6f0c" taskName="P_Atividade" type="Flow" name="Decision" displayName="IfElse" callDepth="1" depth="2" num="8" result="Pass" start="2024-04-20T22:57:39.941" end="2024-04-20T22:57:39.942" displayTime="0s">
+    <Variables />
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="this.name_isempety === true" runtimeType="String" key="Conditions_Expression" displayKey="If Condition" visible="false" required="true" />
+      <Property value="true" runtimeType="Boolean" key="Conditions_CombineCondition" displayKey="Combine Condition" visible="false" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Conditions_Expression1" displayKey="Condition" visible="true" required="true" />
+      <Property value="" runtimeType="String" key="Conditions_AddCondition" displayKey="Add Condition" visible="true" required="false" />
+    </Properties>
+  </Step>
+  <Step id="S1294e846cb7e45fa87588af8fbb093d8" taskName="P_Atividade" type="Flow" name="Else" displayName="Else" callDepth="1" depth="3" num="9" result="Pass" start="2024-04-20T22:57:39.956" end="2024-04-20T22:57:39.956" displayTime="0s">
+    <Variables />
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+    </Properties>
+  </Step>
+  <Step id="S4520f5ba2c86491bb60615333cf09df3" taskName="P_Atividade" type="Excel" name="GetActiveExcel" displayName="GetActiveExcel" callDepth="1" depth="3" num="10" result="Pass" start="2024-04-20T22:57:39.973" end="2024-04-20T22:57:40.014" displayTime="0s">
+    <Variables />
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Options_OnError" displayKey="On Error" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="this.actived_excel : Workbook" runtimeType="Any" key="Output_OutputExcel" displayKey="Excel" visible="true" required="true" />
+      <Property value="true" runtimeType="Boolean" key="File_Maximize" displayKey="Maximize" visible="true" required="false" />
+      <Property value="10" runtimeType="Integer" key="File_Timeout" displayKey="Timeout" visible="true" required="false" />
+    </Properties>
+  </Step>
+  <Step id="Sd2d8c5a614f84283bc4930fa6caf54a6" taskName="P_Atividade" type="Excel" name="ReadRange" displayName="ReadRange" callDepth="1" depth="3" num="11" result="Pass" start="2024-04-20T22:57:40.020" end="2024-04-20T22:57:40.104" displayTime="0.1s">
+    <Variables />
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Options_OnError" displayKey="On Error" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="&lt;ActiveExcel&gt;" runtimeType="Any" key="Input_InputExcel" displayKey="Excel" visible="true" required="true" />
+      <Property value="this.old_time : 'Sat Apr 20 2024'" runtimeType="String" key="Output_DataArray" displayKey="DataArray" visible="true" required="true" />
+      <Property value="&lt;ActiveSheet&gt;" runtimeType="Any" key="Sheet_SheetName" displayKey="SheetName" visible="true" required="true" />
+      <Property value="'E4'" runtimeType="String" key="Sheet_Range" displayKey="Range" visible="true" required="true" />
+      <Property value="Value" runtimeType="String" key="Input_ReadCellType" displayKey="ReadCellType" visible="true" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Input_Read2DAlways" displayKey="Read2DAlways" visible="true" required="false" />
+    </Properties>
+  </Step>
+  <Step id="Sf179dc02da1e444b891e6dc9f1bd3850" taskName="P_Atividade" type="Flow" name="DecisionThen" displayName="IfThen" callDepth="1" depth="3" num="12" result="Pass" start="2024-04-20T22:57:40.114" end="2024-04-20T22:57:40.115" displayTime="0s">
+    <Variables />
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="this.old_time !== this.current_time" runtimeType="String" key="Conditions_Expression" displayKey="IfThen Condition" visible="false" required="true" />
+      <Property value="true" runtimeType="Boolean" key="Conditions_CombineCondition" displayKey="Combine Condition" visible="false" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Conditions_Expression1" displayKey="Condition" visible="true" required="true" />
+      <Property value="" runtimeType="String" key="Conditions_AddCondition" displayKey="Add Condition" visible="true" required="false" />
+    </Properties>
+  </Step>
+  <Step id="S66814069ae31455499a502c05b32a3eb" taskName="P_Atividade" type="Flow" name="EndDecisionThen" displayName="End-IfThen" callDepth="1" depth="4" num="14" result="Pass" start="2024-04-20T22:57:40.129" end="2024-04-20T22:57:40.130" displayTime="0s">
+    <Variables />
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+    </Properties>
+  </Step>
+  <Step id="S1da9a24927094a558b63654f8830a226" taskName="P_Atividade" type="Flow" name="EndDecision" displayName="End-IfElse" callDepth="1" depth="3" num="15" result="Pass" start="2024-04-20T22:57:40.145" end="2024-04-20T22:57:40.145" displayTime="0s">
+    <Variables />
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+    </Properties>
+  </Step>
+  <Step id="Sdea2da61b925487181471142e9aaa813" taskName="P_Atividade" type="Chrome" name="ChromeClose" displayName="ChromeClose" callDepth="1" depth="2" num="5" result="Pass" start="2024-04-20T22:57:40.161" end="2024-04-20T22:57:40.163" displayTime="0s">
+    <Variables />
+    <Properties setIndex="0">
+      <Property value="--Ignore--" runtimeType="String" key="Options_OnError" displayKey="On Error" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="&lt;LatestBrowser&gt;" runtimeType="Any" key="CHROME_Browser" displayKey="Browser" visible="true" required="true" />
+    </Properties>
+  </Step>
+  <Step id="S09d63d9d3fda427bb7475440858c030e" taskName="P_Atividade" type="Excel" name="ReadString" displayName="ReadString" callDepth="1" depth="2" num="6" result="Pass" start="2024-04-20T22:57:40.176" end="2024-04-20T22:57:40.255" displayTime="0.1s">
+    <Variables />
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Options_OnError" displayKey="On Error" visible="true" required="false" />
+      <Property value="Sets the product value on name&#xD;&#xA;" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="this.product_name : 'Headset'" runtimeType="String" key="Output_ReadData" displayKey="ReadData" visible="true" required="true" />
+      <Property value="&lt;ActiveExcel&gt;" runtimeType="Any" key="Input_InputExcel" displayKey="Excel" visible="true" required="true" />
+      <Property value="&lt;ActiveSheet&gt;" runtimeType="Any" key="Sheet_SheetName" displayKey="SheetName" visible="true" required="true" />
+      <Property value="'A5'" runtimeType="String" key="Sheet_Cell" displayKey="Cell" visible="true" required="true" />
+    </Properties>
+  </Step>
+  <Step id="S7e95aa17246a433abdcada2f20679a68" taskName="P_Atividade" type="Flow" name="ExecuteScript" displayName="ExecuteScript" callDepth="1" depth="2" num="7" result="Pass" start="2024-04-20T22:57:40.270" end="2024-04-20T22:57:40.271" displayTime="0s">
+    <Variables />
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Options_OnError" displayKey="On Error" visible="true" required="false" />
+      <Property value="replace the &quot; &quot; character by &quot;-&quot; character" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="Clear Name" runtimeType="String" key="Conditions_Title" displayKey="Title" visible="true" required="true" />
+      <Property value="&lt;Too Long&gt; this.name_isempety = false;&#xD;&#xA;&#xD;&#xA;// case null or empty&#xD;&#xA;if(!this.product_name){&#xD;&#xA;    this.name_isempet ... 90 more" runtimeType="String" key="Key_Script" displayKey="Script" visible="true" required="false" />
+    </Properties>
+  </Step>
+  <Step id="Sb01899dd9dcc43c9adaaaab1ed7a6f0c" taskName="P_Atividade" type="Flow" name="Decision" displayName="IfElse" callDepth="1" depth="2" num="8" result="Pass" start="2024-04-20T22:57:40.286" end="2024-04-20T22:57:40.287" displayTime="0s">
+    <Variables />
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="this.name_isempety === true" runtimeType="String" key="Conditions_Expression" displayKey="If Condition" visible="false" required="true" />
+      <Property value="true" runtimeType="Boolean" key="Conditions_CombineCondition" displayKey="Combine Condition" visible="false" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Conditions_Expression1" displayKey="Condition" visible="true" required="true" />
+      <Property value="" runtimeType="String" key="Conditions_AddCondition" displayKey="Add Condition" visible="true" required="false" />
+    </Properties>
+  </Step>
+  <Step id="S1294e846cb7e45fa87588af8fbb093d8" taskName="P_Atividade" type="Flow" name="Else" displayName="Else" callDepth="1" depth="3" num="9" result="Pass" start="2024-04-20T22:57:40.301" end="2024-04-20T22:57:40.301" displayTime="0s">
+    <Variables />
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+    </Properties>
+  </Step>
+  <Step id="S4520f5ba2c86491bb60615333cf09df3" taskName="P_Atividade" type="Excel" name="GetActiveExcel" displayName="GetActiveExcel" callDepth="1" depth="3" num="10" result="Pass" start="2024-04-20T22:57:40.316" end="2024-04-20T22:57:40.369" displayTime="0.1s">
+    <Variables />
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Options_OnError" displayKey="On Error" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="this.actived_excel : Workbook" runtimeType="Any" key="Output_OutputExcel" displayKey="Excel" visible="true" required="true" />
+      <Property value="true" runtimeType="Boolean" key="File_Maximize" displayKey="Maximize" visible="true" required="false" />
+      <Property value="10" runtimeType="Integer" key="File_Timeout" displayKey="Timeout" visible="true" required="false" />
+    </Properties>
+  </Step>
+  <Step id="Sd2d8c5a614f84283bc4930fa6caf54a6" taskName="P_Atividade" type="Excel" name="ReadRange" displayName="ReadRange" callDepth="1" depth="3" num="11" result="Pass" start="2024-04-20T22:57:40.378" end="2024-04-20T22:57:40.458" displayTime="0.1s">
+    <Variables />
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Options_OnError" displayKey="On Error" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="&lt;ActiveExcel&gt;" runtimeType="Any" key="Input_InputExcel" displayKey="Excel" visible="true" required="true" />
+      <Property value="this.old_time : 'Sat Apr 20 2024'" runtimeType="String" key="Output_DataArray" displayKey="DataArray" visible="true" required="true" />
+      <Property value="&lt;ActiveSheet&gt;" runtimeType="Any" key="Sheet_SheetName" displayKey="SheetName" visible="true" required="true" />
+      <Property value="'E5'" runtimeType="String" key="Sheet_Range" displayKey="Range" visible="true" required="true" />
+      <Property value="Value" runtimeType="String" key="Input_ReadCellType" displayKey="ReadCellType" visible="true" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Input_Read2DAlways" displayKey="Read2DAlways" visible="true" required="false" />
+    </Properties>
+  </Step>
+  <Step id="Sf179dc02da1e444b891e6dc9f1bd3850" taskName="P_Atividade" type="Flow" name="DecisionThen" displayName="IfThen" callDepth="1" depth="3" num="12" result="Pass" start="2024-04-20T22:57:40.472" end="2024-04-20T22:57:40.472" displayTime="0s">
+    <Variables />
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="this.old_time !== this.current_time" runtimeType="String" key="Conditions_Expression" displayKey="IfThen Condition" visible="false" required="true" />
+      <Property value="true" runtimeType="Boolean" key="Conditions_CombineCondition" displayKey="Combine Condition" visible="false" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Conditions_Expression1" displayKey="Condition" visible="true" required="true" />
+      <Property value="" runtimeType="String" key="Conditions_AddCondition" displayKey="Add Condition" visible="true" required="false" />
+    </Properties>
+  </Step>
+  <Step id="S66814069ae31455499a502c05b32a3eb" taskName="P_Atividade" type="Flow" name="EndDecisionThen" displayName="End-IfThen" callDepth="1" depth="4" num="14" result="Pass" start="2024-04-20T22:57:40.487" end="2024-04-20T22:57:40.488" displayTime="0s">
+    <Variables />
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+    </Properties>
+  </Step>
+  <Step id="S1da9a24927094a558b63654f8830a226" taskName="P_Atividade" type="Flow" name="EndDecision" displayName="End-IfElse" callDepth="1" depth="3" num="15" result="Pass" start="2024-04-20T22:57:40.502" end="2024-04-20T22:57:40.503" displayTime="0s">
+    <Variables />
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+    </Properties>
+  </Step>
+  <Step id="Sdea2da61b925487181471142e9aaa813" taskName="P_Atividade" type="Chrome" name="ChromeClose" displayName="ChromeClose" callDepth="1" depth="2" num="5" result="Pass" start="2024-04-20T22:57:40.518" end="2024-04-20T22:57:40.520" displayTime="0s">
+    <Variables />
+    <Properties setIndex="0">
+      <Property value="--Ignore--" runtimeType="String" key="Options_OnError" displayKey="On Error" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="&lt;LatestBrowser&gt;" runtimeType="Any" key="CHROME_Browser" displayKey="Browser" visible="true" required="true" />
+    </Properties>
+  </Step>
+  <Step id="S09d63d9d3fda427bb7475440858c030e" taskName="P_Atividade" type="Excel" name="ReadString" displayName="ReadString" callDepth="1" depth="2" num="6" result="Pass" start="2024-04-20T22:57:40.534" end="2024-04-20T22:57:40.596" displayTime="0.1s">
+    <Variables />
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Options_OnError" displayKey="On Error" visible="true" required="false" />
+      <Property value="Sets the product value on name&#xD;&#xA;" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="this.product_name : ''" runtimeType="String" key="Output_ReadData" displayKey="ReadData" visible="true" required="true" />
+      <Property value="&lt;ActiveExcel&gt;" runtimeType="Any" key="Input_InputExcel" displayKey="Excel" visible="true" required="true" />
+      <Property value="&lt;ActiveSheet&gt;" runtimeType="Any" key="Sheet_SheetName" displayKey="SheetName" visible="true" required="true" />
+      <Property value="'A6'" runtimeType="String" key="Sheet_Cell" displayKey="Cell" visible="true" required="true" />
+    </Properties>
+  </Step>
+  <Step id="S7e95aa17246a433abdcada2f20679a68" taskName="P_Atividade" type="Flow" name="ExecuteScript" displayName="ExecuteScript" callDepth="1" depth="2" num="7" result="Pass" start="2024-04-20T22:57:40.598" end="2024-04-20T22:57:40.603" displayTime="0s">
+    <Variables />
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Options_OnError" displayKey="On Error" visible="true" required="false" />
+      <Property value="replace the &quot; &quot; character by &quot;-&quot; character" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="Clear Name" runtimeType="String" key="Conditions_Title" displayKey="Title" visible="true" required="true" />
+      <Property value="&lt;Too Long&gt; this.name_isempety = false;&#xD;&#xA;&#xD;&#xA;// case null or empty&#xD;&#xA;if(!this.product_name){&#xD;&#xA;    this.name_isempet ... 90 more" runtimeType="String" key="Key_Script" displayKey="Script" visible="true" required="false" />
+    </Properties>
+  </Step>
+  <JobInfo>
+    <Info name="Bot Version" value="3.1.000.01101" />
+    <Info name="Resolution" value="1920 x 1848" />
+    <Info name="Language" value="Português (Brasil)" />
+    <Info name="BotID" value="DESIGNER-00153" />
+  </JobInfo>
+</Result>

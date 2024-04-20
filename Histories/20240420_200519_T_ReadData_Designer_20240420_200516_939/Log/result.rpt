@@ -1,0 +1,633 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Result id="050167e3-7605-4076-89ac-55f49898cab0" name="T_ReadData" result="Stop" detail="Invalid range(position) value entered. =&gt; Bnull&#xA;&#xA;Process: T_ReadData&#xA;&#xA;Process: T_ReadData&#xA;Step: WriteString (14/17)&#xA;Invalid range(position) value entered. =&gt; Bnull&#xA;&#xA;-- Recent Warning Messages --&#xA;Process: T_ReadData&#xA;Step: WriteString (14/17)&#xA;&#xA;Error: Invalid range(position) value entered. =&gt; Bnull" start="2024-04-20T23:05:22.124" end="2024-04-20T23:05:37.071" jobId="Designer_20240420_200516_939">
+  <Step id="S841084c431474584b63edfae191f9600" taskName="T_ReadData" type="Win" name="WaitAppear" displayName="WaitAppear" callDepth="1" depth="1" num="6" result="OnError" detail="IgnoreError" start="2024-04-20T23:05:22.187" end="2024-04-20T23:05:25.698" displayTime="3.5s">
+    <Variables>
+      <Variable name="RESULT" scope="System" declareType="Any" isChanged="false" isChangable="true" runtimeType="Any" value="&lt;null&gt;" />
+    </Variables>
+    <Properties setIndex="0">
+      <Property value="--Ignore--" runtimeType="String" key="Options_OnError" displayKey="On Error" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="2" runtimeType="Integer" key="Target_Timeout" displayKey="Timeout" visible="true" required="true" />
+      <Property value="&lt;undefined&gt;" runtimeType="Undefined" key="Target_TargetNo" displayKey="Index (starts from number 1)" visible="true" required="false" />
+      <Property value="true" runtimeType="Boolean" key="Target_UseName" displayKey="Check Name" visible="false" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Target_UseValue" displayKey="Check Value" visible="false" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Target_UseLegacyName" displayKey="Check Legacy Name" visible="false" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Target_UseLegacyValue" displayKey="Check Legacy Value" visible="false" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Target_UseLegacyDesc" displayKey="Check Legacy Description" visible="false" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Target_UseLegacyHelp" displayKey="Check Legacy Help" visible="false" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Target_UseBounds" displayKey="Check Size" visible="false" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Target_UseAppTitle" displayKey="Check Title" visible="false" required="false" />
+      <Property value="true" runtimeType="Boolean" key="Target_UseSetFocus" displayKey="Focus Before" visible="true" required="false" />
+      <Property value="true" runtimeType="Boolean" key="Target_DrawBounds" displayKey="Draw Bounds" visible="true" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Target_UseObjectPath" displayKey="Check Path" visible="false" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Target_UseSearchAround" displayKey="Search Around" visible="false" required="false" />
+      <Property value="NotUse" runtimeType="String" key="Target_UseImageMatch" displayKey="Use Image Match" visible="true" required="false" />
+      <Property value="JustBest" runtimeType="String" key="Target_ImageIndexMethod" displayKey="Image Index Method" visible="true" required="false" />
+      <Property value="0" runtimeType="Integer" key="Target_SelectImageIndex" displayKey="Select Image Index" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Target_SearchBounds" displayKey="Search Bounds" visible="false" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Target_IgnoreOffScreen" displayKey="Ignore off-screen objects" visible="true" required="false" />
+      <Property value="7304" runtimeType="Integer" key="Application_PID" displayKey="PID" visible="false" required="false" />
+      <Property value="chrome" runtimeType="String" key="Application_ProcessName" displayKey="Application" visible="true" required="true" />
+      <Property value="" runtimeType="String" key="Target_RemoteAppName" displayKey="Remote App Name" visible="false" required="false" />
+      <Property value="'Saindo por R$ 54,9: Oi Fibra 50% Off no plano 500MG - 6 meses | Pelando - Google Chrome'" runtimeType="String" key="Application_Title" displayKey="Title" visible="true" required="true" />
+      <Property value="Chrome_WidgetWin_1" runtimeType="String" key="Application_ClassName" displayKey="App Class Name" visible="false" required="false" />
+      <Property value="Pane" runtimeType="String" key="Application_ClassType" displayKey="App Object Type" visible="false" required="false" />
+      <Property value="1836660" runtimeType="Integer" key="Application_WindowHandle" displayKey="WindowHandle" visible="false" required="false" />
+      <Property value="-8;-8;1382;754" runtimeType="Rect" key="Application_Bounds" displayKey="Bounds" visible="false" required="false" />
+      <Property value="Invoke;ScrollItem;LegacyIAccessible" runtimeType="String" key="Target_SupportedPatterns" displayKey="Supported Patterns" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Target_AutomationID" displayKey="AutomationID" visible="false" required="false" />
+      <Property value="Chrome" runtimeType="String" key="Target_FrameworkID" displayKey="FrameworkID" visible="false" required="false" />
+      <Property value="42.1705570.4.-11099" runtimeType="String" key="Target_RuntimeID" displayKey="RuntimeID" visible="false" required="false" />
+      <Property value="" runtimeType="String" key="Target_ClassName" displayKey="Class Name" visible="false" required="false" />
+      <Property value="Button" runtimeType="String" key="Target_ClassType" displayKey="Type" visible="true" required="true" />
+      <Property value="'Ir pra Loja Copiar'" runtimeType="String" key="Target_Name" displayKey="Name" visible="true" required="true" />
+      <Property value="&lt;Too Long&gt; 'Pane|Chrome_WidgetWin_1||Win32/Document|Chrome_RenderWidgetHostHWND|9772752|Chrome/Group||__next|Ch ... 51 more" runtimeType="String" key="Target_ObjectPath" displayKey="Object Path" visible="true" required="true" />
+      <Property value="1028;304;314;40" runtimeType="Rect" key="Target_Bounds" displayKey="Size" visible="true" required="false" />
+      <Property value="1074;320" runtimeType="Point" key="Mouse_WinPoint" displayKey="WinPoint" visible="false" required="false" />
+      <Property value="1082;328" runtimeType="Point" key="Mouse_AppPoint" displayKey="AppPoint" visible="false" required="false" />
+      <Property value="'54, 24'" runtimeType="String" key="Mouse_Point" displayKey="Click Point" visible="false" required="false" />
+      <Property value="''" runtimeType="String" key="Target_Value" displayKey="Value" visible="true" required="true" />
+      <Property value="'Ir pra Loja Copiar'" runtimeType="String" key="Target_LegacyName" displayKey="Legacy Name" visible="true" required="false" />
+      <Property value="''" runtimeType="String" key="Target_LegacyValue" displayKey="Legacy Value" visible="true" required="false" />
+      <Property value="''" runtimeType="String" key="Target_LegacyDesc" displayKey="Legacy Description" visible="true" required="false" />
+      <Property value="''" runtimeType="String" key="Target_LegacyHelp" displayKey="Legacy Help" visible="true" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Target_IsReadOnly" displayKey="IsReadOnly" visible="false" required="false" />
+      <Property value="true" runtimeType="Boolean" key="Target_IsEditable" displayKey="IsEditable" visible="false" required="false" />
+      <Property value="628;15" runtimeType="Size" key="Target_SizeTolerance" displayKey="Size Tolerance" visible="false" required="false" />
+      <Property value="2024-04-20 19:04:43.046" runtimeType="String" key="Target_TimeStamp" displayKey="TimeStamp" visible="false" required="false" />
+      <Property value="RESULT : false" runtimeType="Boolean" key="Conditions_Result" displayKey="Result" visible="true" required="false" />
+      <Property value="Designer" runtimeType="String" key="Target_CapturedBy" displayKey="Captured By" visible="false" required="false" />
+      <Property value="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" runtimeType="Bitmap" key="Target_Capture" displayKey="Image" visible="true" required="false" />
+      <Property value="0;0;200;100" runtimeType="Rect" key="Target_ImageCompareBounds" displayKey="Image Comp. Bounds" visible="false" required="false" />
+      <Property value="'100, 50'" runtimeType="String" key="Target_PointOnImage" displayKey="Point on Image" visible="false" required="false" />
+    </Properties>
+    <SearchResult result="NoTarget" tryCount="1" appFilter="Single" appCount="1" searchMethod="Point" candidateCount="0" targetFilter="Name" extraFilter="" err="Target object does not exist, or can not be identified with current properties.&#xA;&#xA;A total of 168 candidate objects were reviewed on 1 target app screens by attempting 1 searches for 3 seconds, but no target objects were found.&#xA;&#xA;The current properties are as follows.&#xA;&#xA;Application: chrome&#xA;App Object Type: Pane&#xA;Target Type: Button&#xA;Target Name: Ir pra Loja Copiar" />
+  </Step>
+  <Step id="S0b378dafa20342eabadd82ecdb4a54b2" taskName="T_ReadData" type="Win" name="WaitAppear" displayName="WaitAppear" callDepth="1" depth="1" num="7" result="Pass" start="2024-04-20T23:05:25.710" end="2024-04-20T23:05:26.555" displayTime="0.8s">
+    <Variables>
+      <Variable name="RESULT" scope="System" declareType="Any" isChanged="false" isChangable="true" runtimeType="Boolean" value="false" />
+    </Variables>
+    <Properties setIndex="1">
+      <SubPropertySets>
+        <SubPropertySet setIndex="0">
+          <Property value="--Ignore--" runtimeType="String" key="Options_OnError" displayKey="On Error" visible="true" required="false" />
+          <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+          <Property value="2" runtimeType="Integer" key="Target_Timeout" displayKey="Timeout" visible="true" required="true" />
+          <Property value="&lt;undefined&gt;" runtimeType="Undefined" key="Target_TargetNo" displayKey="Index (starts from number 1)" visible="true" required="false" />
+          <Property value="true" runtimeType="Boolean" key="Target_UseName" displayKey="Check Name" visible="false" required="false" />
+          <Property value="false" runtimeType="Boolean" key="Target_UseValue" displayKey="Check Value" visible="false" required="false" />
+          <Property value="false" runtimeType="Boolean" key="Target_UseLegacyName" displayKey="Check Legacy Name" visible="false" required="false" />
+          <Property value="false" runtimeType="Boolean" key="Target_UseLegacyValue" displayKey="Check Legacy Value" visible="false" required="false" />
+          <Property value="false" runtimeType="Boolean" key="Target_UseLegacyDesc" displayKey="Check Legacy Description" visible="false" required="false" />
+          <Property value="false" runtimeType="Boolean" key="Target_UseLegacyHelp" displayKey="Check Legacy Help" visible="false" required="false" />
+          <Property value="false" runtimeType="Boolean" key="Target_UseBounds" displayKey="Check Size" visible="false" required="false" />
+          <Property value="false" runtimeType="Boolean" key="Target_UseAppTitle" displayKey="Check Title" visible="false" required="false" />
+          <Property value="true" runtimeType="Boolean" key="Target_UseSetFocus" displayKey="Focus Before" visible="true" required="false" />
+          <Property value="true" runtimeType="Boolean" key="Target_DrawBounds" displayKey="Draw Bounds" visible="true" required="false" />
+          <Property value="false" runtimeType="Boolean" key="Target_UseObjectPath" displayKey="Check Path" visible="false" required="false" />
+          <Property value="false" runtimeType="Boolean" key="Target_UseSearchAround" displayKey="Search Around" visible="false" required="false" />
+          <Property value="NotUse" runtimeType="String" key="Target_UseImageMatch" displayKey="Use Image Match" visible="true" required="false" />
+          <Property value="JustBest" runtimeType="String" key="Target_ImageIndexMethod" displayKey="Image Index Method" visible="true" required="false" />
+          <Property value="0" runtimeType="Integer" key="Target_SelectImageIndex" displayKey="Select Image Index" visible="true" required="false" />
+          <Property value="" runtimeType="String" key="Target_SearchBounds" displayKey="Search Bounds" visible="false" required="false" />
+          <Property value="false" runtimeType="Boolean" key="Target_IgnoreOffScreen" displayKey="Ignore off-screen objects" visible="true" required="false" />
+          <Property value="7304" runtimeType="Integer" key="Application_PID" displayKey="PID" visible="false" required="false" />
+          <Property value="chrome" runtimeType="String" key="Application_ProcessName" displayKey="Application" visible="true" required="true" />
+          <Property value="" runtimeType="String" key="Target_RemoteAppName" displayKey="Remote App Name" visible="false" required="false" />
+          <Property value="'Saindo por R$ 54,9: Oi Fibra 50% Off no plano 500MG - 6 meses | Pelando - Google Chrome'" runtimeType="String" key="Application_Title" displayKey="Title" visible="true" required="true" />
+          <Property value="Chrome_WidgetWin_1" runtimeType="String" key="Application_ClassName" displayKey="App Class Name" visible="false" required="false" />
+          <Property value="Pane" runtimeType="String" key="Application_ClassType" displayKey="App Object Type" visible="false" required="false" />
+          <Property value="1836660" runtimeType="Integer" key="Application_WindowHandle" displayKey="WindowHandle" visible="false" required="false" />
+          <Property value="-8;-8;1382;754" runtimeType="Rect" key="Application_Bounds" displayKey="Bounds" visible="false" required="false" />
+          <Property value="Invoke;ScrollItem;LegacyIAccessible" runtimeType="String" key="Target_SupportedPatterns" displayKey="Supported Patterns" visible="true" required="false" />
+          <Property value="" runtimeType="String" key="Target_AutomationID" displayKey="AutomationID" visible="false" required="false" />
+          <Property value="Chrome" runtimeType="String" key="Target_FrameworkID" displayKey="FrameworkID" visible="false" required="false" />
+          <Property value="42.1705570.4.-11099" runtimeType="String" key="Target_RuntimeID" displayKey="RuntimeID" visible="false" required="false" />
+          <Property value="" runtimeType="String" key="Target_ClassName" displayKey="Class Name" visible="false" required="false" />
+          <Property value="Button" runtimeType="String" key="Target_ClassType" displayKey="Type" visible="true" required="true" />
+          <Property value="'Ir pra Loja Copiar'" runtimeType="String" key="Target_Name" displayKey="Name" visible="true" required="true" />
+          <Property value="&lt;Too Long&gt; 'Pane|Chrome_WidgetWin_1||Win32/Document|Chrome_RenderWidgetHostHWND|9772752|Chrome/Group||__next|Ch ... 51 more" runtimeType="String" key="Target_ObjectPath" displayKey="Object Path" visible="true" required="true" />
+          <Property value="1028;304;314;40" runtimeType="Rect" key="Target_Bounds" displayKey="Size" visible="true" required="false" />
+          <Property value="1074;320" runtimeType="Point" key="Mouse_WinPoint" displayKey="WinPoint" visible="false" required="false" />
+          <Property value="1082;328" runtimeType="Point" key="Mouse_AppPoint" displayKey="AppPoint" visible="false" required="false" />
+          <Property value="'54, 24'" runtimeType="String" key="Mouse_Point" displayKey="Click Point" visible="false" required="false" />
+          <Property value="''" runtimeType="String" key="Target_Value" displayKey="Value" visible="true" required="true" />
+          <Property value="'Ir pra Loja Copiar'" runtimeType="String" key="Target_LegacyName" displayKey="Legacy Name" visible="true" required="false" />
+          <Property value="''" runtimeType="String" key="Target_LegacyValue" displayKey="Legacy Value" visible="true" required="false" />
+          <Property value="''" runtimeType="String" key="Target_LegacyDesc" displayKey="Legacy Description" visible="true" required="false" />
+          <Property value="''" runtimeType="String" key="Target_LegacyHelp" displayKey="Legacy Help" visible="true" required="false" />
+          <Property value="false" runtimeType="Boolean" key="Target_IsReadOnly" displayKey="IsReadOnly" visible="false" required="false" />
+          <Property value="true" runtimeType="Boolean" key="Target_IsEditable" displayKey="IsEditable" visible="false" required="false" />
+          <Property value="628;15" runtimeType="Size" key="Target_SizeTolerance" displayKey="Size Tolerance" visible="false" required="false" />
+          <Property value="2024-04-20 19:04:43.046" runtimeType="String" key="Target_TimeStamp" displayKey="TimeStamp" visible="false" required="false" />
+          <Property value="[output] RESULT" runtimeType="String" key="Conditions_Result" displayKey="Result" visible="true" required="false" />
+          <Property value="Designer" runtimeType="String" key="Target_CapturedBy" displayKey="Captured By" visible="false" required="false" />
+          <Property value="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" runtimeType="Bitmap" key="Target_Capture" displayKey="Image" visible="true" required="false" />
+          <Property value="0;0;200;100" runtimeType="Rect" key="Target_ImageCompareBounds" displayKey="Image Comp. Bounds" visible="false" required="false" />
+          <Property value="'100, 50'" runtimeType="String" key="Target_PointOnImage" displayKey="Point on Image" visible="false" required="false" />
+        </SubPropertySet>
+      </SubPropertySets>
+      <Property value="--Ignore--" runtimeType="String" key="Options_OnError" displayKey="On Error" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="2" runtimeType="Integer" key="Target_Timeout" displayKey="Timeout" visible="true" required="true" />
+      <Property value="&lt;undefined&gt;" runtimeType="Undefined" key="Target_TargetNo" displayKey="Index (starts from number 1)" visible="true" required="false" />
+      <Property value="true" runtimeType="Boolean" key="Target_UseName" displayKey="Check Name" visible="false" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Target_UseValue" displayKey="Check Value" visible="false" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Target_UseLegacyName" displayKey="Check Legacy Name" visible="false" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Target_UseLegacyValue" displayKey="Check Legacy Value" visible="false" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Target_UseLegacyDesc" displayKey="Check Legacy Description" visible="false" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Target_UseLegacyHelp" displayKey="Check Legacy Help" visible="false" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Target_UseBounds" displayKey="Check Size" visible="false" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Target_UseAppTitle" displayKey="Check Title" visible="false" required="false" />
+      <Property value="true" runtimeType="Boolean" key="Target_UseSetFocus" displayKey="Focus Before" visible="true" required="false" />
+      <Property value="true" runtimeType="Boolean" key="Target_DrawBounds" displayKey="Draw Bounds" visible="true" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Target_UseObjectPath" displayKey="Check Path" visible="false" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Target_UseSearchAround" displayKey="Search Around" visible="false" required="false" />
+      <Property value="NotUse" runtimeType="String" key="Target_UseImageMatch" displayKey="Use Image Match" visible="true" required="false" />
+      <Property value="JustBest" runtimeType="String" key="Target_ImageIndexMethod" displayKey="Image Index Method" visible="true" required="false" />
+      <Property value="0" runtimeType="Integer" key="Target_SelectImageIndex" displayKey="Select Image Index" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Target_SearchBounds" displayKey="Search Bounds" visible="false" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Target_IgnoreOffScreen" displayKey="Ignore off-screen objects" visible="true" required="false" />
+      <Property value="12976" runtimeType="Integer" key="Application_PID" displayKey="PID" visible="false" required="false" />
+      <Property value="chrome" runtimeType="String" key="Application_ProcessName" displayKey="Application" visible="true" required="true" />
+      <Property value="" runtimeType="String" key="Target_RemoteAppName" displayKey="Remote App Name" visible="false" required="false" />
+      <Property value="'Saindo por R$ 192,94: Headset Gamer Logitech G435 Sem fio | Pelando - Google Chrome'" runtimeType="String" key="Application_Title" displayKey="Title" visible="true" required="true" />
+      <Property value="Chrome_WidgetWin_1" runtimeType="String" key="Application_ClassName" displayKey="App Class Name" visible="false" required="false" />
+      <Property value="Pane" runtimeType="String" key="Application_ClassType" displayKey="App Object Type" visible="false" required="false" />
+      <Property value="1377370" runtimeType="Integer" key="Application_WindowHandle" displayKey="WindowHandle" visible="false" required="false" />
+      <Property value="-8;-8;1382;754" runtimeType="Rect" key="Application_Bounds" displayKey="Bounds" visible="false" required="false" />
+      <Property value="Invoke;ScrollItem;LegacyIAccessible" runtimeType="String" key="Target_SupportedPatterns" displayKey="Supported Patterns" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Target_AutomationID" displayKey="AutomationID" visible="false" required="false" />
+      <Property value="Chrome" runtimeType="String" key="Target_FrameworkID" displayKey="FrameworkID" visible="false" required="false" />
+      <Property value="42.2360846.4.-7893" runtimeType="String" key="Target_RuntimeID" displayKey="RuntimeID" visible="false" required="false" />
+      <Property value="" runtimeType="String" key="Target_ClassName" displayKey="Class Name" visible="false" required="false" />
+      <Property value="Button" runtimeType="String" key="Target_ClassType" displayKey="Type" visible="true" required="true" />
+      <Property value="'Ir pra Loja Abrir em uma nova aba'" runtimeType="String" key="Target_Name" displayKey="Name" visible="true" required="true" />
+      <Property value="&lt;Too Long&gt; 'Pane|Chrome_WidgetWin_1||Win32/Document|Chrome_RenderWidgetHostHWND|14309904|Chrome/Group||__next|C ... 67 more" runtimeType="String" key="Target_ObjectPath" displayKey="Object Path" visible="true" required="true" />
+      <Property value="1028;356;314;40" runtimeType="Rect" key="Target_Bounds" displayKey="Size" visible="true" required="false" />
+      <Property value="1042;373" runtimeType="Point" key="Mouse_WinPoint" displayKey="WinPoint" visible="false" required="false" />
+      <Property value="1050;381" runtimeType="Point" key="Mouse_AppPoint" displayKey="AppPoint" visible="false" required="false" />
+      <Property value="'22, 25'" runtimeType="String" key="Mouse_Point" displayKey="Click Point" visible="false" required="false" />
+      <Property value="''" runtimeType="String" key="Target_Value" displayKey="Value" visible="true" required="true" />
+      <Property value="'Ir pra Loja Abrir em uma nova aba'" runtimeType="String" key="Target_LegacyName" displayKey="Legacy Name" visible="true" required="false" />
+      <Property value="''" runtimeType="String" key="Target_LegacyValue" displayKey="Legacy Value" visible="true" required="false" />
+      <Property value="''" runtimeType="String" key="Target_LegacyDesc" displayKey="Legacy Description" visible="true" required="false" />
+      <Property value="''" runtimeType="String" key="Target_LegacyHelp" displayKey="Legacy Help" visible="true" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Target_IsReadOnly" displayKey="IsReadOnly" visible="false" required="false" />
+      <Property value="true" runtimeType="Boolean" key="Target_IsEditable" displayKey="IsEditable" visible="false" required="false" />
+      <Property value="628;15" runtimeType="Size" key="Target_SizeTolerance" displayKey="Size Tolerance" visible="false" required="false" />
+      <Property value="2024-04-20 20:05:06.353" runtimeType="String" key="Target_TimeStamp" displayKey="TimeStamp" visible="false" required="false" />
+      <Property value="RESULT : true" runtimeType="Boolean" key="Conditions_Result" displayKey="Result" visible="true" required="false" />
+      <Property value="Designer" runtimeType="String" key="Target_CapturedBy" displayKey="Captured By" visible="false" required="false" />
+      <Property value="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" runtimeType="Bitmap" key="Target_Capture" displayKey="Image" visible="true" required="false" />
+      <Property value="0;0;200;100" runtimeType="Rect" key="Target_ImageCompareBounds" displayKey="Image Comp. Bounds" visible="false" required="false" />
+      <Property value="'100, 50'" runtimeType="String" key="Target_PointOnImage" displayKey="Point on Image" visible="false" required="false" />
+    </Properties>
+    <SearchResult result="Found" tryCount="1" appFilter="Single" appCount="1" searchMethod="Point" candidateCount="1" targetFilter="Name" extraFilter="" targetImage="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" />
+  </Step>
+  <Step id="Se42655ba1e1144508c70d4d4e6bc5645" taskName="T_ReadData" type="Chrome" name="ChromeGetData" displayName="ChromeGetData" callDepth="1" depth="1" num="8" result="Pass" start="2024-04-20T23:05:26.557" end="2024-04-20T23:05:27.683" displayTime="1.1s">
+    <Variables>
+      <Variable name="price" scope="Normal" owner="T_ReadData" declareType="Any" isChanged="false" isChangable="false" runtimeType="Undefined" value="&lt;undefined&gt;" />
+    </Variables>
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Options_OnError" displayKey="On Error" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="&lt;LatestBrowser&gt;" runtimeType="Any" key="CHROME_Browser" displayKey="Browser" visible="true" required="true" />
+      <Property value="0" runtimeType="Integer" key="CHROME_WaitTimeSec" displayKey="Page Load Timeout" visible="true" required="true" />
+      <Property value="" runtimeType="String" key="CHROME_PageUrl" displayKey="Page Url" visible="true" required="false" />
+      <Property value="false" runtimeType="Boolean" key="CHROME_UsePageUrl" displayKey="UsePageUrl" visible="false" required="false" />
+      <Property value="" runtimeType="String" key="CHROME_FullPageUrl" displayKey="FullPageUrl" visible="false" required="false" />
+      <Property value="" runtimeType="String" key="CHROME_IframeSrc" displayKey="Iframe Source" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="CHROME_IframeIndexes" displayKey="Iframe Index" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="CHROME_ElementPath" displayKey="Element Path" visible="true" required="false" />
+      <Property value="'/html/body/div/div/main/div/div[1]/div/div[4]/div/div[1]/span/span'" runtimeType="String" key="CHROME_ExecuteQuery" displayKey="ExecuteQuery" visible="true" required="true" />
+      <Property value="true" runtimeType="Boolean" key="CHROME_QueryType" displayKey="Query Type" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="CHROME_FullHTML" displayKey="FullHTML" visible="false" required="false" />
+      <Property value="this.price : '192'" runtimeType="String" key="CHROME_Data" displayKey="Data" visible="true" required="true" />
+      <Property value="" runtimeType="String" key="CHROME_Element" displayKey="Element" visible="false" required="false" />
+      <Property value="Text" runtimeType="String" key="CHROME_DataType" displayKey="Data Type" visible="false" required="false" />
+      <Property value="" runtimeType="String" key="CHROME_ExpectedValue" displayKey="Expected Value" visible="false" required="false" />
+    </Properties>
+  </Step>
+  <Step id="S07a6862599344a3cb4f9d8f92573b57c" taskName="T_ReadData" type="Chrome" name="ChromeGetData" displayName="ChromeGetData" callDepth="1" depth="1" num="9" result="Pass" start="2024-04-20T23:05:27.696" end="2024-04-20T23:05:28.276" displayTime="0.6s">
+    <Variables>
+      <Variable name="cupon" scope="Normal" owner="T_ReadData" declareType="Any" isChanged="false" isChangable="false" runtimeType="Undefined" value="&lt;undefined&gt;" />
+    </Variables>
+    <Properties setIndex="0">
+      <Property value="--Ignore--" runtimeType="String" key="Options_OnError" displayKey="On Error" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="&lt;LatestBrowser&gt;" runtimeType="Any" key="CHROME_Browser" displayKey="Browser" visible="true" required="true" />
+      <Property value="0" runtimeType="Integer" key="CHROME_WaitTimeSec" displayKey="Page Load Timeout" visible="true" required="true" />
+      <Property value="" runtimeType="String" key="CHROME_PageUrl" displayKey="Page Url" visible="true" required="false" />
+      <Property value="false" runtimeType="Boolean" key="CHROME_UsePageUrl" displayKey="UsePageUrl" visible="false" required="false" />
+      <Property value="" runtimeType="String" key="CHROME_FullPageUrl" displayKey="FullPageUrl" visible="false" required="false" />
+      <Property value="" runtimeType="String" key="CHROME_IframeSrc" displayKey="Iframe Source" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="CHROME_IframeIndexes" displayKey="Iframe Index" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="CHROME_ElementPath" displayKey="Element Path" visible="true" required="false" />
+      <Property value="'/html/body/div[1]/div/main/div/div[1]/div/div[4]/div/div[1]/div/div/span[1]/div/div'" runtimeType="String" key="CHROME_ExecuteQuery" displayKey="ExecuteQuery" visible="true" required="true" />
+      <Property value="true" runtimeType="Boolean" key="CHROME_QueryType" displayKey="Query Type" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="CHROME_FullHTML" displayKey="FullHTML" visible="false" required="false" />
+      <Property value="this.cupon : 'PELANDOABR15'" runtimeType="String" key="CHROME_Data" displayKey="Data" visible="true" required="true" />
+      <Property value="" runtimeType="String" key="CHROME_Element" displayKey="Element" visible="false" required="false" />
+      <Property value="Text" runtimeType="String" key="CHROME_DataType" displayKey="Data Type" visible="false" required="false" />
+      <Property value="" runtimeType="String" key="CHROME_ExpectedValue" displayKey="Expected Value" visible="false" required="false" />
+    </Properties>
+  </Step>
+  <Step id="Sc567a2717a14482baf6990d452159f80" taskName="T_ReadData" type="Win" name="Click" displayName="Click" callDepth="1" depth="1" num="10" result="OnError" detail="IgnoreError" start="2024-04-20T23:05:28.292" end="2024-04-20T23:05:29.721" displayTime="1.4s">
+    <Variables />
+    <Properties setIndex="0">
+      <Property value="--Ignore--" runtimeType="String" key="Options_OnError" displayKey="On Error" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="1" runtimeType="Integer" key="Target_Timeout" displayKey="Timeout" visible="true" required="true" />
+      <Property value="&lt;undefined&gt;" runtimeType="Undefined" key="Target_TargetNo" displayKey="Index (starts from number 1)" visible="true" required="false" />
+      <Property value="true" runtimeType="Boolean" key="Target_UseName" displayKey="Check Name" visible="false" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Target_UseValue" displayKey="Check Value" visible="false" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Target_UseLegacyName" displayKey="Check Legacy Name" visible="false" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Target_UseLegacyValue" displayKey="Check Legacy Value" visible="false" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Target_UseLegacyDesc" displayKey="Check Legacy Description" visible="false" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Target_UseLegacyHelp" displayKey="Check Legacy Help" visible="false" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Target_UseBounds" displayKey="Check Size" visible="false" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Target_UseAppTitle" displayKey="Check Title" visible="false" required="false" />
+      <Property value="true" runtimeType="Boolean" key="Target_UseSetFocus" displayKey="Focus Before" visible="true" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Target_DrawBounds" displayKey="Draw Bounds" visible="true" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Target_UseObjectPath" displayKey="Check Path" visible="false" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Target_UseSearchAround" displayKey="Search Around" visible="false" required="false" />
+      <Property value="NotUse" runtimeType="String" key="Target_UseImageMatch" displayKey="Use Image Match" visible="true" required="false" />
+      <Property value="JustBest" runtimeType="String" key="Target_ImageIndexMethod" displayKey="Image Index Method" visible="true" required="false" />
+      <Property value="0" runtimeType="Integer" key="Target_SelectImageIndex" displayKey="Select Image Index" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Target_SearchBounds" displayKey="Search Bounds" visible="false" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Target_IgnoreOffScreen" displayKey="Ignore off-screen objects" visible="true" required="false" />
+      <Property value="7304" runtimeType="Integer" key="Application_PID" displayKey="PID" visible="false" required="false" />
+      <Property value="chrome" runtimeType="String" key="Application_ProcessName" displayKey="Application" visible="true" required="true" />
+      <Property value="" runtimeType="String" key="Target_RemoteAppName" displayKey="Remote App Name" visible="false" required="false" />
+      <Property value="'Saindo por R$ 54,9: Oi Fibra 50% Off no plano 500MG - 6 meses | Pelando - Google Chrome'" runtimeType="String" key="Application_Title" displayKey="Title" visible="true" required="true" />
+      <Property value="Chrome_WidgetWin_1" runtimeType="String" key="Application_ClassName" displayKey="App Class Name" visible="false" required="false" />
+      <Property value="Pane" runtimeType="String" key="Application_ClassType" displayKey="App Object Type" visible="false" required="false" />
+      <Property value="1836660" runtimeType="Integer" key="Application_WindowHandle" displayKey="WindowHandle" visible="false" required="false" />
+      <Property value="-8;-8;1382;754" runtimeType="Rect" key="Application_Bounds" displayKey="Bounds" visible="false" required="false" />
+      <Property value="Invoke;ScrollItem;LegacyIAccessible" runtimeType="String" key="Target_SupportedPatterns" displayKey="Supported Patterns" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Target_AutomationID" displayKey="AutomationID" visible="false" required="false" />
+      <Property value="Chrome" runtimeType="String" key="Target_FrameworkID" displayKey="FrameworkID" visible="false" required="false" />
+      <Property value="42.1705570.4.-11099" runtimeType="String" key="Target_RuntimeID" displayKey="RuntimeID" visible="false" required="false" />
+      <Property value="" runtimeType="String" key="Target_ClassName" displayKey="Class Name" visible="false" required="false" />
+      <Property value="Button" runtimeType="String" key="Target_ClassType" displayKey="Type" visible="true" required="true" />
+      <Property value="'Ir pra Loja Copiar'" runtimeType="String" key="Target_Name" displayKey="Name" visible="true" required="true" />
+      <Property value="&lt;Too Long&gt; 'Pane|Chrome_WidgetWin_1||Win32/Document|Chrome_RenderWidgetHostHWND|9772752|Chrome/Group||__next|Ch ... 51 more" runtimeType="String" key="Target_ObjectPath" displayKey="Object Path" visible="true" required="true" />
+      <Property value="1028;304;314;40" runtimeType="Rect" key="Target_Bounds" displayKey="Size" visible="true" required="false" />
+      <Property value="1056;315" runtimeType="Point" key="Mouse_WinPoint" displayKey="WinPoint" visible="false" required="false" />
+      <Property value="1064;323" runtimeType="Point" key="Mouse_AppPoint" displayKey="AppPoint" visible="false" required="false" />
+      <Property value="'36, 19'" runtimeType="String" key="Mouse_Point" displayKey="Click Point" visible="true" required="false" />
+      <Property value="''" runtimeType="String" key="Target_Value" displayKey="Value" visible="true" required="true" />
+      <Property value="'Ir pra Loja Copiar'" runtimeType="String" key="Target_LegacyName" displayKey="Legacy Name" visible="true" required="false" />
+      <Property value="''" runtimeType="String" key="Target_LegacyValue" displayKey="Legacy Value" visible="true" required="false" />
+      <Property value="''" runtimeType="String" key="Target_LegacyDesc" displayKey="Legacy Description" visible="true" required="false" />
+      <Property value="''" runtimeType="String" key="Target_LegacyHelp" displayKey="Legacy Help" visible="true" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Target_IsReadOnly" displayKey="IsReadOnly" visible="false" required="false" />
+      <Property value="true" runtimeType="Boolean" key="Target_IsEditable" displayKey="IsEditable" visible="false" required="false" />
+      <Property value="628;15" runtimeType="Size" key="Target_SizeTolerance" displayKey="Size Tolerance" visible="false" required="false" />
+      <Property value="2024-04-20 19:05:01.766" runtimeType="String" key="Target_TimeStamp" displayKey="TimeStamp" visible="false" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Mouse_UseInvoke" displayKey="Invoke/Click" visible="true" required="false" />
+      <Property value="LeftTop" runtimeType="String" key="Mouse_OriginPoint" displayKey="Origin Point" visible="true" required="false" />
+      <Property value="Designer" runtimeType="String" key="Target_CapturedBy" displayKey="Captured By" visible="false" required="false" />
+      <Property value="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" runtimeType="Bitmap" key="Target_Capture" displayKey="Image" visible="true" required="false" />
+      <Property value="0;0;200;100" runtimeType="Rect" key="Target_ImageCompareBounds" displayKey="Image Comp. Bounds" visible="false" required="false" />
+      <Property value="'100, 50'" runtimeType="String" key="Target_PointOnImage" displayKey="Point on Image" visible="false" required="false" />
+    </Properties>
+    <SearchResult result="NoTarget" tryCount="1" appFilter="Single" appCount="1" searchMethod="Point" candidateCount="0" targetFilter="Name" extraFilter="" err="Target object does not exist, or can not be identified with current properties.&#xA;&#xA;A total of 168 candidate objects were reviewed on 1 target app screens by attempting 1 searches for 1 seconds, but no target objects were found.&#xA;&#xA;The current properties are as follows.&#xA;&#xA;Application: chrome&#xA;App Object Type: Pane&#xA;Target Type: Button&#xA;Target Name: Ir pra Loja Copiar" />
+  </Step>
+  <Step id="Sc1d75d0190034baca217e2378949610e" taskName="T_ReadData" type="Win" name="Click" displayName="Click" callDepth="1" depth="1" num="11" result="Pass" start="2024-04-20T23:05:29.740" end="2024-04-20T23:05:30.540" displayTime="0.8s">
+    <Variables />
+    <Properties setIndex="3">
+      <SubPropertySets>
+        <SubPropertySet setIndex="0">
+          <Property value="" runtimeType="String" key="Options_OnError" displayKey="On Error" visible="true" required="false" />
+          <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+          <Property value="10" runtimeType="Integer" key="Target_Timeout" displayKey="Timeout" visible="true" required="true" />
+          <Property value="&lt;undefined&gt;" runtimeType="Undefined" key="Target_TargetNo" displayKey="Index (starts from number 1)" visible="true" required="false" />
+          <Property value="true" runtimeType="Boolean" key="Target_UseName" displayKey="Check Name" visible="false" required="false" />
+          <Property value="false" runtimeType="Boolean" key="Target_UseValue" displayKey="Check Value" visible="false" required="false" />
+          <Property value="false" runtimeType="Boolean" key="Target_UseLegacyName" displayKey="Check Legacy Name" visible="false" required="false" />
+          <Property value="false" runtimeType="Boolean" key="Target_UseLegacyValue" displayKey="Check Legacy Value" visible="false" required="false" />
+          <Property value="false" runtimeType="Boolean" key="Target_UseLegacyDesc" displayKey="Check Legacy Description" visible="false" required="false" />
+          <Property value="false" runtimeType="Boolean" key="Target_UseLegacyHelp" displayKey="Check Legacy Help" visible="false" required="false" />
+          <Property value="false" runtimeType="Boolean" key="Target_UseBounds" displayKey="Check Size" visible="false" required="false" />
+          <Property value="false" runtimeType="Boolean" key="Target_UseAppTitle" displayKey="Check Title" visible="false" required="false" />
+          <Property value="true" runtimeType="Boolean" key="Target_UseSetFocus" displayKey="Focus Before" visible="true" required="false" />
+          <Property value="false" runtimeType="Boolean" key="Target_DrawBounds" displayKey="Draw Bounds" visible="true" required="false" />
+          <Property value="false" runtimeType="Boolean" key="Target_UseObjectPath" displayKey="Check Path" visible="false" required="false" />
+          <Property value="false" runtimeType="Boolean" key="Target_UseSearchAround" displayKey="Search Around" visible="false" required="false" />
+          <Property value="NotUse" runtimeType="String" key="Target_UseImageMatch" displayKey="Use Image Match" visible="true" required="false" />
+          <Property value="JustBest" runtimeType="String" key="Target_ImageIndexMethod" displayKey="Image Index Method" visible="true" required="false" />
+          <Property value="0" runtimeType="Integer" key="Target_SelectImageIndex" displayKey="Select Image Index" visible="true" required="false" />
+          <Property value="" runtimeType="String" key="Target_SearchBounds" displayKey="Search Bounds" visible="false" required="false" />
+          <Property value="false" runtimeType="Boolean" key="Target_IgnoreOffScreen" displayKey="Ignore off-screen objects" visible="true" required="false" />
+          <Property value="7304" runtimeType="Integer" key="Application_PID" displayKey="PID" visible="false" required="false" />
+          <Property value="chrome" runtimeType="String" key="Application_ProcessName" displayKey="Application" visible="true" required="true" />
+          <Property value="" runtimeType="String" key="Target_RemoteAppName" displayKey="Remote App Name" visible="false" required="false" />
+          <Property value="'Saindo por R$ 54,9: Oi Fibra 50% Off no plano 500MG - 6 meses | Pelando - Google Chrome'" runtimeType="String" key="Application_Title" displayKey="Title" visible="true" required="true" />
+          <Property value="Chrome_WidgetWin_1" runtimeType="String" key="Application_ClassName" displayKey="App Class Name" visible="false" required="false" />
+          <Property value="Pane" runtimeType="String" key="Application_ClassType" displayKey="App Object Type" visible="false" required="false" />
+          <Property value="1836660" runtimeType="Integer" key="Application_WindowHandle" displayKey="WindowHandle" visible="false" required="false" />
+          <Property value="-8;-8;1382;754" runtimeType="Rect" key="Application_Bounds" displayKey="Bounds" visible="false" required="false" />
+          <Property value="Invoke;ScrollItem;LegacyIAccessible" runtimeType="String" key="Target_SupportedPatterns" displayKey="Supported Patterns" visible="true" required="false" />
+          <Property value="" runtimeType="String" key="Target_AutomationID" displayKey="AutomationID" visible="false" required="false" />
+          <Property value="Chrome" runtimeType="String" key="Target_FrameworkID" displayKey="FrameworkID" visible="false" required="false" />
+          <Property value="42.1705570.4.-11099" runtimeType="String" key="Target_RuntimeID" displayKey="RuntimeID" visible="false" required="false" />
+          <Property value="" runtimeType="String" key="Target_ClassName" displayKey="Class Name" visible="false" required="false" />
+          <Property value="Button" runtimeType="String" key="Target_ClassType" displayKey="Type" visible="true" required="true" />
+          <Property value="'Ir pra Loja Copiar'" runtimeType="String" key="Target_Name" displayKey="Name" visible="true" required="true" />
+          <Property value="&lt;Too Long&gt; 'Pane|Chrome_WidgetWin_1||Win32/Document|Chrome_RenderWidgetHostHWND|9772752|Chrome/Group||__next|Ch ... 51 more" runtimeType="String" key="Target_ObjectPath" displayKey="Object Path" visible="true" required="true" />
+          <Property value="1028;304;314;40" runtimeType="Rect" key="Target_Bounds" displayKey="Size" visible="true" required="false" />
+          <Property value="1056;315" runtimeType="Point" key="Mouse_WinPoint" displayKey="WinPoint" visible="false" required="false" />
+          <Property value="1064;323" runtimeType="Point" key="Mouse_AppPoint" displayKey="AppPoint" visible="false" required="false" />
+          <Property value="'36, 19'" runtimeType="String" key="Mouse_Point" displayKey="Click Point" visible="true" required="false" />
+          <Property value="''" runtimeType="String" key="Target_Value" displayKey="Value" visible="true" required="true" />
+          <Property value="'Ir pra Loja Copiar'" runtimeType="String" key="Target_LegacyName" displayKey="Legacy Name" visible="true" required="false" />
+          <Property value="''" runtimeType="String" key="Target_LegacyValue" displayKey="Legacy Value" visible="true" required="false" />
+          <Property value="''" runtimeType="String" key="Target_LegacyDesc" displayKey="Legacy Description" visible="true" required="false" />
+          <Property value="''" runtimeType="String" key="Target_LegacyHelp" displayKey="Legacy Help" visible="true" required="false" />
+          <Property value="false" runtimeType="Boolean" key="Target_IsReadOnly" displayKey="IsReadOnly" visible="false" required="false" />
+          <Property value="true" runtimeType="Boolean" key="Target_IsEditable" displayKey="IsEditable" visible="false" required="false" />
+          <Property value="628;15" runtimeType="Size" key="Target_SizeTolerance" displayKey="Size Tolerance" visible="false" required="false" />
+          <Property value="2024-04-20 19:05:01.766" runtimeType="String" key="Target_TimeStamp" displayKey="TimeStamp" visible="false" required="false" />
+          <Property value="false" runtimeType="Boolean" key="Mouse_UseInvoke" displayKey="Invoke/Click" visible="true" required="false" />
+          <Property value="LeftTop" runtimeType="String" key="Mouse_OriginPoint" displayKey="Origin Point" visible="true" required="false" />
+          <Property value="Designer" runtimeType="String" key="Target_CapturedBy" displayKey="Captured By" visible="false" required="false" />
+          <Property value="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" runtimeType="Bitmap" key="Target_Capture" displayKey="Image" visible="true" required="false" />
+          <Property value="0;0;200;100" runtimeType="Rect" key="Target_ImageCompareBounds" displayKey="Image Comp. Bounds" visible="false" required="false" />
+          <Property value="'100, 50'" runtimeType="String" key="Target_PointOnImage" displayKey="Point on Image" visible="false" required="false" />
+        </SubPropertySet>
+        <SubPropertySet setIndex="1">
+          <Property value="" runtimeType="String" key="Options_OnError" displayKey="On Error" visible="true" required="false" />
+          <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+          <Property value="10" runtimeType="Integer" key="Target_Timeout" displayKey="Timeout" visible="true" required="true" />
+          <Property value="&lt;undefined&gt;" runtimeType="Undefined" key="Target_TargetNo" displayKey="Index (starts from number 1)" visible="true" required="false" />
+          <Property value="true" runtimeType="Boolean" key="Target_UseName" displayKey="Check Name" visible="false" required="false" />
+          <Property value="false" runtimeType="Boolean" key="Target_UseValue" displayKey="Check Value" visible="false" required="false" />
+          <Property value="false" runtimeType="Boolean" key="Target_UseLegacyName" displayKey="Check Legacy Name" visible="false" required="false" />
+          <Property value="false" runtimeType="Boolean" key="Target_UseLegacyValue" displayKey="Check Legacy Value" visible="false" required="false" />
+          <Property value="false" runtimeType="Boolean" key="Target_UseLegacyDesc" displayKey="Check Legacy Description" visible="false" required="false" />
+          <Property value="false" runtimeType="Boolean" key="Target_UseLegacyHelp" displayKey="Check Legacy Help" visible="false" required="false" />
+          <Property value="false" runtimeType="Boolean" key="Target_UseBounds" displayKey="Check Size" visible="false" required="false" />
+          <Property value="false" runtimeType="Boolean" key="Target_UseAppTitle" displayKey="Check Title" visible="false" required="false" />
+          <Property value="true" runtimeType="Boolean" key="Target_UseSetFocus" displayKey="Focus Before" visible="true" required="false" />
+          <Property value="false" runtimeType="Boolean" key="Target_DrawBounds" displayKey="Draw Bounds" visible="true" required="false" />
+          <Property value="false" runtimeType="Boolean" key="Target_UseObjectPath" displayKey="Check Path" visible="false" required="false" />
+          <Property value="false" runtimeType="Boolean" key="Target_UseSearchAround" displayKey="Search Around" visible="false" required="false" />
+          <Property value="NotUse" runtimeType="String" key="Target_UseImageMatch" displayKey="Use Image Match" visible="true" required="false" />
+          <Property value="JustBest" runtimeType="String" key="Target_ImageIndexMethod" displayKey="Image Index Method" visible="true" required="false" />
+          <Property value="0" runtimeType="Integer" key="Target_SelectImageIndex" displayKey="Select Image Index" visible="true" required="false" />
+          <Property value="" runtimeType="String" key="Target_SearchBounds" displayKey="Search Bounds" visible="false" required="false" />
+          <Property value="false" runtimeType="Boolean" key="Target_IgnoreOffScreen" displayKey="Ignore off-screen objects" visible="true" required="false" />
+          <Property value="8208" runtimeType="Integer" key="Application_PID" displayKey="PID" visible="false" required="false" />
+          <Property value="chrome" runtimeType="String" key="Application_ProcessName" displayKey="Application" visible="true" required="true" />
+          <Property value="" runtimeType="String" key="Target_RemoteAppName" displayKey="Remote App Name" visible="false" required="false" />
+          <Property value="&lt;Too Long&gt; 'Saindo por R$ 3006: Notebook Dell | 16GB | 512 GB | Tela 120hz FHD| Placa Video Intel Iris Xe | Pel ... 21 more" runtimeType="String" key="Application_Title" displayKey="Title" visible="true" required="true" />
+          <Property value="Chrome_WidgetWin_1" runtimeType="String" key="Application_ClassName" displayKey="App Class Name" visible="false" required="false" />
+          <Property value="Pane" runtimeType="String" key="Application_ClassType" displayKey="App Object Type" visible="false" required="false" />
+          <Property value="328170" runtimeType="Integer" key="Application_WindowHandle" displayKey="WindowHandle" visible="false" required="false" />
+          <Property value="-8;-8;1382;754" runtimeType="Rect" key="Application_Bounds" displayKey="Bounds" visible="false" required="false" />
+          <Property value="Invoke;ScrollItem;LegacyIAccessible" runtimeType="String" key="Target_SupportedPatterns" displayKey="Supported Patterns" visible="true" required="false" />
+          <Property value="" runtimeType="String" key="Target_AutomationID" displayKey="AutomationID" visible="false" required="false" />
+          <Property value="Chrome" runtimeType="String" key="Target_FrameworkID" displayKey="FrameworkID" visible="false" required="false" />
+          <Property value="42.263030.4.-7744" runtimeType="String" key="Target_RuntimeID" displayKey="RuntimeID" visible="false" required="false" />
+          <Property value="" runtimeType="String" key="Target_ClassName" displayKey="Class Name" visible="false" required="false" />
+          <Property value="Button" runtimeType="String" key="Target_ClassType" displayKey="Type" visible="true" required="true" />
+          <Property value="'Ir pra Loja Abrir em uma nova aba'" runtimeType="String" key="Target_Name" displayKey="Name" visible="true" required="true" />
+          <Property value="&lt;Too Long&gt; 'Pane|Chrome_WidgetWin_1||Win32/Document|Chrome_RenderWidgetHostHWND|14885280|Chrome/Group||__next|C ... 67 more" runtimeType="String" key="Target_ObjectPath" displayKey="Object Path" visible="true" required="true" />
+          <Property value="1028;356;314;40" runtimeType="Rect" key="Target_Bounds" displayKey="Size" visible="true" required="false" />
+          <Property value="1031;375" runtimeType="Point" key="Mouse_WinPoint" displayKey="WinPoint" visible="false" required="false" />
+          <Property value="1039;383" runtimeType="Point" key="Mouse_AppPoint" displayKey="AppPoint" visible="false" required="false" />
+          <Property value="'11, 27'" runtimeType="String" key="Mouse_Point" displayKey="Click Point" visible="true" required="false" />
+          <Property value="''" runtimeType="String" key="Target_Value" displayKey="Value" visible="true" required="true" />
+          <Property value="'Ir pra Loja Abrir em uma nova aba'" runtimeType="String" key="Target_LegacyName" displayKey="Legacy Name" visible="true" required="false" />
+          <Property value="''" runtimeType="String" key="Target_LegacyValue" displayKey="Legacy Value" visible="true" required="false" />
+          <Property value="''" runtimeType="String" key="Target_LegacyDesc" displayKey="Legacy Description" visible="true" required="false" />
+          <Property value="''" runtimeType="String" key="Target_LegacyHelp" displayKey="Legacy Help" visible="true" required="false" />
+          <Property value="false" runtimeType="Boolean" key="Target_IsReadOnly" displayKey="IsReadOnly" visible="false" required="false" />
+          <Property value="true" runtimeType="Boolean" key="Target_IsEditable" displayKey="IsEditable" visible="false" required="false" />
+          <Property value="628;15" runtimeType="Size" key="Target_SizeTolerance" displayKey="Size Tolerance" visible="false" required="false" />
+          <Property value="2024-04-20 19:44:00.133" runtimeType="String" key="Target_TimeStamp" displayKey="TimeStamp" visible="false" required="false" />
+          <Property value="false" runtimeType="Boolean" key="Mouse_UseInvoke" displayKey="Invoke/Click" visible="true" required="false" />
+          <Property value="LeftTop" runtimeType="String" key="Mouse_OriginPoint" displayKey="Origin Point" visible="true" required="false" />
+          <Property value="Designer" runtimeType="String" key="Target_CapturedBy" displayKey="Captured By" visible="false" required="false" />
+          <Property value="iVBORw0KGgoAAAANSUhEUgAAAMgAAABkCAYAAADDhn8LAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAABlSURBVHhe7cExAQAAAMKg9U9tDB8gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAC4qAE48wAB7ja6DgAAAABJRU5ErkJggg==" runtimeType="Bitmap" key="Target_Capture" displayKey="Image" visible="true" required="false" />
+          <Property value="0;0;200;100" runtimeType="Rect" key="Target_ImageCompareBounds" displayKey="Image Comp. Bounds" visible="false" required="false" />
+          <Property value="'100, 50'" runtimeType="String" key="Target_PointOnImage" displayKey="Point on Image" visible="false" required="false" />
+        </SubPropertySet>
+        <SubPropertySet setIndex="2">
+          <Property value="" runtimeType="String" key="Options_OnError" displayKey="On Error" visible="true" required="false" />
+          <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+          <Property value="10" runtimeType="Integer" key="Target_Timeout" displayKey="Timeout" visible="true" required="true" />
+          <Property value="&lt;undefined&gt;" runtimeType="Undefined" key="Target_TargetNo" displayKey="Index (starts from number 1)" visible="true" required="false" />
+          <Property value="true" runtimeType="Boolean" key="Target_UseName" displayKey="Check Name" visible="false" required="false" />
+          <Property value="false" runtimeType="Boolean" key="Target_UseValue" displayKey="Check Value" visible="false" required="false" />
+          <Property value="false" runtimeType="Boolean" key="Target_UseLegacyName" displayKey="Check Legacy Name" visible="false" required="false" />
+          <Property value="false" runtimeType="Boolean" key="Target_UseLegacyValue" displayKey="Check Legacy Value" visible="false" required="false" />
+          <Property value="false" runtimeType="Boolean" key="Target_UseLegacyDesc" displayKey="Check Legacy Description" visible="false" required="false" />
+          <Property value="false" runtimeType="Boolean" key="Target_UseLegacyHelp" displayKey="Check Legacy Help" visible="false" required="false" />
+          <Property value="false" runtimeType="Boolean" key="Target_UseBounds" displayKey="Check Size" visible="false" required="false" />
+          <Property value="false" runtimeType="Boolean" key="Target_UseAppTitle" displayKey="Check Title" visible="false" required="false" />
+          <Property value="true" runtimeType="Boolean" key="Target_UseSetFocus" displayKey="Focus Before" visible="true" required="false" />
+          <Property value="false" runtimeType="Boolean" key="Target_DrawBounds" displayKey="Draw Bounds" visible="true" required="false" />
+          <Property value="false" runtimeType="Boolean" key="Target_UseObjectPath" displayKey="Check Path" visible="false" required="false" />
+          <Property value="false" runtimeType="Boolean" key="Target_UseSearchAround" displayKey="Search Around" visible="false" required="false" />
+          <Property value="NotUse" runtimeType="String" key="Target_UseImageMatch" displayKey="Use Image Match" visible="true" required="false" />
+          <Property value="JustBest" runtimeType="String" key="Target_ImageIndexMethod" displayKey="Image Index Method" visible="true" required="false" />
+          <Property value="0" runtimeType="Integer" key="Target_SelectImageIndex" displayKey="Select Image Index" visible="true" required="false" />
+          <Property value="" runtimeType="String" key="Target_SearchBounds" displayKey="Search Bounds" visible="false" required="false" />
+          <Property value="false" runtimeType="Boolean" key="Target_IgnoreOffScreen" displayKey="Ignore off-screen objects" visible="true" required="false" />
+          <Property value="8208" runtimeType="Integer" key="Application_PID" displayKey="PID" visible="false" required="false" />
+          <Property value="chrome" runtimeType="String" key="Application_ProcessName" displayKey="Application" visible="true" required="true" />
+          <Property value="" runtimeType="String" key="Target_RemoteAppName" displayKey="Remote App Name" visible="false" required="false" />
+          <Property value="&lt;Too Long&gt; 'Saindo por R$ 3006: Notebook Dell | 16GB | 512 GB | Tela 120hz FHD| Placa Video Intel Iris Xe | Pel ... 21 more" runtimeType="String" key="Application_Title" displayKey="Title" visible="true" required="true" />
+          <Property value="Chrome_WidgetWin_1" runtimeType="String" key="Application_ClassName" displayKey="App Class Name" visible="false" required="false" />
+          <Property value="Pane" runtimeType="String" key="Application_ClassType" displayKey="App Object Type" visible="false" required="false" />
+          <Property value="328170" runtimeType="Integer" key="Application_WindowHandle" displayKey="WindowHandle" visible="false" required="false" />
+          <Property value="-8;-8;1382;754" runtimeType="Rect" key="Application_Bounds" displayKey="Bounds" visible="false" required="false" />
+          <Property value="Invoke;ScrollItem;LegacyIAccessible" runtimeType="String" key="Target_SupportedPatterns" displayKey="Supported Patterns" visible="true" required="false" />
+          <Property value="" runtimeType="String" key="Target_AutomationID" displayKey="AutomationID" visible="false" required="false" />
+          <Property value="Chrome" runtimeType="String" key="Target_FrameworkID" displayKey="FrameworkID" visible="false" required="false" />
+          <Property value="42.263030.4.-7744" runtimeType="String" key="Target_RuntimeID" displayKey="RuntimeID" visible="false" required="false" />
+          <Property value="" runtimeType="String" key="Target_ClassName" displayKey="Class Name" visible="false" required="false" />
+          <Property value="Button" runtimeType="String" key="Target_ClassType" displayKey="Type" visible="true" required="true" />
+          <Property value="'Ir pra Loja Abrir em uma nova aba'" runtimeType="String" key="Target_Name" displayKey="Name" visible="true" required="true" />
+          <Property value="&lt;Too Long&gt; 'Pane|Chrome_WidgetWin_1||Win32/Document|Chrome_RenderWidgetHostHWND|14885280|Chrome/Group||__next|C ... 67 more" runtimeType="String" key="Target_ObjectPath" displayKey="Object Path" visible="true" required="true" />
+          <Property value="1028;356;314;40" runtimeType="Rect" key="Target_Bounds" displayKey="Size" visible="true" required="false" />
+          <Property value="1049;374" runtimeType="Point" key="Mouse_WinPoint" displayKey="WinPoint" visible="false" required="false" />
+          <Property value="1057;382" runtimeType="Point" key="Mouse_AppPoint" displayKey="AppPoint" visible="false" required="false" />
+          <Property value="'29, 26'" runtimeType="String" key="Mouse_Point" displayKey="Click Point" visible="true" required="false" />
+          <Property value="''" runtimeType="String" key="Target_Value" displayKey="Value" visible="true" required="true" />
+          <Property value="'Ir pra Loja Abrir em uma nova aba'" runtimeType="String" key="Target_LegacyName" displayKey="Legacy Name" visible="true" required="false" />
+          <Property value="''" runtimeType="String" key="Target_LegacyValue" displayKey="Legacy Value" visible="true" required="false" />
+          <Property value="''" runtimeType="String" key="Target_LegacyDesc" displayKey="Legacy Description" visible="true" required="false" />
+          <Property value="''" runtimeType="String" key="Target_LegacyHelp" displayKey="Legacy Help" visible="true" required="false" />
+          <Property value="false" runtimeType="Boolean" key="Target_IsReadOnly" displayKey="IsReadOnly" visible="false" required="false" />
+          <Property value="true" runtimeType="Boolean" key="Target_IsEditable" displayKey="IsEditable" visible="false" required="false" />
+          <Property value="628;15" runtimeType="Size" key="Target_SizeTolerance" displayKey="Size Tolerance" visible="false" required="false" />
+          <Property value="2024-04-20 19:44:12.244" runtimeType="String" key="Target_TimeStamp" displayKey="TimeStamp" visible="false" required="false" />
+          <Property value="false" runtimeType="Boolean" key="Mouse_UseInvoke" displayKey="Invoke/Click" visible="true" required="false" />
+          <Property value="LeftTop" runtimeType="String" key="Mouse_OriginPoint" displayKey="Origin Point" visible="true" required="false" />
+          <Property value="Designer" runtimeType="String" key="Target_CapturedBy" displayKey="Captured By" visible="false" required="false" />
+          <Property value="iVBORw0KGgoAAAANSUhEUgAAAMgAAABkCAYAAADDhn8LAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAABlSURBVHhe7cExAQAAAMKg9U9tDB8gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAC4qAE48wAB7ja6DgAAAABJRU5ErkJggg==" runtimeType="Bitmap" key="Target_Capture" displayKey="Image" visible="true" required="false" />
+          <Property value="0;0;200;100" runtimeType="Rect" key="Target_ImageCompareBounds" displayKey="Image Comp. Bounds" visible="false" required="false" />
+          <Property value="'100, 50'" runtimeType="String" key="Target_PointOnImage" displayKey="Point on Image" visible="false" required="false" />
+        </SubPropertySet>
+      </SubPropertySets>
+      <Property value="--Ignore--" runtimeType="String" key="Options_OnError" displayKey="On Error" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="1" runtimeType="Integer" key="Target_Timeout" displayKey="Timeout" visible="true" required="true" />
+      <Property value="&lt;undefined&gt;" runtimeType="Undefined" key="Target_TargetNo" displayKey="Index (starts from number 1)" visible="true" required="false" />
+      <Property value="true" runtimeType="Boolean" key="Target_UseName" displayKey="Check Name" visible="false" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Target_UseValue" displayKey="Check Value" visible="false" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Target_UseLegacyName" displayKey="Check Legacy Name" visible="false" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Target_UseLegacyValue" displayKey="Check Legacy Value" visible="false" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Target_UseLegacyDesc" displayKey="Check Legacy Description" visible="false" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Target_UseLegacyHelp" displayKey="Check Legacy Help" visible="false" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Target_UseBounds" displayKey="Check Size" visible="false" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Target_UseAppTitle" displayKey="Check Title" visible="false" required="false" />
+      <Property value="true" runtimeType="Boolean" key="Target_UseSetFocus" displayKey="Focus Before" visible="true" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Target_DrawBounds" displayKey="Draw Bounds" visible="true" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Target_UseObjectPath" displayKey="Check Path" visible="false" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Target_UseSearchAround" displayKey="Search Around" visible="false" required="false" />
+      <Property value="NotUse" runtimeType="String" key="Target_UseImageMatch" displayKey="Use Image Match" visible="true" required="false" />
+      <Property value="JustBest" runtimeType="String" key="Target_ImageIndexMethod" displayKey="Image Index Method" visible="true" required="false" />
+      <Property value="0" runtimeType="Integer" key="Target_SelectImageIndex" displayKey="Select Image Index" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Target_SearchBounds" displayKey="Search Bounds" visible="false" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Target_IgnoreOffScreen" displayKey="Ignore off-screen objects" visible="true" required="false" />
+      <Property value="8208" runtimeType="Integer" key="Application_PID" displayKey="PID" visible="false" required="false" />
+      <Property value="chrome" runtimeType="String" key="Application_ProcessName" displayKey="Application" visible="true" required="true" />
+      <Property value="" runtimeType="String" key="Target_RemoteAppName" displayKey="Remote App Name" visible="false" required="false" />
+      <Property value="&lt;Too Long&gt; 'Saindo por R$ 3006: Notebook Dell | 16GB | 512 GB | Tela 120hz FHD| Placa Video Intel Iris Xe | Pel ... 21 more" runtimeType="String" key="Application_Title" displayKey="Title" visible="true" required="true" />
+      <Property value="Chrome_WidgetWin_1" runtimeType="String" key="Application_ClassName" displayKey="App Class Name" visible="false" required="false" />
+      <Property value="Pane" runtimeType="String" key="Application_ClassType" displayKey="App Object Type" visible="false" required="false" />
+      <Property value="328170" runtimeType="Integer" key="Application_WindowHandle" displayKey="WindowHandle" visible="false" required="false" />
+      <Property value="-8;-8;1382;754" runtimeType="Rect" key="Application_Bounds" displayKey="Bounds" visible="false" required="false" />
+      <Property value="Invoke;ScrollItem;LegacyIAccessible" runtimeType="String" key="Target_SupportedPatterns" displayKey="Supported Patterns" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Target_AutomationID" displayKey="AutomationID" visible="false" required="false" />
+      <Property value="Chrome" runtimeType="String" key="Target_FrameworkID" displayKey="FrameworkID" visible="false" required="false" />
+      <Property value="42.263030.4.-7744" runtimeType="String" key="Target_RuntimeID" displayKey="RuntimeID" visible="false" required="false" />
+      <Property value="" runtimeType="String" key="Target_ClassName" displayKey="Class Name" visible="false" required="false" />
+      <Property value="Button" runtimeType="String" key="Target_ClassType" displayKey="Type" visible="true" required="true" />
+      <Property value="'Ir pra Loja Abrir em uma nova aba'" runtimeType="String" key="Target_Name" displayKey="Name" visible="true" required="true" />
+      <Property value="&lt;Too Long&gt; 'Pane|Chrome_WidgetWin_1||Win32/Document|Chrome_RenderWidgetHostHWND|14885280|Chrome/Group||__next|C ... 67 more" runtimeType="String" key="Target_ObjectPath" displayKey="Object Path" visible="true" required="true" />
+      <Property value="1028;356;314;40" runtimeType="Rect" key="Target_Bounds" displayKey="Size" visible="true" required="false" />
+      <Property value="1059;371" runtimeType="Point" key="Mouse_WinPoint" displayKey="WinPoint" visible="false" required="false" />
+      <Property value="1067;379" runtimeType="Point" key="Mouse_AppPoint" displayKey="AppPoint" visible="false" required="false" />
+      <Property value="'39, 23'" runtimeType="String" key="Mouse_Point" displayKey="Click Point" visible="true" required="false" />
+      <Property value="''" runtimeType="String" key="Target_Value" displayKey="Value" visible="true" required="true" />
+      <Property value="'Ir pra Loja Abrir em uma nova aba'" runtimeType="String" key="Target_LegacyName" displayKey="Legacy Name" visible="true" required="false" />
+      <Property value="''" runtimeType="String" key="Target_LegacyValue" displayKey="Legacy Value" visible="true" required="false" />
+      <Property value="''" runtimeType="String" key="Target_LegacyDesc" displayKey="Legacy Description" visible="true" required="false" />
+      <Property value="''" runtimeType="String" key="Target_LegacyHelp" displayKey="Legacy Help" visible="true" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Target_IsReadOnly" displayKey="IsReadOnly" visible="false" required="false" />
+      <Property value="true" runtimeType="Boolean" key="Target_IsEditable" displayKey="IsEditable" visible="false" required="false" />
+      <Property value="628;15" runtimeType="Size" key="Target_SizeTolerance" displayKey="Size Tolerance" visible="false" required="false" />
+      <Property value="2024-04-20 19:44:34.724" runtimeType="String" key="Target_TimeStamp" displayKey="TimeStamp" visible="false" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Mouse_UseInvoke" displayKey="Invoke/Click" visible="true" required="false" />
+      <Property value="LeftTop" runtimeType="String" key="Mouse_OriginPoint" displayKey="Origin Point" visible="true" required="false" />
+      <Property value="Designer" runtimeType="String" key="Target_CapturedBy" displayKey="Captured By" visible="false" required="false" />
+      <Property value="iVBORw0KGgoAAAANSUhEUgAAAMgAAABkCAYAAADDhn8LAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAABlSURBVHhe7cExAQAAAMKg9U9tDB8gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAC4qAE48wAB7ja6DgAAAABJRU5ErkJggg==" runtimeType="Bitmap" key="Target_Capture" displayKey="Image" visible="true" required="false" />
+      <Property value="0;0;200;100" runtimeType="Rect" key="Target_ImageCompareBounds" displayKey="Image Comp. Bounds" visible="false" required="false" />
+      <Property value="'100, 50'" runtimeType="String" key="Target_PointOnImage" displayKey="Point on Image" visible="false" required="false" />
+    </Properties>
+    <SearchResult result="Found" tryCount="1" appFilter="Single" appCount="1" searchMethod="Point" candidateCount="1" targetFilter="Name" extraFilter="" targetImage="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" />
+  </Step>
+  <Step id="S5dcbe24ae3c04ed3ad3bfe00fefd64de" taskName="T_ReadData" type="Win" name="GetText" displayName="GetText" callDepth="1" depth="1" num="12" result="Pass" start="2024-04-20T23:05:30.555" end="2024-04-20T23:05:31.734" displayTime="1.2s">
+    <Variables>
+      <Variable name="product_link" scope="Normal" owner="T_ReadData" declareType="Any" isChanged="false" isChangable="false" runtimeType="Undefined" value="&lt;undefined&gt;" />
+    </Variables>
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Options_OnError" displayKey="On Error" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="10" runtimeType="Integer" key="Target_Timeout" displayKey="Timeout" visible="true" required="true" />
+      <Property value="&lt;undefined&gt;" runtimeType="Undefined" key="Target_TargetNo" displayKey="Index (starts from number 1)" visible="true" required="false" />
+      <Property value="true" runtimeType="Boolean" key="Target_UseName" displayKey="Check Name" visible="false" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Target_UseValue" displayKey="Check Value" visible="false" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Target_UseLegacyName" displayKey="Check Legacy Name" visible="false" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Target_UseLegacyValue" displayKey="Check Legacy Value" visible="false" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Target_UseLegacyDesc" displayKey="Check Legacy Description" visible="false" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Target_UseLegacyHelp" displayKey="Check Legacy Help" visible="false" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Target_UseBounds" displayKey="Check Size" visible="false" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Target_UseAppTitle" displayKey="Check Title" visible="false" required="false" />
+      <Property value="true" runtimeType="Boolean" key="Target_UseSetFocus" displayKey="Focus Before" visible="true" required="false" />
+      <Property value="true" runtimeType="Boolean" key="Target_DrawBounds" displayKey="Draw Bounds" visible="true" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Target_UseObjectPath" displayKey="Check Path" visible="false" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Target_UseSearchAround" displayKey="Search Around" visible="false" required="false" />
+      <Property value="NotUse" runtimeType="String" key="Target_UseImageMatch" displayKey="Use Image Match" visible="true" required="false" />
+      <Property value="JustBest" runtimeType="String" key="Target_ImageIndexMethod" displayKey="Image Index Method" visible="true" required="false" />
+      <Property value="0" runtimeType="Integer" key="Target_SelectImageIndex" displayKey="Select Image Index" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Target_SearchBounds" displayKey="Search Bounds" visible="false" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Target_IgnoreOffScreen" displayKey="Ignore off-screen objects" visible="true" required="false" />
+      <Property value="6204" runtimeType="Integer" key="Application_PID" displayKey="PID" visible="false" required="false" />
+      <Property value="chrome" runtimeType="String" key="Application_ProcessName" displayKey="Application" visible="true" required="true" />
+      <Property value="" runtimeType="String" key="Target_RemoteAppName" displayKey="Remote App Name" visible="false" required="false" />
+      <Property value="'Nova guia - Google Chrome'" runtimeType="String" key="Application_Title" displayKey="Title" visible="true" required="true" />
+      <Property value="Chrome_WidgetWin_1" runtimeType="String" key="Application_ClassName" displayKey="App Class Name" visible="false" required="false" />
+      <Property value="Pane" runtimeType="String" key="Application_ClassType" displayKey="App Object Type" visible="false" required="false" />
+      <Property value="2033284" runtimeType="Integer" key="Application_WindowHandle" displayKey="WindowHandle" visible="false" required="false" />
+      <Property value="-8;-8;1382;754" runtimeType="Rect" key="Application_Bounds" displayKey="Bounds" visible="false" required="false" />
+      <Property value="Invoke;Value;Text;ScrollItem;LegacyIAccessible" runtimeType="String" key="Target_SupportedPatterns" displayKey="Supported Patterns" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Target_AutomationID" displayKey="AutomationID" visible="false" required="false" />
+      <Property value="" runtimeType="String" key="Target_FrameworkID" displayKey="FrameworkID" visible="false" required="false" />
+      <Property value="42.2033284.4.-173410" runtimeType="String" key="Target_RuntimeID" displayKey="RuntimeID" visible="false" required="false" />
+      <Property value="" runtimeType="String" key="Target_ClassName" displayKey="Class Name" visible="false" required="false" />
+      <Property value="Edit" runtimeType="String" key="Target_ClassType" displayKey="Type" visible="true" required="true" />
+      <Property value="'Barra de endereço e de pesquisa'" runtimeType="String" key="Target_Name" displayKey="Name" visible="true" required="true" />
+      <Property value="'Pane|Chrome_WidgetWin_1||Win32/Pane|||/Pane|||/Pane|||/Pane|||/ToolBar|||/Pane|||/Group|||/Edit|||'" runtimeType="String" key="Target_ObjectPath" displayKey="Object Path" visible="true" required="true" />
+      <Property value="165;59;853;24" runtimeType="Rect" key="Target_Bounds" displayKey="Size" visible="true" required="false" />
+      <Property value="596;71" runtimeType="Point" key="Mouse_WinPoint" displayKey="WinPoint" visible="false" required="false" />
+      <Property value="604;79" runtimeType="Point" key="Mouse_AppPoint" displayKey="AppPoint" visible="false" required="false" />
+      <Property value="'439, 20'" runtimeType="String" key="Mouse_Point" displayKey="Click Point" visible="false" required="false" />
+      <Property value="''" runtimeType="String" key="Target_Value" displayKey="Value" visible="true" required="true" />
+      <Property value="'Barra de endereço e de pesquisa'" runtimeType="String" key="Target_LegacyName" displayKey="Legacy Name" visible="true" required="false" />
+      <Property value="''" runtimeType="String" key="Target_LegacyValue" displayKey="Legacy Value" visible="true" required="false" />
+      <Property value="''" runtimeType="String" key="Target_LegacyDesc" displayKey="Legacy Description" visible="true" required="false" />
+      <Property value="''" runtimeType="String" key="Target_LegacyHelp" displayKey="Legacy Help" visible="true" required="false" />
+      <Property value="false" runtimeType="Boolean" key="Target_IsReadOnly" displayKey="IsReadOnly" visible="false" required="false" />
+      <Property value="true" runtimeType="Boolean" key="Target_IsEditable" displayKey="IsEditable" visible="false" required="false" />
+      <Property value="1706;15" runtimeType="Size" key="Target_SizeTolerance" displayKey="Size Tolerance" visible="false" required="false" />
+      <Property value="2024-04-17 19:20:57.481" runtimeType="String" key="Target_TimeStamp" displayKey="TimeStamp" visible="false" required="false" />
+      <Property value="Center" runtimeType="String" key="Target_RelativeOrigin" displayKey="Relative Origin" visible="true" required="false" />
+      <Property value="'0, 0'" runtimeType="String" key="Target_RelativePoint" displayKey="Relative Point" visible="true" required="false" />
+      <Property value="&lt;Too Long&gt; this.product_link : 'pelando.com.br/api/offers/3b8b9cf7-2aa4-4328-bcb9-b99ac83ec9b4/redirect?metadat ... 8185 more" runtimeType="String" key="Conditions_Result" displayKey="Result" visible="true" required="true" />
+      <Property value="Auto" runtimeType="String" key="Target_TextType" displayKey="Read" visible="true" required="false" />
+      <Property value="Designer" runtimeType="String" key="Target_CapturedBy" displayKey="Captured By" visible="false" required="false" />
+      <Property value="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" runtimeType="Bitmap" key="Target_Capture" displayKey="Image" visible="true" required="false" />
+      <Property value="0;0;200;100" runtimeType="Rect" key="Target_ImageCompareBounds" displayKey="Image Comp. Bounds" visible="false" required="false" />
+      <Property value="'100, 50'" runtimeType="String" key="Target_PointOnImage" displayKey="Point on Image" visible="false" required="false" />
+    </Properties>
+    <SearchResult result="Found" tryCount="1" appFilter="Single" appCount="1" searchMethod="Point" candidateCount="1" targetFilter="Name" extraFilter="" targetImage="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" />
+  </Step>
+  <Step id="Sbde1623e24bc4214bb96f9bccafb285f" taskName="T_ReadData" type="Excel" name="GetActiveExcel" displayName="GetActiveExcel" callDepth="1" depth="1" num="13" result="Pass" start="2024-04-20T23:05:31.743" end="2024-04-20T23:05:32.047" displayTime="0.3s">
+    <Variables />
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Options_OnError" displayKey="On Error" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="this.actived_excel : Workbook" runtimeType="Any" key="Output_OutputExcel" displayKey="Excel" visible="true" required="true" />
+      <Property value="true" runtimeType="Boolean" key="File_Maximize" displayKey="Maximize" visible="true" required="false" />
+      <Property value="10" runtimeType="Integer" key="File_Timeout" displayKey="Timeout" visible="true" required="false" />
+    </Properties>
+  </Step>
+  <Step id="S9bd1d47825ec4548801937604e06103c" taskName="T_ReadData" type="Excel" name="WriteString" displayName="WriteString" callDepth="1" depth="1" num="14" result="Fail" start="2024-04-20T23:05:32.057" end="2024-04-20T23:05:37.036" displayTime="5s">
+    <Variables>
+      <Variable name="price" scope="Normal" owner="T_ReadData" declareType="Any" isChanged="false" isChangable="true" runtimeType="String" value="'192'" />
+      <Variable name="current_line" scope="Input" owner="T_ReadData" declareType="Any" isChanged="false" isChangable="true" runtimeType="Any" value="&lt;null&gt;" />
+    </Variables>
+    <Properties setIndex="0">
+      <Property value="" runtimeType="String" key="Options_OnError" displayKey="On Error" visible="true" required="false" />
+      <Property value="" runtimeType="String" key="Key_Description" displayKey="Description" visible="true" required="false" />
+      <Property value="&lt;ActiveExcel&gt;" runtimeType="Any" key="Input_InputExcel" displayKey="Excel" visible="true" required="true" />
+      <Property value="&lt;ActiveSheet&gt;" runtimeType="Any" key="Sheet_SheetName" displayKey="SheetName" visible="true" required="true" />
+      <Property value="'Bnull'" runtimeType="String" key="Sheet_Range" displayKey="Range" visible="true" required="true" />
+      <Property value="'192'" runtimeType="String" key="Sheet_InputString" displayKey="InputString" visible="true" required="true" />
+      <Property value="false" runtimeType="Boolean" key="File_AutoSave" displayKey="AutoSave" visible="true" required="false" />
+    </Properties>
+  </Step>
+  <JobInfo>
+    <Info name="Bot Version" value="3.1.000.01101" />
+    <Info name="Resolution" value="1920 x 1848" />
+    <Info name="Language" value="Português (Brasil)" />
+    <Info name="BotID" value="DESIGNER-00153" />
+  </JobInfo>
+</Result>

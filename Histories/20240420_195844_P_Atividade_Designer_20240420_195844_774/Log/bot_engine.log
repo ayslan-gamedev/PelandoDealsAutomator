@@ -1,0 +1,716 @@
+﻿2024-04-20 19:58:33,383 [T1] INFO  EngineStarter
+BOT Engine Start - v3.1.000.01101
+BOT ID: D_20240420_195832_521
+BOT PID: 7672
+BOT PPID: 9512
+BOT Working Directory: C:\Users\aysla\AppData\Roaming\Brity RPA Designer
+
+2024-04-20 19:58:33,399 [T1] INFO  EngineStarter
+System Language: pt-BR
+Resolution: 1920 x 1848
+
+2024-04-20 19:58:33,749 [T1] INFO  Config
+Initialize Config
+
+2024-04-20 19:58:33,799 [T1] DEBUG Config
+Config Loaded
+
+2024-04-20 19:58:33,799 [T1] DEBUG Config
+Backup config file.
+
+2024-04-20 19:58:33,829 [T1] INFO  Config
+Orchestrator Service => https://orch.sdsbrity.com:8777
+
+2024-04-20 19:58:33,835 [T1] INFO  Config
+Initialize Resource Config
+
+2024-04-20 19:58:33,874 [T1] DEBUG Config
+Refresh Language Information
+
+2024-04-20 19:58:33,981 [T1] INFO  Config
+All Config Initialized.
+
+2024-04-20 19:58:33,986 [T1] DEBUG KeyManager
+Initialize KeyManager
+
+2024-04-20 19:58:33,993 [T1] DEBUG KeyManager
+Device ID is initialized.
+
+2024-04-20 19:58:34,040 [T1] INFO  CertLicenseClient
+Initialize certificate.
+
+2024-04-20 19:58:34,043 [T1] DEBUG CertLicenseClient
+Set Security Protocol: Tls12
+
+2024-04-20 19:58:34,121 [T4] DEBUG JobService
+Connect to agent service
+
+2024-04-20 19:58:34,162 [T4] DEBUG JobService
+JobService URL : net.tcp://127.0.0.1:59001/rpa/agent
+
+2024-04-20 19:58:34,164 [T4] DEBUG JobService
+Open connection
+
+2024-04-20 19:58:34,175 [T1] DEBUG ApplicationInitializer
+InitMode: Thread
+
+2024-04-20 19:58:34,183 [T4] DEBUG JobService
+Register engine to agent
+
+2024-04-20 19:58:34,184 [T1] INFO  LibraryManager
+Load Libraries - Started
+
+2024-04-20 19:58:34,201 [T4] DEBUG JobService
+Engine is connected to agent service.
+
+2024-04-20 19:58:34,201 [T4] DEBUG JobService
+Owner Process PID: 9512
+
+2024-04-20 19:58:34,215 [T4] INFO  JobService
+Start monitoring owner process is terminated.
+
+2024-04-20 19:58:34,218 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.Chrome
+
+2024-04-20 19:58:34,547 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.Desktop
+
+2024-04-20 19:58:34,754 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.Excel
+
+2024-04-20 19:58:34,941 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.Flow
+
+2024-04-20 19:58:35,091 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.IE
+
+2024-04-20 19:58:35,200 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.ImageConverter
+
+2024-04-20 19:58:35,267 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.ImageRecognition
+
+2024-04-20 19:58:35,480 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.MicrosoftOCR
+
+2024-04-20 19:58:35,543 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.Net
+
+2024-04-20 19:58:35,628 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.Orchestra
+
+2024-04-20 19:58:35,729 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.ProcessFlow
+
+2024-04-20 19:58:35,863 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.SAP
+
+2024-04-20 19:58:35,965 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.Web
+
+2024-04-20 19:58:36,083 [T1] DEBUG AddInLoader
+Load Assembly : IPA.Lib.Win
+
+2024-04-20 19:58:36,222 [T1] INFO  ScreenCapture
+Default Screen Capture Bounds: -336;-1080;1920;1848
+
+2024-04-20 19:58:36,256 [T1] DEBUG AddInLoader
+Load Assembly : BrityRPA.AddIn.NativeApp
+
+2024-04-20 19:58:36,387 [T1] DEBUG AddInLoader
+Load Assembly : BrityWorks.AddIn.Outlook
+
+2024-04-20 19:58:36,469 [T1] DEBUG AddInLoader
+Load Assembly : BrityWorks.AddIn.Pdf
+
+2024-04-20 19:58:36,545 [T1] DEBUG LibraryManager
+Load Library - Chrome
+
+2024-04-20 19:58:36,548 [T1] DEBUG LibraryManager
+Load Library - Desktop
+
+2024-04-20 19:58:36,549 [T1] DEBUG LibraryManager
+Load Library - Excel
+
+2024-04-20 19:58:36,550 [T1] DEBUG LibraryManager
+Load Library - Flow
+
+2024-04-20 19:58:36,550 [T1] DEBUG LibraryManager
+Load Library - IE
+
+2024-04-20 19:58:36,551 [T1] DEBUG LibraryManager
+Load Library - ImageConverter
+
+2024-04-20 19:58:36,552 [T1] DEBUG LibraryManager
+Load Library - ImageRecognition
+
+2024-04-20 19:58:36,553 [T1] DEBUG LibraryManager
+Load Library - MicrosoftOCR
+
+2024-04-20 19:58:36,554 [T1] DEBUG LibraryManager
+Load Library - NativeApp
+
+2024-04-20 19:58:36,557 [T1] DEBUG LibraryManager
+Load Library - Net
+
+2024-04-20 19:58:36,558 [T1] DEBUG LibraryManager
+Load Library - Orchestra
+
+2024-04-20 19:58:36,559 [T1] DEBUG LibraryManager
+Load Library - Outlook
+
+2024-04-20 19:58:36,559 [T1] DEBUG LibraryManager
+Load Library - Pdf
+
+2024-04-20 19:58:36,559 [T1] DEBUG LibraryManager
+Load Library - SAP
+
+2024-04-20 19:58:36,560 [T1] DEBUG LibraryManager
+Load Library - Web
+
+2024-04-20 19:58:36,561 [T1] DEBUG LibraryManager
+Load Library - Win
+
+2024-04-20 19:58:36,562 [T1] DEBUG LibraryManager
+Load Library - WorkFlow
+
+2024-04-20 19:58:36,568 [T1] DEBUG LibraryManager
+Load built-in script libraries
+
+2024-04-20 19:58:36,687 [T1] INFO  LibraryManager
+Load Libraries - Completed.
+
+2024-04-20 19:58:36,698 [T1] INFO  App
+Launch Arguments: Total: 6 |  -eid D_20240420_195832_521 -runtype ProcRunner -ppid 9512
+
+2024-04-20 19:58:36,699 [T1] DEBUG Config
+Refresh Language Information
+
+2024-04-20 19:58:36,699 [T1] DEBUG LibraryManager
+LibraryManager Initialized.
+
+2024-04-20 19:58:45,233 [T8] INFO  JobService
+Start Job: P_Atividade (Foreground)
+{
+  "UsePIP": false,
+  "UserID": null,
+  "UserPWD": null,
+  "IsRunning": false,
+  "ResultMessage": null,
+  "JobWorkDir": "C:\\Users\\aysla\\OneDrive\\Documents\\Brity RPA Projects\\Atividade\\Histories\\20240420_195844_P_Atividade_Designer_20240420_195844_774",
+  "JobLogDir": "C:\\Users\\aysla\\OneDrive\\Documents\\Brity RPA Projects\\Atividade\\Histories\\20240420_195844_P_Atividade_Designer_20240420_195844_774\\Log",
+  "JobScreenshotDir": "C:\\Users\\aysla\\OneDrive\\Documents\\Brity RPA Projects\\Atividade\\Histories\\20240420_195844_P_Atividade_Designer_20240420_195844_774\\Log\\Screenshot",
+  "TotalProcessStepCount": 0,
+  "CurrentStepNo": 0,
+  "CurrentStepName": null,
+  "StartTime": "2024-04-20 19:58:44",
+  "EndTime": null,
+  "Data": null,
+  "EngineID": "D_20240420_195832_521",
+  "EnginePID": 0,
+  "EngineRecommededVersion": "",
+  "JobId": "Designer_20240420_195844_774",
+  "JobType": 1,
+  "UserAuthentication": null,
+  "ProcessPath": "C:\\Users\\aysla\\OneDrive\\Documents\\Brity RPA Projects\\Atividade\\P_Atividade.proc",
+  "ProcessId": "05688af9-4021-4715-968f-8735111f8ff4",
+  "ProcessVer": "",
+  "ProcessArgs": null,
+  "RequesterType": 3,
+  "RequesterId": "designer",
+  "RequesterPID": 9512,
+  "OptionsJsonString": null,
+  "TimeoutSec": 0,
+  "State": 0
+}
+
+2024-04-20 19:58:45,382 [T6] DEBUG JobService
+Waiting library loading...
+
+2024-04-20 19:58:45,384 [T6] DEBUG Config
+Reload User Settings
+
+2024-04-20 19:58:45,386 [T6] INFO  JobService
+Config Loading Completed.
+
+2024-04-20 19:58:45,386 [T6] DEBUG JobService
+Config Loading Time: 3 ms.
+
+2024-04-20 19:58:45,394 [T6] INFO  JobManager
+Create JobManager instance for job P_Atividade(Designer_20240420_195844_774)
+
+2024-04-20 19:58:45,403 [T6] INFO  JobRequest
+Job ID : Designer_20240420_195844_774
+Project Path  : C:\Users\aysla\OneDrive\Documents\Brity RPA Projects\Atividade\Atividade.proj
+Process Name  : P_Atividade
+Engine Mode   : Designer
+Requester Type: Designer
+Requester PID : 9512
+
+2024-04-20 19:58:45,408 [T10] INFO  JobRequest
+Start Callback Sender
+
+2024-04-20 19:58:45,408 [T10] DEBUG JobRequest
+Step Callback Interval: 500
+
+2024-04-20 19:58:45,458 [T6] DEBUG ProjectManager
+Set Project Information
+
+2024-04-20 19:58:45,482 [T6] INFO  PlayOptionManager
+PlayOption
+- Step Interval : 1
+- Disable DrawBounds : False
+- Invoke First : False
+- Allow Upload of DumpScreen results : False
+
+2024-04-20 19:58:45,483 [T6] INFO  JobRunner
+Initialize Script Engine
+
+2024-04-20 19:58:45,499 [TScriptEngine] INFO  JobRequest
+##############################################################
+### STATE: Initializing
+##############################################################
+
+
+2024-04-20 19:58:45,527 [T10] DEBUG JobRequest
+Callback - State: Initializing
+
+
+2024-04-20 19:58:46,437 [TScriptEngine] INFO  JobRequest
+##############################################################
+### STATE: Ready
+##############################################################
+
+
+2024-04-20 19:58:46,441 [T10] DEBUG JobRequest
+Callback - State: Ready
+
+
+2024-04-20 19:58:46,449 [T6] INFO  JobRunnerHook
+HotKey Hook Started
+
+2024-04-20 19:58:46,449 [T6] INFO  JobRequest
+##############################################################
+### STATE: Starting
+##############################################################
+
+
+2024-04-20 19:58:46,451 [TScriptEngine] INFO  JobRunner
+RunProcess start
+
+2024-04-20 19:58:46,453 [TScriptEngine] INFO  JobRequest
+##############################################################
+### STATE: Running
+##############################################################
+
+
+2024-04-20 19:58:46,453 [TScriptEngine] INFO  JobRequest
+Last job life cycle state: Running
+
+2024-04-20 19:58:46,456 [T10] DEBUG JobRequest
+Callback - State: Starting
+
+
+2024-04-20 19:58:46,472 [T10] DEBUG JobRequest
+Callback - State: Running
+
+
+2024-04-20 19:58:46,720 [TScriptEngine] WARN  ProcessDataValidator
+It can be occurred a malfunction to play T_ReadData,
+because this system is different from designed system environment.
+(OS, Resolution, etc)
+
+2024-04-20 19:58:47,615 [TScriptEngine] DEBUG ScreenCapture
+DirectX Screen Capture Initialized.
+
+2024-04-20 19:58:47,710 [TScriptEngine] DEBUG JobRunner
+DirectX ScreenCapture Checked.
+
+2024-04-20 19:58:47,740 [TScriptEngine] INFO  JobRequest
+##############################################################
+### STATE: StartProcess - P_Atividade
+##############################################################
+05688af9-4021-4715-968f-8735111f8ff4
+P_Atividade
+
+
+2024-04-20 19:58:47,802 [TScriptEngine] INFO  JobRequest
+**************************************************************
+*** TASK: P_Atividade
+**************************************************************
+ - STEP 1: S81a0ebfb5a2c4a8b9a71dee37d7e0b78 (1/17) - (1/32)
+ - [1] ExecuteScript
+
+
+2024-04-20 19:58:47,903 [TScriptEngine] INFO  JobRequest
+ - STEP 2: S2fe14a09e8ec4fee96d82b281a338c15 (2/17) - (2/32)
+ - [2] OpenExcel
+
+
+2024-04-20 19:58:49,647 [TScriptEngine] INFO  JobRequest
+ - STEP 3: Sa2ffea335c68462984398f8647d25471 (3/17) - (3/32)
+ - [3] GetRowCount
+
+
+2024-04-20 19:58:49,819 [TScriptEngine] INFO  JobRequest
+ - STEP 4: Se4b2ea00830543c89117e6b63f8f7099 (4/17) - (4/32)
+ - [4] For
+
+
+2024-04-20 19:58:49,834 [TScriptEngine] INFO  JobRequest
+ - STEP 5: Sdea2da61b925487181471142e9aaa813 (5/17) - (5/32)
+ - [5] ChromeClose
+
+
+2024-04-20 19:58:51,993 [TScriptEngine] DEBUG ChromeRemoteConnect
+GetRemoteBrowserUsingEndPoint Fail : Um ou mais erros.
+
+2024-04-20 19:58:51,993 [TScriptEngine] DEBUG LastUsedPageManager
+lastUsedPage browser not exist
+
+2024-04-20 19:58:51,999 [TScriptEngine] DEBUG RestorePuppeteer
+Chrome Try RestoreConnection Start
+
+2024-04-20 19:58:54,028 [TScriptEngine] DEBUG ChromeRemoteConnect
+GetRemoteBrowserUsingEndPoint Fail : Um ou mais erros.
+
+2024-04-20 19:58:54,029 [TScriptEngine] DEBUG RestorePuppeteer
+The page or browser has been disconnected.
+Please check if the page or browser exists and try again. : Chrome Try RestoreConnection Fail : remoteBrowser is null
+
+2024-04-20 19:58:54,030 [TScriptEngine] DEBUG RestorePuppeteer
+Chrome Try RestoreConnection Fail : The page or browser has been disconnected.
+Please check if the page or browser exists and try again.
+
+2024-04-20 19:58:54,033 [TScriptEngine] DEBUG LastUsedPageManager
+The page or browser has been disconnected.
+Please check if the page or browser exists and try again.
+
+2024-04-20 19:58:54,036 [TScriptEngine] ERROR ChromeClose
+The page or browser has been disconnected.
+Please check if the page or browser exists and try again.
+
+2024-04-20 19:58:54,050 [TScriptEngine] WARN  ScriptSupport
+CatchException: The page or browser has been disconnected.
+Please check if the page or browser exists and try again.
+
+2024-04-20 19:58:54,057 [TScriptEngine] INFO  JobRequest
+ - STEP 6: S09d63d9d3fda427bb7475440858c030e (6/17) - (6/32)
+ - [6] ReadString
+
+
+2024-04-20 19:58:54,150 [TScriptEngine] INFO  JobRequest
+ - STEP 7: S7e95aa17246a433abdcada2f20679a68 (7/17) - (7/32)
+ - [7] ExecuteScript
+
+
+2024-04-20 19:58:54,167 [TScriptEngine] INFO  JobRequest
+ - STEP 8: Sb01899dd9dcc43c9adaaaab1ed7a6f0c (8/17) - (8/32)
+ - [8] IfElse
+
+
+2024-04-20 19:58:54,183 [TScriptEngine] INFO  JobRequest
+ - STEP 9: S1294e846cb7e45fa87588af8fbb093d8 (9/17) - (9/32)
+ - [9] Else
+
+
+2024-04-20 19:58:54,199 [TScriptEngine] INFO  JobRequest
+ - STEP 10: S4520f5ba2c86491bb60615333cf09df3 (10/17) - (10/32)
+ - [10] GetActiveExcel
+
+
+2024-04-20 19:58:54,260 [TScriptEngine] INFO  JobRequest
+ - STEP 11: Sd2d8c5a614f84283bc4930fa6caf54a6 (11/17) - (11/32)
+ - [11] ReadRange
+
+
+2024-04-20 19:58:54,338 [TScriptEngine] INFO  JobRequest
+ - STEP 12: Sf179dc02da1e444b891e6dc9f1bd3850 (12/17) - (12/32)
+ - [12] IfThen
+
+
+2024-04-20 19:58:54,353 [TScriptEngine] INFO  JobRequest
+ - STEP 13: S66814069ae31455499a502c05b32a3eb (14/17) - (30/32)
+ - [14] End-IfThen
+
+
+2024-04-20 19:58:54,369 [TScriptEngine] INFO  JobRequest
+ - STEP 14: S1da9a24927094a558b63654f8830a226 (15/17) - (31/32)
+ - [15] End-IfElse
+
+
+2024-04-20 19:58:54,385 [TScriptEngine] INFO  JobRequest
+ - STEP 15: Sdea2da61b925487181471142e9aaa813 (5/17) - (31/32)
+ - [5] ChromeClose
+
+
+2024-04-20 19:58:56,409 [TScriptEngine] DEBUG ChromeRemoteConnect
+GetRemoteBrowserUsingEndPoint Fail : Um ou mais erros.
+
+2024-04-20 19:58:56,410 [TScriptEngine] DEBUG LastUsedPageManager
+lastUsedPage browser not exist
+
+2024-04-20 19:58:56,410 [TScriptEngine] DEBUG RestorePuppeteer
+Chrome Try RestoreConnection Start
+
+2024-04-20 19:58:58,439 [TScriptEngine] DEBUG ChromeRemoteConnect
+GetRemoteBrowserUsingEndPoint Fail : Um ou mais erros.
+
+2024-04-20 19:58:58,439 [TScriptEngine] DEBUG RestorePuppeteer
+The page or browser has been disconnected.
+Please check if the page or browser exists and try again. : Chrome Try RestoreConnection Fail : remoteBrowser is null
+
+2024-04-20 19:58:58,440 [TScriptEngine] DEBUG RestorePuppeteer
+Chrome Try RestoreConnection Fail : The page or browser has been disconnected.
+Please check if the page or browser exists and try again.
+
+2024-04-20 19:58:58,440 [TScriptEngine] DEBUG LastUsedPageManager
+The page or browser has been disconnected.
+Please check if the page or browser exists and try again.
+
+2024-04-20 19:58:58,441 [TScriptEngine] ERROR ChromeClose
+The page or browser has been disconnected.
+Please check if the page or browser exists and try again.
+
+2024-04-20 19:58:58,445 [TScriptEngine] WARN  ScriptSupport
+CatchException: The page or browser has been disconnected.
+Please check if the page or browser exists and try again.
+
+2024-04-20 19:58:58,452 [TScriptEngine] INFO  JobRequest
+ - STEP 16: S09d63d9d3fda427bb7475440858c030e (6/17) - (31/32)
+ - [6] ReadString
+
+
+2024-04-20 19:58:58,546 [TScriptEngine] INFO  JobRequest
+ - STEP 17: S7e95aa17246a433abdcada2f20679a68 (7/17) - (31/32)
+ - [7] ExecuteScript
+
+
+2024-04-20 19:58:58,562 [TScriptEngine] INFO  JobRequest
+ - STEP 18: Sb01899dd9dcc43c9adaaaab1ed7a6f0c (8/17) - (31/32)
+ - [8] IfElse
+
+
+2024-04-20 19:58:58,578 [TScriptEngine] INFO  JobRequest
+ - STEP 19: S1294e846cb7e45fa87588af8fbb093d8 (9/17) - (31/32)
+ - [9] Else
+
+
+2024-04-20 19:58:58,594 [TScriptEngine] INFO  JobRequest
+ - STEP 20: S4520f5ba2c86491bb60615333cf09df3 (10/17) - (31/32)
+ - [10] GetActiveExcel
+
+
+2024-04-20 19:58:58,641 [TScriptEngine] INFO  JobRequest
+ - STEP 21: Sd2d8c5a614f84283bc4930fa6caf54a6 (11/17) - (31/32)
+ - [11] ReadRange
+
+
+2024-04-20 19:58:58,718 [TScriptEngine] INFO  JobRequest
+ - STEP 22: Sf179dc02da1e444b891e6dc9f1bd3850 (12/17) - (31/32)
+ - [12] IfThen
+
+
+2024-04-20 19:58:58,734 [TScriptEngine] INFO  JobRequest
+ - STEP 23: Sa9456650272b4b5e83a3073cf8af312a (13/17) - (31/32)
+ - [13] RunTask
+
+
+2024-04-20 19:58:58,755 [TScriptEngine] INFO  JobRequest
+##############################################################
+### STATE: StartTask - T_ReadData
+##############################################################
+050167e3-7605-4076-89ac-55f49898cab0
+T_ReadData
+
+
+2024-04-20 19:58:58,765 [TScriptEngine] INFO  JobRequest
+**************************************************************
+*** TASK: T_ReadData
+**************************************************************
+ - STEP 24: S7b5451ab03f24e968aa01b02443d0230 (1/16) - (31/32)
+ - [1] ChromeOpen
+
+
+2024-04-20 19:59:01,663 [T6] DEBUG ChromeRemoteConnect
+GetRemoteBrowserUsingEndPoint Fail : Um ou mais erros.
+
+2024-04-20 19:59:01,734 [T6] DEBUG ChromeCommonExtension
+extension default locale empty
+
+2024-04-20 19:59:01,736 [T6] DEBUG ChromeCommonExtension
+extension default locale empty
+
+2024-04-20 19:59:02,559 [T6] DEBUG ChromeCommonExtension
+extension default locale empty
+
+2024-04-20 19:59:02,574 [T6] DEBUG ChromeCommonExtension
+extension default locale empty
+
+2024-04-20 19:59:07,117 [TScriptEngine] INFO  JobRequest
+ - STEP 25: S28ce395c2bad42d2ad72147b0f13f61c (2/16) - (31/32)
+ - [2] Click
+
+
+2024-04-20 19:59:07,692 [T24] INFO  UIAEventHandler
+Start UIA event handler
+
+2024-04-20 19:59:08,726 [T24] DEBUG UIAEventHandler
+UI Structure Changed Count: 0
+
+2024-04-20 19:59:08,726 [T24] INFO  UIAEventHandler
+waiting for 950 msec during the screen structure is changing.
+
+2024-04-20 19:59:12,339 [TScriptEngine] INFO  JobRequest
+ - STEP 26: S74259ddc3cd649838accf6e4495a26c4 (3/16) - (31/32)
+ - [3] Click
+
+
+2024-04-20 19:59:12,970 [T5] DEBUG UIAEventHandler
+UI Structure Changed Count: 0
+
+2024-04-20 19:59:12,971 [T5] INFO  UIAEventHandler
+waiting for 162 msec during the screen structure is changing.
+
+2024-04-20 19:59:14,026 [TScriptEngine] INFO  JobRequest
+ - STEP 27: See12bc6239f4434a9894d915accb32b4 (4/16) - (31/32)
+ - [4] Delay
+
+
+2024-04-20 19:59:16,229 [TScriptEngine] INFO  JobRequest
+ - STEP 28: Sbfebe55bbe8746b2822da9cbed34d88c (5/16) - (31/32)
+ - [5] Click
+
+
+2024-04-20 19:59:17,364 [TScriptEngine] INFO  JobRequest
+ - STEP 29: S0b378dafa20342eabadd82ecdb4a54b2 (6/16) - (31/32)
+ - [6] WaitAppear
+
+
+2024-04-20 19:59:25,226 [T16] INFO  JobService
+Stop Job
+
+2024-04-20 19:59:25,231 [T16] INFO  JobRunner
+Stop Job Runner - Cause: LocalUser / Message: stop by user
+
+2024-04-20 19:59:25,232 [T16] INFO  JobRequest
+##############################################################
+### STATE: Stopping
+##############################################################
+stop by user
+
+
+2024-04-20 19:59:25,242 [T10] DEBUG JobRequest
+Callback - State: Stopping
+stop by user
+
+2024-04-20 19:59:26,361 [TScriptEngine] DEBUG JobRunner
+RunTask Interrupted. TASK: T_ReadData => Script execution interrupted by host
+
+2024-04-20 19:59:26,548 [TScriptEngine] DEBUG JobRunner
+RunTask Interrupted. TASK: P_Atividade => O thread foi interrompido por um estado de espera.
+
+2024-04-20 19:59:26,685 [TScriptEngine] DEBUG JobManager
+Set Result State: Stopped
+
+2024-04-20 19:59:26,714 [TScriptEngine] INFO  JobRunner
+Make report.
+
+2024-04-20 19:59:26,974 [TScriptEngine] INFO  JobRunner
+Start to clean up resources.
+
+2024-04-20 19:59:26,976 [TScriptEngine] DEBUG JobRunner
+OnProcessCompleted
+
+2024-04-20 19:59:26,981 [T28] DEBUG JobRunner
+Start timer for checking the job to be completed.
+
+2024-04-20 19:59:27,006 [TScriptEngine] DEBUG ExcelBase
+DisposeExcel
+
+2024-04-20 19:59:27,033 [TScriptEngine] INFO  JobRunner
+Start to clean up resources.
+
+2024-04-20 19:59:27,035 [TScriptEngine] DEBUG JobRunner
+Remove all Process Stack: 2
+
+2024-04-20 19:59:27,053 [TScriptEngine] INFO  JobRequest
+##############################################################
+### STATE: EndTask - T_ReadData
+##############################################################
+050167e3-7605-4076-89ac-55f49898cab0
+T_ReadData
+
+
+2024-04-20 19:59:27,053 [TScriptEngine] INFO  JobRequest
+##############################################################
+### STATE: EndProcess - P_Atividade
+##############################################################
+05688af9-4021-4715-968f-8735111f8ff4
+P_Atividade
+
+
+2024-04-20 19:59:27,056 [TScriptEngine] DEBUG JobRunner
+Remove all libraries
+
+2024-04-20 19:59:27,059 [TScriptEngine] DEBUG NetPlayer
+WebPlayer OnDispose
+
+2024-04-20 19:59:27,064 [TScriptEngine] DEBUG WebPlayer
+WebPlayer OnDispose : Do Nothing
+
+2024-04-20 19:59:27,067 [TScriptEngine] DEBUG UIAEventHandler
+Stop UIA event handler
+
+2024-04-20 19:59:27,083 [TScriptEngine] DEBUG UiaAppHelper
+WinHelper DisposeAppList Count: 0
+
+2024-04-20 19:59:27,084 [TScriptEngine] INFO  JobRunner
+All Resources Clear
+
+2024-04-20 19:59:27,088 [TScriptEngine] DEBUG JobRunner
+OnCompleted
+
+2024-04-20 19:59:27,089 [TScriptEngine] DEBUG JobRunner
+SendJobResult: Stopped
+
+2024-04-20 19:59:27,090 [TScriptEngine] INFO  JobRequest
+##############################################################
+### STATE: Stopped
+##############################################################
+Process: P_Atividade
+Task: T_ReadData
+Step: WaitAppear (6/16)
+
+Stopped by User
+
+
+2024-04-20 19:59:27,090 [TScriptEngine] INFO  JobRequest
+Last job life cycle state: Stopped
+
+2024-04-20 19:59:27,090 [TScriptEngine] INFO  JobRequest
+Update skipped current step informations.
+
+2024-04-20 19:59:27,102 [TScriptEngine] INFO  JobRequest
+##############################################################
+### JOB COMPLETED
+##############################################################
+
+
+2024-04-20 19:59:27,112 [T10] DEBUG JobRequest
+Callback - State: Stopped
+Process: P_Atividade
+Task: T_ReadData
+Step: WaitAppear (6/16)
+
+Stopped by User
+
+2024-04-20 19:59:27,114 [T10] INFO  JobRequest
+Callback - EngineClosed
+
+2024-04-20 19:59:27,115 [T10] INFO  JobService
+Disconnect agent service
+
+2024-04-20 19:59:27,117 [T10] DEBUG JobRequest
+End of Callback Sender
+
